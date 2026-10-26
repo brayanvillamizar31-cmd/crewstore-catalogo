@@ -12447,7 +12447,6 @@
       if (changed > 0) {
         localStorage.setItem('crewstore_v9_products_cache', JSON.stringify(state.products));
         syncLocalDiskServer();
-        if (state.cloud.url && state.cloud.anonKey) syncAllToCloud(true);
       }
       return changed;
     }
