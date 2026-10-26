@@ -6,7 +6,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 85000,
+    "salePrice": 85920,
     "colors": [
       "Blanco",
       "Rojo"
@@ -35,7 +35,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 85000,
+    "salePrice": 85920,
     "colors": [
       "Blanco",
       "Azul",
@@ -65,7 +65,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Azul",
       "Rojo"
@@ -91,7 +91,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Azul",
@@ -118,7 +118,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Negro"
@@ -144,7 +144,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Negro",
       "Blanco"
@@ -170,7 +170,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Negro",
       "Amarillo"
@@ -197,7 +197,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -224,7 +224,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 105000,
+    "salePrice": 105920,
     "colors": [
       "Blanco",
       "Rojo"
@@ -250,7 +250,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 105000,
+    "salePrice": 105920,
     "colors": [
       "Azul",
       "Rojo"
@@ -276,7 +276,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 105000,
+    "salePrice": 105920,
     "colors": [
       "Blanco",
       "Azul",
@@ -303,7 +303,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 105000,
+    "salePrice": 105920,
     "colors": [
       "Azul",
       "Blanco"
@@ -329,7 +329,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 105000,
+    "salePrice": 105920,
     "colors": [
       "Negro",
       "Blanco",
@@ -357,7 +357,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 85000,
+    "salePrice": 85920,
     "colors": [
       "Rojo",
       "Blanco",
@@ -386,7 +386,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 85000,
+    "salePrice": 85920,
     "colors": [
       "Azul",
       "Rojo"
@@ -414,7 +414,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Blanco",
       "Negro",
@@ -441,7 +441,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Azul",
       "Amarillo"
@@ -467,7 +467,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Negro",
       "Rojo"
@@ -494,7 +494,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Azul",
@@ -521,7 +521,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 105000,
+    "salePrice": 105920,
     "colors": [
       "Negro",
       "Blanco",
@@ -548,7 +548,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Negro",
       "Blanco"
@@ -575,7 +575,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110000,
+    "salePrice": 110920,
     "colors": [
       "Negro",
       "Blanco"
@@ -601,7 +601,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110000,
+    "salePrice": 110920,
     "colors": [
       "Rojo",
       "Negro"
@@ -627,7 +627,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Verde",
       "Blanco",
@@ -655,7 +655,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Blanco",
       "Negro"
@@ -682,7 +682,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -708,7 +708,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -734,7 +734,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Amarillo"
@@ -760,7 +760,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Verde"
@@ -786,7 +786,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -812,7 +812,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Amarillo",
@@ -839,7 +839,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Verde",
       "Amarillo"
@@ -865,7 +865,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Negro",
       "Gris",
@@ -892,7 +892,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Blanco",
       "Verde",
@@ -919,7 +919,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Blanco",
       "Amarillo",
@@ -946,7 +946,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Blanco",
       "Negro"
@@ -972,7 +972,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Negro",
       "Amarillo",
@@ -999,7 +999,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 25000,
     "marginPercent": 60,
-    "salePrice": 40000,
+    "salePrice": 40920,
     "colors": [
       "Amarillo",
       "Blanco",
@@ -1027,7 +1027,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Verde"
@@ -1053,7 +1053,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1079,7 +1079,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Negro"
@@ -1105,7 +1105,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Negro",
       "Amarillo"
@@ -1131,7 +1131,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1157,7 +1157,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Verde",
       "Amarillo"
@@ -1184,7 +1184,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Negro",
       "Verde",
@@ -1211,7 +1211,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Azul",
       "Naranja"
@@ -1237,7 +1237,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Blanco",
       "Amarillo"
@@ -1263,7 +1263,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Negro",
       "Gris"
@@ -1289,7 +1289,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1315,7 +1315,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Negro",
       "Amarillo"
@@ -1341,7 +1341,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde",
@@ -1368,7 +1368,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1394,7 +1394,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Blanco",
       "Rojo",
@@ -1421,7 +1421,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 105000,
+    "salePrice": 105920,
     "colors": [
       "Blanco",
       "Rojo"
@@ -1447,7 +1447,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Verde",
       "Blanco"
@@ -1473,7 +1473,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Verde",
       "Blanco"
@@ -1499,7 +1499,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Verde",
       "Blanco"
@@ -1525,7 +1525,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Verde",
       "Blanco"
@@ -1551,7 +1551,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Blanco",
       "Naranja"
@@ -1580,7 +1580,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 28000,
     "marginPercent": 54,
-    "salePrice": 43000,
+    "salePrice": 43920,
     "colors": [
       "Amarillo",
       "Negro",
@@ -1607,7 +1607,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1633,7 +1633,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1659,7 +1659,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Verde",
       "Amarillo"
@@ -1685,7 +1685,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Blanco",
       "Verde"
@@ -1711,7 +1711,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Amarillo"
     ],
@@ -1736,7 +1736,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Negro",
       "Gris"
@@ -1762,7 +1762,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Negro",
       "Gris"
@@ -1789,7 +1789,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Blanco",
       "Gris"
@@ -1816,7 +1816,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1842,7 +1842,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Morado",
       "Verde"
@@ -1868,7 +1868,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1895,7 +1895,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Negro",
       "Amarillo",
@@ -1926,7 +1926,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Negro",
       "Blanco"
@@ -1953,7 +1953,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Blanco",
       "Negro"
@@ -1980,7 +1980,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Azul",
       "Blanco"
@@ -2007,7 +2007,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110000,
+    "salePrice": 110920,
     "colors": [
       "Negro",
       "Verde",
@@ -2035,7 +2035,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Rojo",
       "Blanco",
@@ -2062,7 +2062,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Azul",
@@ -2089,7 +2089,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Azul",
       "Amarillo"
@@ -2115,7 +2115,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Negro",
       "Amarillo"
@@ -2141,7 +2141,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -2167,7 +2167,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 85000,
+    "salePrice": 85920,
     "colors": [
       "Blanco",
       "Azul"
@@ -2193,7 +2193,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 85000,
+    "salePrice": 85920,
     "colors": [
       "Rojo",
       "Negro"
@@ -2219,7 +2219,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110000,
+    "salePrice": 110920,
     "colors": [
       "Azul",
       "Blanco",
@@ -2247,7 +2247,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110000,
+    "salePrice": 110920,
     "colors": [
       "Azul",
       "Blanco"
@@ -2274,7 +2274,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110000,
+    "salePrice": 110920,
     "colors": [
       "Negro",
       "Rojo",
@@ -2301,7 +2301,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Amarillo",
@@ -2334,7 +2334,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Negro",
       "Amarillo"
@@ -2362,7 +2362,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Rojo",
       "Blanco",
@@ -2389,7 +2389,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110000,
+    "salePrice": 110920,
     "colors": [
       "Azul",
       "Rojo"
@@ -2415,7 +2415,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Negro",
       "Azul",
@@ -2442,7 +2442,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Negro",
       "Blanco"
@@ -2468,7 +2468,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Negro",
       "Blanco",
@@ -2495,7 +2495,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Negro",
       "Azul",
@@ -2522,7 +2522,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Blanco",
       "Morado",
@@ -2555,7 +2555,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Morado",
       "Amarillo"
@@ -2587,7 +2587,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Negro",
       "Amarillo"
@@ -2620,7 +2620,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Rojo",
       "Negro",
@@ -2653,7 +2653,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Negro",
       "Amarillo"
@@ -2685,7 +2685,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Negro",
       "Verde"
@@ -2717,7 +2717,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Verde",
       "Blanco"
@@ -2749,7 +2749,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Blanco",
       "Amarillo",
@@ -2782,7 +2782,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Amarillo",
       "Morado"
@@ -2809,7 +2809,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Blanco",
       "Rojo"
@@ -2836,7 +2836,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Morado",
       "Amarillo"
@@ -2862,7 +2862,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -2888,7 +2888,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Negro",
       "Amarillo"
@@ -2914,7 +2914,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Negro",
       "Rojo"
@@ -2940,7 +2940,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Azul",
       "Gris"
@@ -2966,7 +2966,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Negro",
       "Azul",
@@ -2993,7 +2993,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Amarillo",
       "Azul"
@@ -3019,7 +3019,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Gris",
       "Amarillo"
@@ -3045,7 +3045,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Azul",
       "Verde"
@@ -3071,7 +3071,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Blanco",
       "Negro",
@@ -3098,7 +3098,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Negro",
       "Gris"
@@ -3124,7 +3124,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Verde",
       "Negro"
@@ -3152,7 +3152,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Beige",
@@ -3182,7 +3182,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco",
       "Negro",
@@ -3213,7 +3213,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Blanco",
@@ -3239,7 +3239,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Azul"
     ],
@@ -3266,7 +3266,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro"
     ],
@@ -3290,7 +3290,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Naranja"
@@ -3315,7 +3315,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco",
       "Naranja"
@@ -3340,7 +3340,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Rojo"
@@ -3365,7 +3365,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Azul",
       "Rojo",
@@ -3395,7 +3395,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Azul",
@@ -3421,7 +3421,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Rojo",
       "Negro",
@@ -3447,7 +3447,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco",
       "Rojo",
@@ -3473,7 +3473,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Verde"
     ],
@@ -3497,7 +3497,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro"
     ],
@@ -3521,7 +3521,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco"
     ],
@@ -3546,7 +3546,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco"
     ],
@@ -3571,7 +3571,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro"
     ],
@@ -3596,7 +3596,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Blanco",
       "Verde"
@@ -3622,7 +3622,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Azul",
       "Blanco"
@@ -3648,7 +3648,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Azul",
       "Blanco"
@@ -3674,7 +3674,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Blanco",
       "Azul"
@@ -3700,7 +3700,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Azul"
     ],
@@ -3725,7 +3725,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Verde",
       "Blanco"
@@ -3751,7 +3751,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Naranja",
       "Blanco",
@@ -3780,7 +3780,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Verde",
       "Blanco"
@@ -3805,7 +3805,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Amarillo"
@@ -3831,7 +3831,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco",
       "Azul"
@@ -3856,7 +3856,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Rojo"
     ],
@@ -3880,7 +3880,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Azul"
     ],
@@ -3904,7 +3904,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Verde"
     ],
@@ -3929,7 +3929,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Rojo"
     ],
@@ -3953,7 +3953,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco"
     ],
@@ -3977,7 +3977,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro"
     ],
@@ -4001,7 +4001,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro"
     ],
@@ -4025,7 +4025,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro"
     ],
@@ -4049,7 +4049,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco"
     ],
@@ -4073,7 +4073,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Verde"
     ],
@@ -4097,7 +4097,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco"
     ],
@@ -4121,7 +4121,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro"
     ],
@@ -4145,7 +4145,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Verde"
     ],
@@ -4169,7 +4169,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Beige"
     ],
@@ -4193,7 +4193,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Verde",
       "Blanco"
@@ -4218,7 +4218,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Azul",
       "Rojo",
@@ -4244,7 +4244,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Verde"
@@ -4269,7 +4269,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Blanco",
@@ -4295,7 +4295,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Beige",
       "Amarillo"
@@ -4320,7 +4320,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Azul",
       "Blanco"
@@ -4345,7 +4345,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Verde",
       "Negro"
@@ -4370,7 +4370,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Azul",
       "Blanco"
@@ -4395,7 +4395,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Azul",
       "Blanco"
@@ -4420,7 +4420,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Rojo",
       "Negro"
@@ -4445,7 +4445,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Rojo"
@@ -4470,7 +4470,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Blanco"
@@ -4495,7 +4495,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Azul",
       "Amarillo"
@@ -4520,7 +4520,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Blanco"
@@ -4545,7 +4545,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Gris",
       "Amarillo"
@@ -4570,7 +4570,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco",
       "Negro"
@@ -4595,7 +4595,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Beige",
       "Amarillo"
@@ -4620,7 +4620,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Blanco"
@@ -4646,7 +4646,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco",
       "Beige"
@@ -4671,7 +4671,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Rojo",
       "Azul",
@@ -4697,7 +4697,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Gris",
       "Blanco"
@@ -4722,7 +4722,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro"
     ],
@@ -4747,7 +4747,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Azul"
     ],
@@ -4772,7 +4772,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco"
     ],
@@ -4796,7 +4796,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Verde Claro",
       "Blanco",
@@ -4824,7 +4824,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Beige"
     ],
@@ -4848,7 +4848,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro"
     ],
@@ -4872,7 +4872,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Beige",
       "Blanco",
@@ -4898,7 +4898,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Gris",
       "Negro"
@@ -4923,7 +4923,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Gris",
       "Verde"
@@ -4948,7 +4948,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Gris"
@@ -4973,7 +4973,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Gris",
       "Negro"
@@ -4998,7 +4998,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Beige",
       "Negro"
@@ -5023,7 +5023,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco",
       "Azul"
@@ -5049,7 +5049,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Naranja",
@@ -5076,7 +5076,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Verde",
       "Blanco",
@@ -5105,7 +5105,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Beige",
       "Negro"
@@ -5131,7 +5131,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco",
       "Beige"
@@ -5157,7 +5157,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Beige"
@@ -5184,7 +5184,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco",
       "Negro"
@@ -5209,7 +5209,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco",
       "Beige"
@@ -5234,7 +5234,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Rojo",
       "Blanco"
@@ -5259,7 +5259,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco",
       "Negro"
@@ -5284,7 +5284,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Blanco"
@@ -5309,7 +5309,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 85000,
+    "salePrice": 85920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -5337,7 +5337,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Dorado"
@@ -5365,7 +5365,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Blanco",
       "Verde"
@@ -5393,7 +5393,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Rosado",
       "Blanco"
@@ -5421,7 +5421,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Rojo",
@@ -5449,7 +5449,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Azul Oscuro",
       "Rojo"
@@ -5476,7 +5476,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Azul"
@@ -5503,7 +5503,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Rojo",
       "Negro"
@@ -5530,7 +5530,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Negro",
       "Rojo"
@@ -5557,7 +5557,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Morado"
@@ -5584,7 +5584,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 105000,
+    "salePrice": 105920,
     "colors": [
       "Verde",
       "Blanco"
@@ -5611,7 +5611,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -5639,7 +5639,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Negro",
       "Amarillo"
@@ -5666,7 +5666,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Azul Rey",
       "Amarillo"
@@ -5693,7 +5693,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Amarillo",
       "Azul",
@@ -5721,7 +5721,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Blanco"
     ],
@@ -5748,7 +5748,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -5775,7 +5775,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Azul",
       "Turquesa"
@@ -5802,7 +5802,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Amarillo",
       "Negro"
@@ -5830,7 +5830,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Negro"
@@ -5858,7 +5858,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Negro"
@@ -5886,7 +5886,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Negro",
       "Blanco",
@@ -5915,7 +5915,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Blanco",
       "Negro",
@@ -5945,7 +5945,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 105000,
+    "salePrice": 105920,
     "colors": [
       "Azul",
       "Rojo"
@@ -5971,7 +5971,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 105000,
+    "salePrice": 105920,
     "colors": [
       "Blanco",
       "Rojo"
@@ -5997,7 +5997,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Negro",
       "Gris",
@@ -6028,7 +6028,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Azul",
       "Negro",
@@ -6059,7 +6059,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Negro"
     ],
@@ -6084,7 +6084,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Blanco",
       "Negro"
@@ -6110,7 +6110,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Turquesa",
       "Negro"
@@ -6136,7 +6136,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Verde Limón"
     ],
@@ -6161,7 +6161,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Gris"
     ],
@@ -6186,7 +6186,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Azul Rey"
     ],
@@ -6211,7 +6211,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Negro"
     ],
@@ -6236,7 +6236,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Vino Tinto"
     ],
@@ -6261,7 +6261,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -6289,7 +6289,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Vino Tinto",
       "Rojo"
@@ -6318,7 +6318,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Azul Celeste"
     ],
@@ -6345,7 +6345,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 105000,
+    "salePrice": 105920,
     "colors": [
       "Blanco",
       "Negro"
@@ -6373,7 +6373,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Rojo",
       "Azul Oscuro"
@@ -6402,7 +6402,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Negro",
       "Gris",
@@ -6429,7 +6429,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Negro",
       "Gris",
@@ -6456,7 +6456,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Negro",
       "Blanco",
@@ -6484,7 +6484,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Azul Rey",
       "Negro",
@@ -6511,7 +6511,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Beige",
       "Gris",
@@ -6539,7 +6539,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Negro",
       "Blanco",
@@ -6566,7 +6566,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Blanco",
       "Rojo",
@@ -6595,7 +6595,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Blanco",
       "Azul Oscuro",
@@ -6625,7 +6625,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Verde Menta",
       "Azul",
@@ -6654,7 +6654,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Azul"
@@ -6682,7 +6682,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Blanco",
       "Verde",
@@ -6711,7 +6711,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Negro",
       "Azul"
@@ -6739,7 +6739,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Blanco",
       "Rojo",
@@ -6768,7 +6768,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Blanco",
       "Verde",
@@ -6798,7 +6798,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Rojo",
@@ -6827,7 +6827,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Rojo",
       "Negro"
@@ -6853,7 +6853,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Rojo",
@@ -6882,7 +6882,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Verde"
@@ -6908,7 +6908,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Negro",
       "Dorado"
@@ -6934,7 +6934,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -6960,7 +6960,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Verde",
@@ -6987,7 +6987,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -7013,7 +7013,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -7039,7 +7039,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Rojo",
@@ -7068,7 +7068,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Blanco",
       "Azul Oscuro",
@@ -7097,7 +7097,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Blanco",
       "Azul",
@@ -7126,7 +7126,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Gris",
@@ -7155,7 +7155,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -7183,7 +7183,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Blanco",
       "Azul"
@@ -7211,7 +7211,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Azul Petróleo",
       "Blanco"
@@ -7239,7 +7239,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Verde",
       "Blanco"
@@ -7267,7 +7267,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -7294,7 +7294,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Negro",
       "Blanco"
@@ -7322,7 +7322,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Azul Oscuro",
       "Celeste"
@@ -7350,7 +7350,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Rosado",
       "Blanco"
@@ -7381,7 +7381,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 105000,
+    "salePrice": 105920,
     "colors": [
       "Azul Rey",
       "Naranja",
@@ -7410,7 +7410,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110000,
+    "salePrice": 110920,
     "colors": [
       "Blanco",
       "Gris",
@@ -7438,7 +7438,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Rojo",
@@ -7467,7 +7467,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 105000,
     "marginPercent": 14,
-    "salePrice": 120000,
+    "salePrice": 120920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -7494,7 +7494,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 105000,
     "marginPercent": 14,
-    "salePrice": 120000,
+    "salePrice": 120920,
     "colors": [
       "Blanco",
       "Negro"
@@ -7521,7 +7521,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 105000,
     "marginPercent": 14,
-    "salePrice": 120000,
+    "salePrice": 120920,
     "colors": [
       "Negro",
       "Amarillo"
@@ -7548,7 +7548,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Azul",
       "Rojo",
@@ -7576,7 +7576,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Rojo",
@@ -7605,7 +7605,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -7634,7 +7634,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Verde",
       "Amarillo"
@@ -7662,7 +7662,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Rojo",
       "Blanco",
@@ -7690,7 +7690,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Verde Oscuro",
       "Verde Claro"
@@ -7718,7 +7718,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Gris"
@@ -7746,7 +7746,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Azul Rey",
       "Amarillo"
@@ -7773,7 +7773,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Negro",
       "Amarillo"
@@ -7800,7 +7800,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -7828,7 +7828,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Negro",
       "Azul",
@@ -7863,7 +7863,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Azul",
       "Rojo"
@@ -7891,7 +7891,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 85000,
+    "salePrice": 85920,
     "colors": [
       "Blanco",
       "Negro",
@@ -7920,7 +7920,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Rojo",
       "Negro"
@@ -7947,7 +7947,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -7976,7 +7976,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Blanco",
       "Verde"
@@ -8004,7 +8004,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Verde",
       "Blanco"
@@ -8032,7 +8032,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Vino Tinto",
@@ -8062,7 +8062,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Azul",
       "Rojo"
@@ -8088,7 +8088,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Negro",
       "Amarillo"
@@ -8114,7 +8114,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Azul",
       "Negro"
@@ -8140,7 +8140,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Amarillo",
       "Azul Oscuro"
@@ -8166,7 +8166,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Celeste",
       "Azul"
@@ -8192,7 +8192,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -8218,7 +8218,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -8244,7 +8244,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Negro",
       "Azul Oscuro",
@@ -8273,7 +8273,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Negro",
       "Azul Oscuro",
@@ -8301,7 +8301,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Negro",
       "Azul Oscuro",
@@ -8331,7 +8331,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Blanco y Verde",
       "Negro y Verde",
@@ -8368,7 +8368,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Verde Neón",
       "Gris",
@@ -8396,7 +8396,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Blanco",
       "Gris",
@@ -8424,7 +8424,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Gris Claro",
       "Gris Oscuro",
@@ -8452,7 +8452,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Blanco",
       "Gris",
@@ -8480,7 +8480,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Azul Oscuro",
       "Gris",
@@ -8508,7 +8508,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Azul",
       "Gris",
@@ -8536,7 +8536,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Verde Militar",
       "Gris",
@@ -8564,7 +8564,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Gris",
       "Negro",
@@ -8591,7 +8591,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Blanco",
       "Gris",
@@ -8619,7 +8619,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Blanco",
       "Gris",
@@ -8647,7 +8647,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Azul Rey",
       "Gris",
@@ -8675,7 +8675,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Blanco",
       "Gris",
@@ -8703,7 +8703,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Rojo",
       "Gris",
@@ -8731,7 +8731,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Gris",
       "Negro",
@@ -8758,7 +8758,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Blanco",
       "Azul Celeste",
@@ -8786,7 +8786,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Azul",
@@ -8815,7 +8815,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Rosa",
       "Gris",
@@ -8843,7 +8843,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 50000,
+    "salePrice": 50920,
     "colors": [
       "Turquesa",
       "Blanco",
@@ -8873,7 +8873,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Dorado"
@@ -8901,7 +8901,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Azul",
       "Rojo",
@@ -8930,7 +8930,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Rojo",
       "Azul Rey",
@@ -8965,7 +8965,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Azul Rey",
       "Blanco",
@@ -9000,7 +9000,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Negro",
       "Verde",
@@ -9036,7 +9036,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Azul",
       "Rojo"
@@ -9062,7 +9062,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Blanco",
       "Negro"
@@ -9088,7 +9088,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -9114,7 +9114,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Azul",
       "Rojo"
@@ -9140,7 +9140,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -9166,7 +9166,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Blanco",
       "Negro"
@@ -9192,7 +9192,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Blanco",
       "Amarillo",
@@ -9222,7 +9222,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 30000,
     "marginPercent": 50,
-    "salePrice": 45000,
+    "salePrice": 45920,
     "colors": [
       "Amarillo",
       "Rojo",
@@ -9250,7 +9250,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Negro",
       "Amarillo",
@@ -9278,7 +9278,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Blanco",
       "Amarillo",
@@ -9306,7 +9306,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Azul",
       "Negro"
@@ -9332,7 +9332,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Azul Celeste",
       "Blanco"
@@ -9358,7 +9358,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Azul",
       "Negro"
@@ -9383,7 +9383,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Azul Celeste",
       "Blanco"
@@ -9408,7 +9408,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Amarillo",
       "Azul Oscuro"
@@ -9433,7 +9433,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Negro",
       "Amarillo"
@@ -9458,7 +9458,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -9484,7 +9484,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Vino Tinto",
       "Blanco"
@@ -9510,7 +9510,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Azul",
       "Rojo",
@@ -9537,7 +9537,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Rojo",
       "Azul Oscuro",
@@ -9564,7 +9564,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Blanco",
       "Vino Tinto",
@@ -9591,7 +9591,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 105000,
+    "salePrice": 105920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -9618,7 +9618,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Blanco",
       "Dorado",
@@ -9645,7 +9645,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Azul Oscuro",
       "Dorado"
@@ -9671,7 +9671,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Azul Rey",
       "Vino Tinto",
@@ -9703,7 +9703,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Negro",
       "Verde",
@@ -9732,7 +9732,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Rosa",
       "Blanco"
@@ -9762,7 +9762,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Azul Celeste",
       "Blanco",
@@ -9794,7 +9794,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 85000,
+    "salePrice": 85920,
     "colors": [
       "Lila",
       "Blanco"
@@ -9824,7 +9824,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Vino Tinto",
       "Blanco"
@@ -9851,7 +9851,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Blanco",
       "Negro",
@@ -9879,7 +9879,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Azul",
       "Rojo"
@@ -9905,7 +9905,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Blanco",
       "Azul Celeste",
@@ -9933,7 +9933,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -9959,7 +9959,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco",
       "Azul Celeste",
@@ -9986,7 +9986,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Rojo",
       "Negro",
@@ -10014,7 +10014,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Azul",
       "Rojo",
@@ -10042,7 +10042,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Blanco",
       "Verde",
@@ -10071,7 +10071,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -10098,7 +10098,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -10124,7 +10124,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Azul Celeste",
       "Blanco"
@@ -10150,7 +10150,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Blanco",
       "Negro",
@@ -10178,7 +10178,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Verde Oliva",
       "Azul Oscuro",
@@ -10206,7 +10206,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Blanco",
       "Negro",
@@ -10233,7 +10233,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Verde Oliva",
       "Azul Oscuro",
@@ -10260,7 +10260,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 105000,
     "marginPercent": 14,
-    "salePrice": 120000,
+    "salePrice": 120920,
     "colors": [
       "Negro",
       "Gris",
@@ -10291,7 +10291,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Negro",
       "Blanco",
@@ -10320,7 +10320,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Verde",
       "Amarillo",
@@ -10347,7 +10347,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -10373,7 +10373,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Negro",
       "Amarillo",
@@ -10400,7 +10400,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Azul Celeste",
       "Amarillo"
@@ -10426,7 +10426,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Blanco",
       "Amarillo"
@@ -10452,7 +10452,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Negro",
       "Verde",
@@ -10480,7 +10480,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Gris",
       "Azul Oscuro",
@@ -10509,7 +10509,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Gris",
       "Azul Oscuro",
@@ -10537,7 +10537,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 45,
-    "salePrice": 60000,
+    "salePrice": 0,
     "colors": [
       "Gris",
       "Azul Oscuro",
@@ -10565,7 +10565,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Gris",
       "Azul Oscuro",
@@ -10593,7 +10593,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Azul Rey",
       "Amarillo",
@@ -10620,7 +10620,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110000,
+    "salePrice": 110920,
     "colors": [
       "Negro"
     ],
@@ -10645,7 +10645,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110000,
+    "salePrice": 110920,
     "colors": [
       "Negro",
       "Blanco"
@@ -10672,7 +10672,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110000,
+    "salePrice": 110920,
     "colors": [
       "Negro"
     ],
@@ -10697,7 +10697,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110000,
+    "salePrice": 110920,
     "colors": [
       "Negro",
       "Blanco"
@@ -10724,7 +10724,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Streetwear",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110000,
+    "salePrice": 110920,
     "colors": [
       "Negro",
       "Blanco"
@@ -10751,7 +10751,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -10777,7 +10777,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -10803,7 +10803,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Verde",
       "Blanco"
@@ -10832,7 +10832,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Rojo",
       "Blanco"
@@ -10861,7 +10861,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Negro",
       "Verde",
@@ -10890,7 +10890,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Negro",
@@ -10919,7 +10919,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Azul",
       "Rojo",
@@ -10947,7 +10947,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Rojo",
@@ -10975,7 +10975,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Negro",
       "Dorado",
@@ -11004,7 +11004,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Azul Oscuro",
@@ -11033,7 +11033,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 85000,
+    "salePrice": 85920,
     "colors": [
       "Blanco",
       "Rosa"
@@ -11062,7 +11062,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Rojo",
       "Negro"
@@ -11091,7 +11091,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Rojo",
@@ -11120,7 +11120,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60000,
+    "salePrice": 60920,
     "colors": [
       "Rojo",
       "Blanco",
@@ -11147,7 +11147,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Morado",
       "Negro"
@@ -11173,7 +11173,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Azul",
       "Amarillo"
@@ -11200,7 +11200,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 28000,
     "marginPercent": 54,
-    "salePrice": 43000,
+    "salePrice": 43920,
     "colors": [
       "Amarillo",
       "Negro",
@@ -11229,7 +11229,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -11255,7 +11255,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Amarillo",
       "Verde"
@@ -11281,7 +11281,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Negro",
       "Dorado"
@@ -11307,7 +11307,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Verde",
@@ -11334,7 +11334,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 85000,
+    "salePrice": 85920,
     "colors": [
       "Rosa",
       "Blanco"
@@ -11360,7 +11360,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Azul Rey",
       "Blanco"
@@ -11389,7 +11389,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Blanco",
       "Azul Celeste",
@@ -11419,7 +11419,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Blanco",
       "Azul Celeste",
@@ -11451,7 +11451,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Rojo",
       "Azul Oscuro",
@@ -11481,7 +11481,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 95000,
+    "salePrice": 95920,
     "colors": [
       "Blanco",
       "Vino Tinto",
@@ -11512,7 +11512,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos Deportivas",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 100000,
+    "salePrice": 100920,
     "colors": [
       "Negro",
       "Dorado",
@@ -11545,7 +11545,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 75000,
+    "salePrice": 75920,
     "colors": [
       "Azul",
       "Amarillo"
@@ -11572,7 +11572,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 90000,
+    "salePrice": 90920,
     "colors": [
       "Verde",
       "Blanco",
@@ -11602,7 +11602,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Beige",
       "Azul Oscuro",
@@ -11629,7 +11629,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 80000,
+    "salePrice": 80920,
     "colors": [
       "Blanco",
       "Dorado"
@@ -11655,7 +11655,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 65000,
+    "salePrice": 65920,
     "colors": [
       "Rosa",
       "Blanco"
@@ -11681,7 +11681,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 70000,
+    "salePrice": 70920,
     "colors": [
       "Blanco",
       "Negro"
