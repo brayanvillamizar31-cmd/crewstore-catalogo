@@ -667,7 +667,7 @@
           </div>
           <div>
             <label style="font-size: 10px; font-weight: 700; display: block; margin-bottom: 3px;">Categoría</label>
-            <input type="text" id="newCat" value="Crop Tops & Blusas" style="width: 100%; padding: 6px 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px;">
+            <input type="text" id="newCat" value="Camisetas & Polos" style="width: 100%; padding: 6px 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px;">
           </div>
         </div>
 
@@ -13614,7 +13614,7 @@
       const baseCost = Number(document.getElementById('newCost').value) || 25000;
       const baseMargin = Number(document.getElementById('newMargin').value) || 40;
       const baseSale = Number(document.getElementById('newSale').value) || 35000;
-      const baseCat = document.getElementById('newCat').value.trim() || 'Crop Tops & Blusas';
+      const baseCat = document.getElementById('newCat').value.trim() || 'Camisetas & Polos';
       const baseColors = document.getElementById('newColors').value.trim() || 'Blanco, Negro';
       const baseNameInput = document.getElementById('newName').value.trim();
 
@@ -13808,7 +13808,7 @@
             id: seqId,
             code: seqCode,
             name: cleanName,
-            category: item.category || 'Crop Tops & Blusas',
+            category: item.category || 'Camisetas & Polos',
             supplierPrice: Number(item.supplierPrice) || 25000,
             marginPercent: Number(item.marginPercent) || 40,
             salePrice: Number(item.salePrice) || 35000,
@@ -14722,7 +14722,7 @@
           </div>
         `;
       } else if (state.activeAgent === 'cmo') {
-        const marketplaceCopy = `👚 ${prod.name} Tendencia 2026 (${prod.code}) - PAGO CONTRAENTREGA BUCARAMANGA\n\n✨ Hermosa prenda femenina de excelente horma y tela suave.\n🎨 Colores: ${(prod.colors || []).join(', ')}\n📏 Tallas: ${(prod.sizes || ['Única']).join(', ')}\n💰 Precio: $${formatCOP(prod.salePrice)} COP\n\n🛵 ¡DOMICILIO RÁPIDO CON PAGO CONTRAENTREGA en Bucaramanga, Floridablanca, Girón y Piedecuesta! (Domicilio desde $5.000 según tu barrio).\n📦 También hacemos envíos nacionales.\n🎁 Pregunta por nuestro Combo Dúo para ahorrar en tu domicilio.\n\n📲 Escríbeme "Quiero la ${prod.code}" para confirmar disponibilidad en bodega y enviártela hoy mismo.`;
+        const marketplaceCopy = `👕 ${prod.name} (${prod.code}) - PAGO CONTRAENTREGA BUCARAMANGA\n\n🔥 Prenda de alta calidad con excelentes acabados y diseño exclusivo.\n🎨 Colores: ${(prod.colors || []).join(', ')}\n📏 Tallas: ${(prod.sizes || ['Única']).join(', ')}\n💰 Precio: $${formatCOP(prod.salePrice)} COP\n\n🛵 ¡DOMICILIO RÁPIDO CON PAGO CONTRAENTREGA en Bucaramanga, Floridablanca, Girón y Piedecuesta! (Domicilio desde $5.000 según tu barrio).\n📦 También hacemos envíos nacionales.\n🎁 Pregunta por nuestro Combo Dúo para ahorrar en tu domicilio.\n\n📲 Escríbeme "Quiero la ${prod.code}" para confirmar disponibilidad en bodega y enviártela hoy mismo.`;
         const tiktokReelCopy = `✨ 3 Prendas en Tendencia en Bucaramanga con Pago Contraentrega 😍👇\n1️⃣ ${prod.code}: $${formatCOP(prod.salePrice)} COP\n2️⃣ ${nextProd.code}: $${formatCOP(nextProd.salePrice)} COP\n\n🛵 Domicilios desde $5.000 en Bucaramanga y Área Metropolitana + Envíos a toda Colombia.\n👉 Entra al link de nuestro perfil (crewstore.co) y escribe el número "${prod.id}" en el buscador para pedir la tuya por WhatsApp.`;
         box.innerHTML = `
           <div style="border-bottom: 1px solid #e7e5e4; padding-bottom: 12px; margin-bottom: 14px;">
@@ -14745,7 +14745,7 @@
             <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 12px; padding: 14px;">
               <h4 style="font-size: 13px; font-weight: 800; color: #1c1917; margin-bottom: 6px;">📱 2. Estrategia TikTok + Reels + Canal VIP de WhatsApp</h4>
               <ul style="font-size: 11px; color: #44403c; line-height: 1.6; padding-left: 16px;">
-                <li><strong>TikTok / Reels (2 al día):</strong> Video de 12 seg pasando 4 fotos del catálogo con texto en pantalla: <em>"Blusas en tendencia en Bucaramanga desde $${formatCOP(prod.salePrice)} • Pagas al recibir en tu casa 🛵"</em>.</li>
+                <li><strong>TikTok / Reels (2 al día):</strong> Video de 12 seg pasando 4 fotos del catálogo con texto en pantalla: <em>"Camisetas y prendas en tendencia en Bucaramanga desde $${formatCOP(prod.salePrice)} • Pagas al recibir en tu casa 🛵"</em>.</li>
                 <li><strong>Canal / Comunidad de WhatsApp:</strong> Crea un grupo silencioso llamado <em>"crewstore.co VIP 🌸 Nuevos Lotes"</em>. A cada cliente que te escriba desde Marketplace o TikTok, invítala al grupo para ver primero lo que sale de Campo Hermoso.</li>
               </ul>
             </div>
@@ -14808,7 +14808,7 @@
         `;
       } else {
         const storeUrl = window.location.origin;
-        const bioText = `✨ crewstore.co | Moda Femenina Bucaramanga & Colombia\n👚 Blusas, Crop Tops & Bodys en Tendencia\n🛵 Pago Contraentrega en B/manga y Área Metropolitana (Domicilios desde $5.000)\n👇 Busca tu prenda por número (#1 al #${state.products.length}) aquí:\n${storeUrl}`;
+        const bioText = `🔥 crewstore.co | Camisetas Deportivas, Retro & Moda Urbana\n⚽ Camisetas de Fútbol, NBA, Buzos & Bermudas\n🛵 Pago Contraentrega en B/manga y Área Metropolitana (Domicilios desde $5.000)\n👇 Busca tu prenda por número (#1 al #${state.products.length}) aquí:\n${storeUrl}`;
         box.innerHTML = `
           <div style="border-bottom: 1px solid #e7e5e4; padding-bottom: 12px; margin-bottom: 14px;">
             <span style="background:#b45309; color:#fff; font-size:10px; font-weight:800; padding:3px 8px; border-radius:9999px;">🔍 AGENTE DIRECTOR DE SEO LOCAL & ORGÁNICO (MODELO NEIL PATEL)</span>
@@ -14819,7 +14819,7 @@
             <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 12px; padding: 14px;">
               <h4 style="font-size: 13px; font-weight: 800; color: #1c1917; margin-bottom: 6px;">✅ SEO Local Bucaramanga + Embudo por Número</h4>
               <ul style="font-size: 11px; color: #44403c; line-height: 1.6; padding-left: 16px;">
-                <li><strong>Palabras Clave Orgánicas para TikTok/Instagram/Facebook:</strong> Usa siempre en tus textos <em>#RopaBucaramanga #BlusasBucaramanga #ModaBucaramanga #PerlaBoutique #PagoContraentregaBucaramanga</em>.</li>
+                <li><strong>Palabras Clave Orgánicas para TikTok/Instagram/Facebook:</strong> Usa siempre en tus textos <em>#crewstore #CamisetasBucaramanga #CamisetasFutbol #CamisetasRetro #ModaUrbanaBucaramanga #RopaBucaramanga #PagoContraentregaBucaramanga</em>.</li>
                 <li><strong>Búsqueda Instantánea sin Fricción:</strong> Cuando subas un video orgánico, pon en el primer comentario: <em>"Esta es la prenda #${prod.id} en nuestro catálogo del perfil"</em>.</li>
                 <li><strong>Numeración Continua Automática:</strong> Si una prenda sale definitivamente de la bodega de Campo Hermoso y la eliminas, todo el catálogo se reenumera solo de <code>REF-001</code> en adelante sin dejar saltos.</li>
               </ul>
