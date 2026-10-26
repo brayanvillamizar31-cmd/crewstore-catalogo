@@ -223,17 +223,15 @@
         </span>
       </div>
 
-      <!-- APLICADOR DE MARGEN GLOBAL RÁPIDO (TODOS AL TIEMPO) -->
-      <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 6px; background: #f5f5f4; padding: 6px 12px; border-radius: 10px; border: 1px solid #e7e5e4;">
-        <span style="font-size: 11px; font-weight: 800; color: #1c1917;">⚡ Margen a TODOS al tiempo:</span>
-        <button type="button" onclick="applyQuickBulkMargin(30)" style="background:#fff; border:1px solid #d6d3d1; padding:4px 7px; border-radius:6px; font-size:10px; font-weight:800; cursor:pointer;">30%</button>
-        <button type="button" onclick="applyQuickBulkMargin(40)" style="background:#fff; border:1px solid #d6d3d1; padding:4px 7px; border-radius:6px; font-size:10px; font-weight:800; cursor:pointer;">40%</button>
-        <button type="button" onclick="applyQuickBulkMargin(50)" style="background:#fff; border:1px solid #d6d3d1; padding:4px 7px; border-radius:6px; font-size:10px; font-weight:800; cursor:pointer;">50%</button>
-        <button type="button" onclick="applyQuickBulkMargin(60)" style="background:#fff; border:1px solid #d6d3d1; padding:4px 7px; border-radius:6px; font-size:10px; font-weight:800; cursor:pointer;">60%</button>
-        <input type="number" id="bulkMarginVal" value="40" style="width: 58px; padding: 4px 6px; border-radius: 6px; border: 1px solid #1c1917; font-family: monospace; font-weight: 800; background: #fff;">
-        <span style="font-size: 11px; font-weight: 800;">%</span>
-        <button onclick="applyBulkMargin()" style="background: #1c1917; color: #fff; border: none; padding: 6px 12px; border-radius: 6px; font-size: 11px; font-weight: 800; cursor: pointer;">
-          Aplicar a Todos
+      <!-- APLICADOR DE GANANCIA FIJA EN PESOS ($15.000) Y MARGEN A TODAS LAS PRENDAS -->
+      <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 6px; background: #ecfdf5; padding: 6px 12px; border-radius: 10px; border: 1px solid #a7f3d0;">
+        <span style="font-size: 11px; font-weight: 800; color: #065f46;">💵 Valor que se gana a TODAS ($):</span>
+        <button type="button" onclick="applyQuickFixedProfit(10000)" style="background:#fff; border:1px solid #6ee7b7; padding:4px 7px; border-radius:6px; font-size:10px; font-weight:800; color:#065f46; cursor:pointer;">+$10.000</button>
+        <button type="button" onclick="applyQuickFixedProfit(15000)" style="background:#059669; border:1px solid #059669; padding:4px 7px; border-radius:6px; font-size:10px; font-weight:800; color:#fff; cursor:pointer;">+$15.000</button>
+        <button type="button" onclick="applyQuickFixedProfit(20000)" style="background:#fff; border:1px solid #6ee7b7; padding:4px 7px; border-radius:6px; font-size:10px; font-weight:800; color:#065f46; cursor:pointer;">+$20.000</button>
+        <input type="number" id="bulkFixedProfitVal" value="15000" step="1000" oninput="onEditFixedProfitInput(this.value)" style="width: 82px; padding: 4px 6px; border-radius: 6px; border: 2px solid #059669; font-family: monospace; font-weight: 800; background: #fff; color: #065f46;">
+        <button onclick="applyBulkFixedProfit()" style="background: #065f46; color: #fff; border: none; padding: 6px 12px; border-radius: 6px; font-size: 11px; font-weight: 800; cursor: pointer;">
+          Aplicar Ganancia a Todas
         </button>
       </div>
     </div>
