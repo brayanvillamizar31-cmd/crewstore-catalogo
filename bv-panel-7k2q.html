@@ -13069,7 +13069,8 @@
         const q = state.searchQuery.toLowerCase();
         list = list.filter(p => 
           (p.code && p.code.toLowerCase().includes(q)) || 
-          (p.name && p.name.toLowerCase().includes(q))
+          (p.name && p.name.toLowerCase().includes(q)) ||
+          (p.category && p.category.toLowerCase().includes(q))
         );
       }
 
