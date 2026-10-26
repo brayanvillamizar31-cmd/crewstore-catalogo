@@ -10663,9 +10663,9 @@ window.CATALOG_PRODUCTS = [
     "code": "REF-395",
     "name": "Camiseta Streetwear Undergold Wolf Negra 395",
     "category": "Streetwear & Urbano",
-    "supplierPrice": 0,
-    "marginPercent": 45,
-    "salePrice": 0,
+    "supplierPrice": 95000,
+    "marginPercent": 16,
+    "salePrice": 110930,
     "colors": [
       "Negro"
     ],
@@ -10680,7 +10680,8 @@ window.CATALOG_PRODUCTS = [
       "products/item_419.jpg"
     ],
     "editorialImage": null,
-    "active": true
+    "active": true,
+    "bagCharge": 930
   },
   {
     "id": 396,
