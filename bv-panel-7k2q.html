@@ -15479,7 +15479,6 @@
       }
       state.products = ensureSequentialNumbering(state.products);
       localStorage.setItem('crewstore_v9_products_cache', JSON.stringify(state.products));
-      syncLocalDiskServer();
 
       document.getElementById('topStoreName').innerText = state.settings.storeName;
       updateSecureStatus();
@@ -15488,7 +15487,6 @@
       loadAdminProductsFromSupabase();
     }
 
-    syncLocalDiskServer();
     sessionStorage.removeItem('admin_authenticated'); // limpiar sesión antigua del PIN
     if (sessionStorage.getItem(AUTH_SESSION_KEY) === AUTH_HASH) {
       document.getElementById('modalAuth').style.display = 'none';
