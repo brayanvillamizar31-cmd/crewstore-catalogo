@@ -13439,7 +13439,8 @@
         investmentAmount: 2500000,
         bagCost: 0,
         merchShippingCost: 0,
-        applyUnitCosts: false
+        applyUnitCosts: false,
+        fixedProfit: 15000
       },
       cloud: {
         url: (window.SUPABASE_CONFIG && window.SUPABASE_CONFIG.url) || localStorage.getItem('crewstore_supabase_url') || '',
@@ -13722,6 +13723,14 @@
       if (elShip && document.activeElement !== elShip) elShip.value = ship;
       if (elChk) elChk.checked = applyUnit;
 
+      const fixedP = Number(state.settings.fixedProfit ?? 15000);
+      ['inputFixedProfitAll', 'bulkFixedProfitVal'].forEach(idEl => {
+        const el = document.getElementById(idEl);
+        if (el && document.activeElement !== el) el.value = fixedP;
+      });
+      const hintFP = document.getElementById('lblFixedProfitHint');
+      if (hintFP) hintFP.innerText = `Se suma +$${formatCOP(fixedP)} al costo de cada prenda`;
+
       const extraCosts = bag + ship;
       const totalOutlay = inv + (applyUnit ? 0 : extraCosts);
 
@@ -13766,7 +13775,8 @@
                   investmentAmount: state.settings.investmentAmount,
                   bagCost: state.settings.bagCost,
                   merchShippingCost: state.settings.merchShippingCost,
-                  applyUnitCosts: state.settings.applyUnitCosts
+                  applyUnitCosts: state.settings.applyUnitCosts,
+                  fixedProfit: Number(state.settings.fixedProfit ?? 15000)
                 }),
                 whatsapp_number: state.settings.whatsappNumber || '573170128692'
               })
@@ -13864,8 +13874,12 @@
             <td>
               <input type="number" class="input-table input-sale" value="${p.salePrice}" onchange="updateProdSalePrice(${p.id}, this.value)">
             </td>
-            <td style="font-family: monospace; font-weight: 800; color: #059669;">
-              +$${formatCOP(net)}
+            <td>
+              <div style="display: flex; align-items: center; gap: 2px;">
+                <span style="font-weight: 800; color: #059669; font-size: 11px;">+$</span>
+                <input type="number" step="1000" class="input-table" title="Valor que se gana en esta prenda (editable)" style="width: 78px; border: 2px solid #059669; color: #065f46; font-weight: 800;" value="${(p.salePrice || 0) - (p.supplierPrice || 0)}" onchange="updateProdProfit(${p.id}, this.value)">
+              </div>
+              ${unitExtra > 0 ? `<div style="font-size: 9px; color: #78716c; margin-top: 2px;">Neto tras bolsa/domicilio: +$${formatCOP(net)}</div>` : ''}
             </td>
             <td>
               <div style="max-width: 140px;">
@@ -13970,10 +13984,64 @@
     function updateProdCost(id, val) {
       const p = state.products.find(x => x.id === id);
       if (p) {
+        const fixed = Number(state.settings.fixedProfit ?? 15000);
         p.supplierPrice = Number(val) || 0;
-        p.salePrice = Math.round((p.supplierPrice * (1 + (p.marginPercent || 40) / 100)) / 1000) * 1000;
+        p.salePrice = p.supplierPrice + fixed;
+        p.marginPercent = p.supplierPrice > 0 ? Math.round((fixed / p.supplierPrice) * 100) : 0;
         saveAndSyncProd(p);
         renderAdminTable();
+      }
+    }
+
+    // ===== GANANCIA FIJA EN PESOS ($) POR PRENDA Y PARA TODAS =====
+    function updateProdProfit(id, val) {
+      const p = state.products.find(x => x.id === id);
+      if (!p) return;
+      const profit = Math.max(0, Number(val) || 0);
+      p.salePrice = (p.supplierPrice || 0) + profit;
+      p.marginPercent = p.supplierPrice > 0 ? Math.round((profit / p.supplierPrice) * 100) : 0;
+      saveAndSyncProd(p);
+      renderAdminTable();
+    }
+
+    function onEditFixedProfitInput(val) {
+      const v = Math.max(0, Number(val) || 0);
+      state.settings.fixedProfit = v;
+      ['inputFixedProfitAll', 'bulkFixedProfitVal'].forEach(idEl => {
+        const el = document.getElementById(idEl);
+        if (el && document.activeElement !== el) el.value = v;
+      });
+      const hint = document.getElementById('lblFixedProfitHint');
+      if (hint) hint.innerText = `Se suma +$${formatCOP(v)} al costo de cada prenda`;
+      localStorage.setItem('crewstore_v2_settings_cache', JSON.stringify(state.settings));
+      updateFinanceInputs();
+    }
+
+    function applyQuickFixedProfit(v) {
+      onEditFixedProfitInput(v);
+      ['inputFixedProfitAll', 'bulkFixedProfitVal'].forEach(idEl => {
+        const el = document.getElementById(idEl);
+        if (el) el.value = v;
+      });
+      applyBulkFixedProfit();
+    }
+
+    function applyBulkFixedProfit() {
+      const v = Math.max(0, Number(state.settings.fixedProfit ?? 15000));
+      const withCost = state.products.filter(p => (p.supplierPrice || 0) > 0);
+      const noCost = state.products.length - withCost.length;
+      if (!confirm(`¿Aplicar ganancia de +$${formatCOP(v)} a ${withCost.length} prendas?\n\nPrecio venta = Costo bodega + $${formatCOP(v)}${noCost ? `\n(${noCost} prendas sin costo registrado no se modifican)` : ''}`)) return;
+      withCost.forEach(p => {
+        p.salePrice = p.supplierPrice + v;
+        p.marginPercent = Math.round((v / p.supplierPrice) * 100);
+      });
+      localStorage.setItem('crewstore_v9_products_cache', JSON.stringify(state.products));
+      syncLocalDiskServer();
+      renderAdminTable();
+      if (state.cloud.url && state.cloud.anonKey) {
+        syncAllToCloud(true).then(() => alert(`✅ Ganancia de +$${formatCOP(v)} aplicada a ${withCost.length} prendas y publicada en la tienda.`));
+      } else {
+        alert(`✅ Ganancia de +$${formatCOP(v)} aplicada a ${withCost.length} prendas.`);
       }
     }
 
