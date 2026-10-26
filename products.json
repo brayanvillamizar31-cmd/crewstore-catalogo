@@ -10715,9 +10715,9 @@
     "code": "REF-397",
     "name": "Camiseta Streetwear Undergold Portrait 397",
     "category": "Streetwear & Urbano",
-    "supplierPrice": 0,
-    "marginPercent": 45,
-    "salePrice": 0,
+    "supplierPrice": 95000,
+    "marginPercent": 16,
+    "salePrice": 110930,
     "colors": [
       "Negro",
       "Blanco"
@@ -10734,7 +10734,8 @@
       "products/item_421_2.jpg"
     ],
     "editorialImage": "products/item_421_2.jpg",
-    "active": true
+    "active": true,
+    "bagCharge": 930
   },
   {
     "id": 398,
