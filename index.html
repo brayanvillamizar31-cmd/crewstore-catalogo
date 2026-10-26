@@ -12247,6 +12247,12 @@
         <button class="cat-btn ${idx === 0 ? 'active' : ''}" onclick="selectModalSize('${s}', this)">${s}</button>
       `).join('');
 
+      const customInp = document.getElementById('customSizeInput');
+      if (customInp) {
+        customInp.value = '';
+        customInp.style.borderColor = '#d4d4d4';
+      }
+
       document.getElementById('modalAddToCart').style.display = 'flex';
     }
 
@@ -12270,7 +12276,29 @@
     function selectModalSize(sz, btn) {
       state.modalSelectedSize = sz;
       document.querySelectorAll('#modalSizesContainer .cat-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+      if (btn) btn.classList.add('active');
+      const customInp = document.getElementById('customSizeInput');
+      if (customInp) {
+        customInp.value = '';
+        customInp.style.borderColor = '#d4d4d4';
+      }
+    }
+
+    function handleCustomSizeInput(val) {
+      const trimmed = val.trim();
+      const customInp = document.getElementById('customSizeInput');
+      if (trimmed) {
+        state.modalSelectedSize = trimmed;
+        document.querySelectorAll('#modalSizesContainer .cat-btn').forEach(b => b.classList.remove('active'));
+        if (customInp) customInp.style.borderColor = '#d4af37';
+      } else {
+        const firstBtn = document.querySelector('#modalSizesContainer .cat-btn');
+        if (firstBtn) {
+          firstBtn.classList.add('active');
+          state.modalSelectedSize = firstBtn.innerText;
+        }
+        if (customInp) customInp.style.borderColor = '#d4d4d4';
+      }
     }
 
     function changeModalQty(delta) {
