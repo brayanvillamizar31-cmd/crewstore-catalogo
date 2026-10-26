@@ -683,21 +683,21 @@
     </div>
   </div>
 
-  <!-- MODAL: REGISTRAR PEDIDO DE WHATSAPP (BODEGA ALIADA + DOMICILIO) -->
+  <!-- MODAL: REGISTRAR PEDIDO DE WHATSAPP (VENTA DE BODEGA) -->
   <div class="modal-overlay" id="modalManualOrder" style="display: none;" onclick="if(event.target===this) closeManualOrderModal()">
     <div class="modal-content" style="max-width: 480px;">
       <div class="modal-header">
-        <h3 class="modal-title">🛵 Registrar Pedido (Bodega Aliada + Domicilio)</h3>
+        <h3 class="modal-title">📦 Registrar Pedido (Venta de Bodega)</h3>
         <button class="btn-close" onclick="closeManualOrderModal()">✕</button>
       </div>
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
         <div>
           <label style="font-size: 11px; font-weight: 700; display: block; margin-bottom: 3px;">Cliente *</label>
-          <input type="text" id="manOrdCustomer" placeholder="Ej. Laura Gómez" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px;">
+          <input type="text" id="manOrdCustomer" placeholder="Ej. Carlos Gómez" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px;">
         </div>
         <div>
           <label style="font-size: 11px; font-weight: 700; display: block; margin-bottom: 3px;">WhatsApp / Teléfono</label>
-          <input type="text" id="manOrdPhone" placeholder="Ej. 315 000 0000" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px;">
+          <input type="text" id="manOrdPhone" placeholder="Ej. 317 000 0000" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px;">
         </div>
       </div>
       <div style="margin-bottom: 10px;">
@@ -714,20 +714,14 @@
           <input type="number" id="manOrdQty" value="1" min="1" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px; font-weight: 800; font-family: monospace;">
         </div>
       </div>
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px;">
-        <div>
-          <label style="font-size: 11px; font-weight: 700; display: block; margin-bottom: 3px;">Domicilio Cobrado ($)</label>
-          <input type="number" id="manOrdDelivery" value="8000" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px; font-weight: 800; font-family: monospace;">
-        </div>
-        <div>
-          <label style="font-size: 11px; font-weight: 700; display: block; margin-bottom: 3px;">Estado en Bodega</label>
-          <select id="manOrdStatus" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px; font-weight: 700;">
-            <option value="pendiente">1. Consultar en Bodega</option>
-            <option value="despachado">2. Comprado en Bodega / En Ruta</option>
-            <option value="entregado">3. Entregado y Cobrado</option>
-            <option value="agotado">Agotado en Bodega</option>
-          </select>
-        </div>
+      <div style="margin-bottom: 14px;">
+        <label style="font-size: 11px; font-weight: 700; display: block; margin-bottom: 3px;">Estado en Bodega</label>
+        <select id="manOrdStatus" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px; font-weight: 700;">
+          <option value="pendiente">1. Consultar en Bodega</option>
+          <option value="despachado">2. Comprado en Bodega / En Ruta</option>
+          <option value="entregado">3. Entregado y Cobrado</option>
+          <option value="agotado">Agotado en Bodega</option>
+        </select>
       </div>
       <button onclick="saveManualOrder()" style="width: 100%; background: #1c1917; color: #fff; border: none; padding: 12px; border-radius: 12px; font-size: 13px; font-weight: 800; cursor: pointer;">
         Guardar Pedido
