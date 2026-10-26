@@ -12770,16 +12770,19 @@
                 code: String(r.code || '').replace(/^CREW-/, ''),
                 name: r.name,
                 category: r.category,
-                salePrice: Number(r.sale_price),
+                supplierPrice: Number(r.supplier_price || 0),
+                marginPercent: Number(r.margin_percent || 20),
+                salePrice: Number(r.sale_price || 0),
                 colors: Array.isArray(r.colors) ? r.colors : ['Blanco', 'Negro'],
                 sizes: Array.isArray(r.sizes) ? r.sizes : ['Única'],
                 image: primaryImg,
                 images: imgs,
                 editorialImage: (r.editorial_image && r.editorial_image.trim()) ? r.editorial_image : (r.editorialImage || null),
-                active: r.active
+                active: r.active,
+                bagCharge: 0
               };
             }));
-            localStorage.setItem('crewstore_v9_products_cache', JSON.stringify(state.products));
+            localStorage.setItem('crewstore_client_products_cache', JSON.stringify(state.products));
             return true;
           }
         }
@@ -12793,14 +12796,14 @@
       localStorage.removeItem('crewstore_products_cache');
       localStorage.removeItem('crewstore_settings_cache');
       if (window.location.protocol === 'file:') {
-        localStorage.removeItem('crewstore_v9_products_cache');
+        localStorage.removeItem('crewstore_client_products_cache');
         localStorage.removeItem('crewstore_v2_settings_cache');
       } else {
         const cachedSettings = localStorage.getItem('crewstore_v2_settings_cache');
         if (cachedSettings) {
           try { state.settings = { ...state.settings, ...JSON.parse(cachedSettings) }; } catch(e){}
         }
-        const cachedProds = localStorage.getItem('crewstore_v9_products_cache');
+        const cachedProds = localStorage.getItem('crewstore_client_products_cache');
         if (cachedProds) {
           try {
             const parsed = JSON.parse(cachedProds);
