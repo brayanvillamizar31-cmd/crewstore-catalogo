@@ -3620,9 +3620,9 @@ window.CATALOG_PRODUCTS = [
     "code": "REF-135",
     "name": "Buzo Lacoste Azul Oscuro Franja Blanca 135",
     "category": "Buzos & Chaquetas",
-    "supplierPrice": 0,
-    "marginPercent": 45,
-    "salePrice": 0,
+    "supplierPrice": 85000,
+    "marginPercent": 18,
+    "salePrice": 100000,
     "colors": [
       "Azul",
       "Blanco"
@@ -3638,7 +3638,8 @@ window.CATALOG_PRODUCTS = [
       "products/item_143.jpg"
     ],
     "editorialImage": null,
-    "active": true
+    "active": true,
+    "bagCharge": 0
   },
   {
     "id": 136,
