@@ -179,6 +179,17 @@
           <div style="font-size: 10px; color: #059669; font-weight: 700; margin-top: 4px;" id="lblInvestmentFormatted">Inversión base: $2.500.000 COP</div>
         </div>
 
+        <div style="background: #ecfdf5; border: 2px solid #059669; border-radius: 12px; padding: 10px 12px;">
+          <label style="font-size: 10px; font-weight: 800; color: #065f46; text-transform: uppercase; display: block; margin-bottom: 4px;">💵 Ganancia para TODAS las Prendas ($ COP)</label>
+          <div style="display: flex; gap: 6px; align-items: center;">
+            <input type="number" id="inputFixedProfitAll" value="15000" step="1000" oninput="onEditFixedProfitInput(this.value)" style="width: 100%; padding: 8px 10px; border-radius: 8px; border: 2px solid #059669; font-family: monospace; font-weight: 800; font-size: 14px; background: #fff; color: #065f46;">
+            <button type="button" onclick="applyBulkFixedProfit()" style="background: #059669; color: #fff; border: none; padding: 8px 10px; border-radius: 8px; font-size: 11px; font-weight: 800; cursor: pointer; white-space: nowrap;">
+              Aplicar a Todas
+            </button>
+          </div>
+          <div style="font-size: 10px; color: #047857; font-weight: 700; margin-top: 4px;" id="lblFixedProfitHint">Se suma +$15.000 al costo de cada prenda</div>
+        </div>
+
         <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 12px; padding: 10px 12px;">
           <label style="font-size: 10px; font-weight: 800; color: #44403c; text-transform: uppercase; display: block; margin-bottom: 4px;">🛍️ Costo de Bolsas / Empaque ($ COP)</label>
           <input type="number" id="inputBagCost" value="0" step="500" placeholder="Ej: 1500 o paquete" oninput="updateFinanceInputs()" style="width: 100%; padding: 8px 10px; border-radius: 8px; border: 1px solid #a8a29e; font-family: monospace; font-weight: 800; font-size: 14px; background: #fff;">
