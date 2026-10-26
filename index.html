@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>crewstore.co | Catálogo Oficial 2026 • Camisetas Deportivas, Retro & Moda Urbana</title>
-  <meta name="description" content="crewstore.co: Catálogo oficial 2026. Camisetas de fútbol, retro originals, NBA, Atlético Bucaramanga y moda urbana. Envíos y atención personalizada por WhatsApp.">
+  <title>crewstore.co | Catálogo Oficial 2026 • Camisetas Deportivas, Retro & Streetwear</title>
+  <meta name="description" content="crewstore.co: Catálogo oficial 2026. Camisetas de fútbol, retro originals, NBA, Atlético Bucaramanga, buzos y moda urbana. Envíos y atención personalizada por WhatsApp.">
   <meta name="keywords" content="crewstore.co, camisetas deportivas, camisetas retro, camisetas futbol, NBA, moda urbana, buzos, bermudas, pantalonetas, Colombia">
-  <meta property="og:title" content="crewstore.co | Catálogo Oficial 2026 • Camisetas Deportivas, Retro & Moda Urbana">
+  <meta property="og:title" content="crewstore.co | Catálogo Oficial 2026 • Camisetas Deportivas, Retro & Streetwear">
   <meta property="og:description" content="Catálogo digital oficial crewstore.co 2026. Camisetas de fútbol, retro originals, buzos y moda urbana. Pide fácil por WhatsApp con envío a domicilio.">
   <meta property="og:type" content="website">
   <link rel="icon" type="image/jpeg" href="logo.jpg">
@@ -25,103 +25,145 @@
   
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { -webkit-tap-highlight-color: transparent; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-    body { background-color: #FAF8F5; color: #292524; min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden; }
+    html { -webkit-tap-highlight-color: transparent; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; scroll-behavior: smooth; }
+    body { background-color: #f7f7f6; color: #171717; min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden; }
     
-    .container { max-width: 1200px; margin: 0 auto; padding: 0 16px; width: 100%; }
+    .container { max-width: 1240px; margin: 0 auto; padding: 0 16px; width: 100%; }
     
-    /* Barra Anuncio */
-    .top-announcement { background-color: #1c1917; color: #d6d3d1; font-size: 11px; padding: 7px 16px; text-transform: uppercase; letter-spacing: 1px; display: flex; justify-content: space-between; align-items: center; z-index: 40; }
+    /* PALETA: NEGRO (#0c0a09, #171717), BLANCO (#ffffff), DORADO (#d4af37, #facc15, #eab308) */
     
-    /* Navbar */
-    .navbar { position: sticky; top: 0; z-index: 30; background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid #e7e5e4; height: 68px; display: flex; align-items: center; }
+    /* 1. Barra Anuncio */
+    .top-announcement { background: #050505; color: #facc15; font-size: 11px; padding: 8px 16px; text-transform: uppercase; letter-spacing: 1px; display: flex; justify-content: space-between; align-items: center; z-index: 40; border-bottom: 1px solid rgba(212, 175, 55, 0.25); }
+    .top-announcement span:last-child { color: #ffffff; }
+
+    /* 2. Navbar de Lujo */
+    .navbar { position: sticky; top: 0; z-index: 35; background: rgba(12, 10, 9, 0.96); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 2px solid #d4af37; height: 68px; display: flex; align-items: center; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
     .nav-content { display: flex; justify-content: space-between; align-items: center; width: 100%; }
-    .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; cursor: pointer; }
-    .brand-logo { width: 40px; height: 40px; border-radius: 50%; background: #1c1917; color: #fde047; font-weight: 800; font-size: 20px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
-    .brand-title { font-size: 18px; font-weight: 800; letter-spacing: 1px; line-height: 1.1; color: #1c1917; }
-    .brand-sub { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: #78716c; font-weight: 600; }
+    .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; cursor: pointer; }
+    .brand-logo-img { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; border: 2px solid #d4af37; box-shadow: 0 0 12px rgba(212, 175, 55, 0.4); }
+    .brand-title { font-size: 19px; font-weight: 800; letter-spacing: 0.5px; line-height: 1.1; color: #ffffff; }
+    .brand-sub { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: #d4af37; font-weight: 700; }
     
     .nav-actions { display: flex; align-items: center; gap: 8px; }
-    .btn-cart-nav { background: #1c1917; color: #fff; border: none; padding: 8px 18px; border-radius: 9999px; font-size: 12px; font-weight: 700; display: flex; align-items: center; gap: 8px; cursor: pointer; transition: all 0.2s; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    .btn-cart-nav:hover { background: #292524; transform: translateY(-1px); }
-    .badge-count { background: #facc15; color: #0c0a09; font-weight: 800; font-size: 11px; padding: 2px 7px; border-radius: 9999px; font-family: monospace; }
+    .btn-cart-nav { background: linear-gradient(135deg, #facc15 0%, #eab308 100%); color: #0c0a09; border: none; padding: 8px 18px; border-radius: 9999px; font-size: 12px; font-weight: 800; display: flex; align-items: center; gap: 8px; cursor: pointer; transition: all 0.2s; box-shadow: 0 2px 10px rgba(212, 175, 55, 0.35); }
+    .btn-cart-nav:hover { transform: translateY(-1px); filter: brightness(1.08); }
+    .badge-count { background: #0c0a09; color: #facc15; font-weight: 800; font-size: 11px; padding: 2px 7px; border-radius: 9999px; font-family: monospace; border: 1px solid #d4af37; }
     
-    /* Hero */
-    .hero { background: linear-gradient(135deg, #1c1917 0%, #292524 50%, #1c1917 100%); color: #fff; padding: 24px; border-radius: 20px; margin: 16px 0 20px 0; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.2); position: relative; overflow: hidden; }
-    .hero-tag { display: inline-block; background: rgba(250, 204, 21, 0.15); color: #fde047; border: 1px solid rgba(250, 204, 21, 0.3); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 4px 10px; border-radius: 9999px; margin-bottom: 10px; }
-    .hero h2 { font-size: 24px; font-weight: 800; margin-bottom: 8px; line-height: 1.2; }
-    .hero p { font-size: 13px; color: #d6d3d1; max-width: 600px; line-height: 1.5; margin-bottom: 14px; font-weight: 300; }
-    .hero-features { display: flex; flex-wrap: wrap; gap: 12px; font-size: 11px; color: #a8a29e; font-weight: 500; }
-    .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 4px; }
+    /* 3. Hero Banner Oficial */
+    .hero { background: radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.16) 0%, #0c0a09 75%); color: #ffffff; padding: 24px 20px; border-radius: 20px; margin: 16px 0 16px 0; border: 1px solid rgba(212, 175, 55, 0.35); box-shadow: 0 12px 30px rgba(0,0,0,0.35); position: relative; overflow: hidden; }
+    .hero-tag { display: inline-block; background: rgba(250, 204, 21, 0.12); color: #facc15; border: 1px solid rgba(250, 204, 21, 0.35); font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; padding: 4px 12px; border-radius: 9999px; margin-bottom: 8px; }
+    .hero h2 { font-size: 26px; font-weight: 900; margin-bottom: 8px; line-height: 1.2; color: #ffffff; letter-spacing: 0.5px; }
+    .hero p { font-size: 13px; color: #d4d4d4; max-width: 650px; line-height: 1.5; margin-bottom: 14px; font-weight: 400; }
+    .hero-features { display: flex; flex-wrap: wrap; gap: 10px; font-size: 11px; color: #ffffff; font-weight: 600; }
+    .hero-badge { background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(212, 175, 55, 0.3); padding: 5px 10px; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; }
     
-    /* Buscador Simplificado por Número de Prenda */
-    .search-bar-wrap { background: #fff; border: 1px solid #e7e5e4; border-radius: 16px; padding: 12px 16px; margin-bottom: 24px; display: flex; align-items: center; gap: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
-    .search-icon { font-size: 18px; color: #78716c; }
-    .search-input { width: 100%; border: none; background: transparent; font-size: 14px; font-weight: 600; outline: none; color: #1c1917; }
-    .search-input::placeholder { color: #a8a29e; font-weight: 400; }
-    .search-hint { font-size: 11px; color: #78716c; white-space: nowrap; background: #f5f5f4; padding: 4px 8px; border-radius: 8px; font-family: monospace; }
+    /* 4. Banner de Cestas / Combos Promocionales */
+    .promo-basket { max-width: 100%; margin: 0 0 16px 0; background: #0c0a09; color: #ffffff; border-radius: 16px; padding: 14px 18px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; border: 1px solid rgba(212, 175, 55, 0.4); box-shadow: 0 4px 16px rgba(0,0,0,0.15); }
+    .promo-tag { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: #facc15; font-weight: 800; }
+    .promo-title { font-size: 14px; font-weight: 800; color: #ffffff; }
+    .promo-sub { font-size: 11px; color: #a3a3a3; }
+    .btn-promo { background: linear-gradient(135deg, #facc15 0%, #eab308 100%); color: #0c0a09; border: none; padding: 8px 16px; border-radius: 9999px; font-size: 11px; font-weight: 800; cursor: pointer; white-space: nowrap; }
     
-    /* Grid de Productos */
-    .products-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 40px; }
-    .card { background: #fff; border-radius: 16px; overflow: hidden; border: 1px solid #e7e5e4; box-shadow: 0 2px 6px rgba(0,0,0,0.03); display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s; position: relative; }
-    .card:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+    /* 5. Barra de Navegación Pegajosa (Buscador + Píldoras de Categorías) */
+    .sticky-controls { position: sticky; top: 68px; z-index: 30; background: #f7f7f6; padding: 12px 0 10px 0; border-bottom: 1px solid #e5e5e5; margin-bottom: 20px; }
     
-    /* Slider de Imagen: Modelo Primero, luego Prenda Sola */
+    .search-bar-wrap { background: #ffffff; border: 1.5px solid #d4af37; border-radius: 14px; padding: 10px 14px; display: flex; align-items: center; gap: 10px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); margin-bottom: 10px; }
+    .search-icon { font-size: 16px; color: #d4af37; }
+    .search-input { width: 100%; border: none; background: transparent; font-size: 14px; font-weight: 600; outline: none; color: #0c0a09; }
+    .search-input::placeholder { color: #737373; font-weight: 400; }
+    .btn-clear-search { background: #f5f5f4; border: none; width: 22px; height: 22px; border-radius: 50%; color: #737373; font-size: 11px; font-weight: bold; cursor: pointer; display: none; align-items: center; justify-content: center; }
+    
+    /* Píldoras de Secciones con scroll horizontal suave */
+    .category-pills-bar { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; -ms-overflow-style: none; -webkit-overflow-scrolling: touch; }
+    .category-pills-bar::-webkit-scrollbar { display: none; }
+    
+    .cat-pill { background: #0c0a09; color: #f5f5f4; border: 1px solid rgba(212, 175, 55, 0.35); padding: 7px 14px; border-radius: 9999px; font-size: 11px; font-weight: 700; cursor: pointer; white-space: nowrap; transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+    .cat-pill:hover { border-color: #facc15; color: #ffffff; transform: translateY(-1px); }
+    .cat-pill.active { background: linear-gradient(135deg, #facc15 0%, #ca8a04 100%); color: #0c0a09; border-color: #fde047; font-weight: 800; box-shadow: 0 3px 12px rgba(212, 175, 55, 0.4); }
+    .cat-pill .pill-count { background: rgba(0,0,0,0.18); font-size: 9px; padding: 2px 6px; border-radius: 9999px; font-family: monospace; }
+    .cat-pill:not(.active) .pill-count { background: rgba(255,255,255,0.15); color: #facc15; }
+    
+    /* Indicador de Estado / Modo de Vista */
+    .view-status-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; padding: 0 4px; }
+    .view-status-text { font-size: 12px; font-weight: 700; color: #171717; display: flex; align-items: center; gap: 6px; }
+    .view-status-count { background: #0c0a09; color: #facc15; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 9999px; font-family: monospace; border: 1px solid #d4af37; }
+    
+    /* 6. Encabezados de Sección (Organización Estructurada) */
+    .section-header-banner { background: #0c0a09; color: #ffffff; border-radius: 14px; padding: 12px 16px; margin: 24px 0 14px 0; display: flex; justify-content: space-between; align-items: center; border-left: 4px solid #d4af37; border-top: 1px solid rgba(212, 175, 55, 0.3); border-right: 1px solid rgba(212, 175, 55, 0.3); border-bottom: 1px solid rgba(212, 175, 55, 0.3); box-shadow: 0 4px 14px rgba(0,0,0,0.08); }
+    .section-header-banner:first-of-type { margin-top: 0; }
+    .section-title-wrap { display: flex; align-items: center; gap: 10px; }
+    .section-icon { font-size: 20px; }
+    .section-title { font-size: 15px; font-weight: 800; color: #ffffff; }
+    .section-badge-cnt { background: rgba(250, 204, 21, 0.18); color: #facc15; font-size: 10px; font-weight: 800; padding: 2px 7px; border-radius: 9999px; font-family: monospace; border: 1px solid rgba(250, 204, 21, 0.4); }
+    .btn-sec-filter { background: rgba(255,255,255,0.08); color: #facc15; border: 1px solid rgba(212, 175, 55, 0.3); padding: 5px 10px; border-radius: 8px; font-size: 10px; font-weight: 700; cursor: pointer; transition: 0.2s; }
+    .btn-sec-filter:hover { background: #facc15; color: #0c0a09; }
+    
+    /* 7. Cuadrícula de Productos */
+    .products-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 24px; }
+    
+    .card { background: #ffffff; border-radius: 16px; overflow: hidden; border: 1px solid #e5e5e5; box-shadow: 0 2px 8px rgba(0,0,0,0.04); display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; position: relative; }
+    .card:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(212, 175, 55, 0.16); border-color: #d4af37; }
+    
+    /* Slider de Imagen */
     .card-img-wrap { position: relative; width: 100%; aspect-ratio: 1/1; background: #f5f5f4; overflow: hidden; }
     .card-img { width: 100%; height: 100%; object-fit: cover; object-position: center; transition: opacity 0.25s ease; cursor: pointer; display: block; font-size: 0; color: transparent; }
-    .card-badge { position: absolute; top: 8px; left: 8px; background: rgba(12, 10, 9, 0.85); color: #fde047; font-family: monospace; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 9999px; backdrop-filter: blur(4px); z-index: 2; pointer-events: none; }
+    .card-badge { position: absolute; top: 8px; left: 8px; background: #0c0a09; color: #facc15; font-family: monospace; font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 9999px; border: 1px solid #d4af37; z-index: 2; pointer-events: none; }
     
-    /* Controles de Slider */
-    .slider-toggle-bar { position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); background: rgba(0, 0, 0, 0.7); padding: 3px 8px; border-radius: 9999px; display: flex; align-items: center; gap: 4px; z-index: 2; backdrop-filter: blur(4px); }
-    .slider-dot-btn { background: none; border: none; color: #d6d3d1; font-size: 9px; font-weight: 700; cursor: pointer; padding: 2px 6px; border-radius: 6px; transition: 0.2s; }
-    .slider-dot-btn.active { color: #1c1917; background: #fff; }
+    .card-multi-badge { position: absolute; top: 8px; right: 8px; background: rgba(12, 10, 9, 0.88); color: #facc15; font-size: 9px; font-weight: 800; padding: 3px 7px; border-radius: 9999px; border: 1px solid rgba(212, 175, 55, 0.4); backdrop-filter: blur(4px); z-index: 2; }
+    
+    .slider-toggle-bar { position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); background: rgba(12, 10, 9, 0.85); padding: 3px 8px; border-radius: 9999px; display: flex; align-items: center; gap: 4px; z-index: 2; backdrop-filter: blur(4px); border: 1px solid rgba(212, 175, 55, 0.3); }
+    .slider-dot-btn { background: none; border: none; color: #d4d4d4; font-size: 9px; font-weight: 700; cursor: pointer; padding: 2px 6px; border-radius: 6px; transition: 0.2s; }
+    .slider-dot-btn.active { color: #0c0a09; background: #facc15; font-weight: 800; }
     
     .card-body { padding: 10px 12px; display: flex; flex-direction: column; justify-content: space-between; flex-grow: 1; }
-    .card-title { font-size: 13px; font-weight: 700; color: #1c1917; margin: 2px 0 6px 0; line-height: 1.25; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .card-title { font-size: 13px; font-weight: 700; color: #0c0a09; margin: 2px 0 6px 0; line-height: 1.25; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     
-    .card-badges { display: flex; flex-wrap: wrap; gap: 3px; margin-bottom: 6px; }
-    .color-chip { font-size: 9px; background: #f5f5f4; color: #57534e; padding: 2px 6px; border-radius: 6px; font-weight: 600; }
-    .size-chip { font-size: 9px; background: #e0f2fe; color: #0369a1; padding: 2px 6px; border-radius: 6px; font-weight: 700; }
+    .card-badges { display: flex; flex-wrap: wrap; gap: 3px; margin-bottom: 8px; }
+    .color-chip { font-size: 9px; background: #f5f5f4; color: #525252; padding: 2px 6px; border-radius: 6px; font-weight: 600; border: 1px solid #e5e5e5; }
+    .size-chip { font-size: 9px; background: #0c0a09; color: #facc15; padding: 2px 6px; border-radius: 6px; font-weight: 700; border: 1px solid rgba(212, 175, 55, 0.35); }
     
     .card-footer { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #f5f5f4; padding-top: 8px; margin-top: auto; }
-    .card-price-label { font-size: 9px; text-transform: uppercase; color: #a8a29e; font-weight: 600; display: block; }
-    .card-price { font-size: 15px; font-weight: 800; font-family: monospace; color: #1c1917; }
-    .btn-order-card { background: #1c1917; color: #fff; border: none; padding: 7px 14px; border-radius: 10px; font-size: 11px; font-weight: 700; cursor: pointer; transition: 0.2s; }
-    .btn-order-card:hover { background: #292524; }
+    .card-price-label { font-size: 9px; text-transform: uppercase; color: #737373; font-weight: 700; display: block; }
+    .card-price { font-size: 15px; font-weight: 900; font-family: monospace; color: #0c0a09; }
+    .btn-order-card { background: #0c0a09; color: #facc15; border: 1px solid #d4af37; padding: 7px 14px; border-radius: 10px; font-size: 11px; font-weight: 800; cursor: pointer; transition: all 0.2s; }
+    .btn-order-card:hover { background: #facc15; color: #0c0a09; transform: translateY(-1px); }
     
-    /* Barra Móvil Flotante Inferior */
-    .mobile-cart-bar { position: fixed; bottom: 0; left: 0; right: 0; z-index: 45; background: rgba(255, 255, 255, 0.98); border-top: 1px solid #e7e5e4; padding: 10px 16px; box-shadow: 0 -4px 16px rgba(0,0,0,0.08); display: none; justify-content: space-between; align-items: center; }
+    /* 8. Barra Móvil Flotante Inferior */
+    .mobile-cart-bar { position: fixed; bottom: 0; left: 0; right: 0; z-index: 45; background: #0c0a09; border-top: 2px solid #d4af37; padding: 10px 16px; box-shadow: 0 -6px 20px rgba(0,0,0,0.3); display: none; justify-content: space-between; align-items: center; }
     .mobile-cart-total { display: flex; align-items: center; gap: 8px; }
-    .mobile-cart-btn { background: #059669; color: #fff; border: none; padding: 10px 18px; border-radius: 12px; font-size: 12px; font-weight: 800; cursor: pointer; }
+    .mobile-cart-label { font-size: 11px; color: #a3a3a3; font-weight: 600; }
+    .mobile-cart-sum { font-size: 17px; font-weight: 900; font-family: monospace; color: #facc15; }
+    .mobile-cart-btn { background: linear-gradient(135deg, #facc15 0%, #eab308 100%); color: #0c0a09; border: none; padding: 10px 20px; border-radius: 12px; font-size: 12px; font-weight: 900; cursor: pointer; }
     
-    /* Modales */
-    .modal-overlay { position: fixed; inset: 0; z-index: 60; background: rgba(0,0,0,0.65); backdrop-filter: blur(4px); display: flex; align-items: flex-end; justify-content: center; }
-    .modal-content { background: #fff; width: 100%; max-width: 520px; border-radius: 24px 24px 0 0; max-height: 85vh; overflow-y: auto; padding: 20px; box-shadow: 0 -10px 30px rgba(0,0,0,0.2); animation: slideUp 0.25s ease-out; }
+    /* 9. Modales */
+    .modal-overlay { position: fixed; inset: 0; z-index: 60; background: rgba(0,0,0,0.75); backdrop-filter: blur(4px); display: flex; align-items: flex-end; justify-content: center; }
+    .modal-content { background: #ffffff; width: 100%; max-width: 520px; border-radius: 24px 24px 0 0; max-height: 88vh; overflow-y: auto; padding: 20px; box-shadow: 0 -10px 30px rgba(0,0,0,0.3); animation: slideUp 0.25s ease-out; border-top: 2px solid #d4af37; }
     .modal-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f5f5f4; padding-bottom: 12px; margin-bottom: 16px; }
-    .modal-title { font-size: 16px; font-weight: 800; color: #1c1917; }
-    .btn-close { width: 32px; height: 32px; border-radius: 50%; background: #f5f5f4; border: none; font-size: 14px; font-weight: bold; cursor: pointer; }
+    .modal-title { font-size: 16px; font-weight: 800; color: #0c0a09; }
+    .btn-close { width: 32px; height: 32px; border-radius: 50%; background: #f5f5f4; border: none; font-size: 14px; font-weight: bold; cursor: pointer; color: #0c0a09; }
     
-    .cat-btn { padding: 6px 12px; border-radius: 10px; border: none; font-size: 11px; font-weight: 700; white-space: nowrap; cursor: pointer; background: #f5f5f4; color: #44403c; transition: 0.2s; }
-    .cat-btn.active { background: #1c1917; color: #fff; }
+    .cat-btn { padding: 7px 14px; border-radius: 10px; border: 1px solid #e5e5e5; font-size: 11px; font-weight: 700; white-space: nowrap; cursor: pointer; background: #f5f5f4; color: #262626; transition: 0.2s; }
+    .cat-btn.active { background: #0c0a09; color: #facc15; border-color: #d4af37; }
     
-    .btn-primary { width: 100%; background: #1c1917; color: #fff; border: none; padding: 12px; border-radius: 14px; font-size: 13px; font-weight: 800; cursor: pointer; transition: 0.2s; }
-    .btn-primary:hover { background: #292524; }
-    .btn-whatsapp { width: 100%; background: #059669; color: #fff; border: none; padding: 14px; border-radius: 14px; font-size: 13px; font-weight: 800; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: 0.2s; }
-    .btn-whatsapp:hover { background: #047857; }
+    .btn-primary { width: 100%; background: #0c0a09; color: #facc15; border: 1px solid #d4af37; padding: 12px; border-radius: 14px; font-size: 13px; font-weight: 800; cursor: pointer; transition: 0.2s; }
+    .btn-primary:hover { background: #facc15; color: #0c0a09; }
     
-    /* Notificación Toast */
-    .toast { position: fixed; top: 20px; right: 20px; z-index: 100; background: #1c1917; color: #fff; padding: 12px 20px; border-radius: 12px; font-size: 13px; font-weight: 700; box-shadow: 0 10px 25px rgba(0,0,0,0.2); transform: translateY(-50px); opacity: 0; transition: all 0.3s ease; }
+    .btn-whatsapp { width: 100%; background: linear-gradient(135deg, #10b981 0%, #059669 100%); color: #ffffff; border: 1px solid #059669; padding: 14px; border-radius: 14px; font-size: 13px; font-weight: 900; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: 0.2s; box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3); }
+    .btn-whatsapp:hover { filter: brightness(1.08); }
+    
+    /* 10. Notificación Toast */
+    .toast { position: fixed; top: 20px; right: 20px; z-index: 100; background: #0c0a09; color: #facc15; border: 1px solid #d4af37; padding: 12px 20px; border-radius: 12px; font-size: 13px; font-weight: 800; box-shadow: 0 10px 25px rgba(0,0,0,0.3); transform: translateY(-60px); opacity: 0; transition: all 0.3s ease; }
     .toast.show { transform: translateY(0); opacity: 1; }
     
     @media (min-width: 768px) {
-      .hero { padding: 36px; border-radius: 24px; }
+      .hero { padding: 36px 32px; border-radius: 24px; }
       .hero h2 { font-size: 36px; }
       .hero p { font-size: 15px; }
       .products-grid { grid-template-columns: repeat(4, 1fr); gap: 18px; }
       .card-title { font-size: 14px; }
       .card-price { font-size: 16px; }
       .modal-overlay { align-items: center; }
-      .modal-content { border-radius: 24px; }
+      .modal-content { border-radius: 24px; border: 2px solid #d4af37; }
       .mobile-cart-bar { display: none !important; }
     }
     
@@ -134,7 +176,7 @@
 
   <!-- BARRA SUPERIOR DE ANUNCIO PARA CLIENTES -->
   <header class="top-announcement">
-    <span>✨ Envíos a todo el país • Pago Contraentrega</span>
+    <span>✨ Envíos a todo el país • Pago Contraentrega ✨</span>
     <span>Pedidos directos a WhatsApp 📲</span>
   </header>
 
@@ -142,7 +184,7 @@
   <nav class="navbar">
     <div class="container nav-content">
       <div class="brand" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
-        <img src="logo.jpg" alt="crewstore.co logo" style="width: 44px; height: 44px; border-radius: 50%; object-fit: cover; border: 2px solid #1c1917; box-shadow: 0 2px 8px rgba(0,0,0,0.18);">
+        <img src="logo.jpg" alt="crewstore.co logo" class="brand-logo-img">
         <div>
           <div class="brand-title" id="brandTitle">crewstore.co</div>
           <div class="brand-sub">Catálogo Oficial 2026</div>
@@ -163,53 +205,101 @@
     
     <!-- HERO BANNER -->
     <section class="hero">
-      <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 12px; flex-wrap: wrap;">
-        <img src="logo.jpg" alt="crewstore.co" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2.5px solid #fde047; box-shadow: 0 4px 14px rgba(0,0,0,0.4);">
+      <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 12px; flex-wrap: wrap;">
+        <img src="logo.jpg" alt="crewstore.co" style="width: 64px; height: 64px; border-radius: 50%; object-fit: cover; border: 2.5px solid #d4af37; box-shadow: 0 0 16px rgba(212, 175, 55, 0.4);">
         <div>
-          <span class="hero-tag" style="margin-bottom: 4px;">Catálogo Oficial 2026 • crewstore.co</span>
-          <h2 id="heroTitle" style="margin-bottom: 0;">crewstore.co</h2>
+          <span class="hero-tag">Catálogo Oficial 2026 • crewstore.co</span>
+          <h2 id="heroTitle">crewstore.co</h2>
         </div>
       </div>
-      <p>Todas las prendas disponibles. Haz clic o desliza en las prendas que tienen foto sola para ver los detalles. Puedes buscar fácilmente cualquier prenda por su número.</p>
+      <p>Explora nuestras colecciones organizadas por secciones: Camisetas de fútbol retro y actual, colección especial Atlético Bucaramanga, buzos cortavientos, bermudas y moda deportiva. Pide fácil y seguro a través de WhatsApp.</p>
       <div class="hero-features">
-        <span><span class="dot" style="background:#10b981;"></span> <strong id="heroTotalCount">431</strong> Prendas Disponibles</span>
-        <span><span class="dot" style="background:#f59e0b;"></span> Despacho sujeto a disponibilidad del producto, color y talla</span>
-        <span><span class="dot" style="background:#3b82f6;"></span> WhatsApp: <strong id="heroWhatsAppText">317 012 8692</strong></span>
+        <span class="hero-badge"><strong id="heroTotalCount" style="color: #facc15;">431</strong> Prendas en Catálogo</span>
+        <span class="hero-badge">🚚 Despacho a todo el país</span>
+        <span class="hero-badge">📲 WhatsApp: <strong id="heroWhatsAppText" style="color: #facc15;">317 012 8692</strong></span>
       </div>
     </section>
 
-    <!-- BANNER DE CESTAS / COMBOS PROMOCIONALES (ADMINISTRABLE DESDE EL PANEL) -->
-    <section id="promoBasketsSection" style="max-width: 900px; margin: 0 auto 18px auto; background: linear-gradient(135deg, #1c1917 0%, #292524 100%); color: #fff; border-radius: 18px; padding: 14px 18px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);">
+    <!-- BANNER DE CESTAS / COMBOS PROMOCIONALES -->
+    <section id="promoBasketsSection" class="promo-basket">
       <div style="display: flex; align-items: center; gap: 12px;">
         <div style="font-size: 26px;">🎁</div>
         <div>
-          <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: #fde047; font-weight: 800;" id="promoBasketTag">ESTRATEGIA DE AHORRO EN DOMICILIO</div>
-          <div style="font-size: 14px; font-weight: 800; color: #fff;" id="promoBasketTitle">¡Arma tu Cesta de 2 o 3 Prendas y paga 1 solo domicilio!</div>
-          <div style="font-size: 11px; color: #d6d3d1;" id="promoBasketSub">Combina tus colores y referencias favoritas en un mismo pedido de WhatsApp.</div>
+          <div class="promo-tag" id="promoBasketTag">ESTRATEGIA DE AHORRO EN DOMICILIO</div>
+          <div class="promo-title" id="promoBasketTitle">¡Arma tu Cesta de 2 o 3 Prendas y paga 1 solo domicilio!</div>
+          <div class="promo-sub" id="promoBasketSub">Combina tus referencias y colores favoritos en un mismo pedido de WhatsApp.</div>
         </div>
       </div>
-      <button onclick="openCartDrawer()" style="background: #fde047; color: #1c1917; border: none; padding: 8px 14px; border-radius: 9999px; font-size: 11px; font-weight: 800; cursor: pointer; white-space: nowrap;">
+      <button onclick="openCartDrawer()" class="btn-promo">
         Ver mi Cesta 🛍️
       </button>
     </section>
 
-    <!-- BUSCADOR SIMPLIFICADO POR NÚMERO DE PRENDA -->
-    <section class="search-bar-wrap">
-      <span class="search-icon">🔍</span>
-      <input type="text" id="searchInput" class="search-input" placeholder="Buscar por número de prenda (ej. 1, 10, 25 o 005)..." oninput="handleNumberSearch(this.value)">
-      <span class="search-hint">Prenda #</span>
-    </section>
+    <!-- BARRA PEGAJOSA: BUSCADOR + SECCIONES -->
+    <div class="sticky-controls">
+      <!-- BUSCADOR POR NÚMERO O PALABRA CLAVE -->
+      <div class="search-bar-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" class="search-input" placeholder="Buscar por número (ej: 1, 25, 120) o nombre (Bucaramanga, Madrid, Jordan...)" oninput="handleSearchInput(this.value)">
+        <button class="btn-clear-search" id="btnClearSearch" onclick="clearSearch()" title="Borrar búsqueda">✕</button>
+      </div>
 
-    <!-- CUADRÍCULA DE PRENDAS -->
-    <section class="products-grid" id="productsGrid"></section>
+      <!-- PÍLDORAS DE CATEGORÍAS ORGANIZADAS -->
+      <div class="category-pills-bar" id="categoryPillsBar">
+        <button class="cat-pill active" data-cat="all" onclick="filterBySection('all')">
+          <span>✨ Todas</span>
+          <span class="pill-count" id="pillCountAll">431</span>
+        </button>
+        <button class="cat-pill" data-cat="Fútbol & Retro" onclick="filterBySection('Fútbol & Retro')">
+          <span>⚽ Fútbol & Retro</span>
+          <span class="pill-count" id="pillCountFutbol">164</span>
+        </button>
+        <button class="cat-pill" data-cat="Atlético Bucaramanga" onclick="filterBySection('Atlético Bucaramanga')">
+          <span>🐆 Bucaramanga</span>
+          <span class="pill-count" id="pillCountBuc">71</span>
+        </button>
+        <button class="cat-pill" data-cat="Camisetas Básicas & Deportivas" onclick="filterBySection('Camisetas Básicas & Deportivas')">
+          <span>⚡ Básicas & Gym</span>
+          <span class="pill-count" id="pillCountBasicas">50</span>
+        </button>
+        <button class="cat-pill" data-cat="Bermudas & Shorts" onclick="filterBySection('Bermudas & Shorts')">
+          <span>🩳 Bermudas & Shorts</span>
+          <span class="pill-count" id="pillCountShorts">49</span>
+        </button>
+        <button class="cat-pill" data-cat="Polos Deportivas" onclick="filterBySection('Polos Deportivas')">
+          <span>👕 Polos</span>
+          <span class="pill-count" id="pillCountPolos">40</span>
+        </button>
+        <button class="cat-pill" data-cat="Buzos & Chaquetas" onclick="filterBySection('Buzos & Chaquetas')">
+          <span>🧥 Buzos & Chaquetas</span>
+          <span class="pill-count" id="pillCountBuzos">30</span>
+        </button>
+        <button class="cat-pill" data-cat="Conjuntos & Streetwear" onclick="filterBySection('Conjuntos & Streetwear')">
+          <span>🔥 Conjuntos & Urbano</span>
+          <span class="pill-count" id="pillCountConjuntos">27</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- BARRA DE ESTADO / FILTRO ACTIVO -->
+    <div class="view-status-bar">
+      <div class="view-status-text" id="viewStatusLabel">
+        <span>Organización:</span>
+        <strong id="activeCategoryTitle">Todas las Secciones</strong>
+      </div>
+      <div class="view-status-count" id="activeCategoryCount">431 Prendas</div>
+    </div>
+
+    <!-- CONTENEDOR DE SECCIONES Y PRODUCTOS -->
+    <div id="sectionsContainer"></div>
 
   </main>
 
   <!-- BARRA MÓVIL FLOTANTE DE PEDIDO -->
   <div class="mobile-cart-bar" id="mobileCartBar">
     <div class="mobile-cart-total">
-      <div style="font-size: 11px; color: #78716c;">Total (<span id="mobileCartCount">0</span>):</div>
-      <div style="font-size: 16px; font-weight: 800; font-family: monospace; color: #1c1917;" id="mobileCartTotal">$0</div>
+      <span class="mobile-cart-label">Total (<span id="mobileCartCount">0</span>):</span>
+      <span class="mobile-cart-sum" id="mobileCartTotal">$0</span>
     </div>
     <button class="mobile-cart-btn" onclick="openCartDrawer()">
       Ver Pedido 🛍️
@@ -224,45 +314,41 @@
         <button class="btn-close" onclick="closeAddToCartModal()">✕</button>
       </div>
 
-      <!-- VISTA DE FOTO CON MODELO PRIMERO Y PRENDA SOLA -->
       <div style="display: flex; gap: 14px; margin-bottom: 16px; align-items: center;">
-        <div style="position: relative; width: 90px; height: 90px; border-radius: 12px; overflow: hidden; border: 1px solid #e7e5e4;">
+        <div style="position: relative; width: 90px; height: 90px; border-radius: 12px; overflow: hidden; border: 1px solid #d4af37;">
           <img id="modalProdImg" src="" style="width: 100%; height: 100%; object-fit: cover;">
           <div id="modalSliderBar" style="position: absolute; bottom: 4px; left: 0; right: 0; display: flex; justify-content: center; gap: 4px;"></div>
         </div>
         <div>
-          <span style="background: #1c1917; color: #fde047; font-family: monospace; font-size: 11px; font-weight: 800; padding: 2px 6px; border-radius: 9999px;" id="modalProdCode">REF-001</span>
-          <h4 style="font-size: 14px; font-weight: 800; color: #1c1917; margin: 4px 0 2px 0;" id="modalProdName">Prenda</h4>
-          <div style="font-size: 16px; font-weight: 800; color: #1c1917; font-family: monospace;">
+          <span style="background: #0c0a09; color: #facc15; font-family: monospace; font-size: 11px; font-weight: 800; padding: 2px 7px; border-radius: 9999px; border: 1px solid #d4af37;" id="modalProdCode">REF-001</span>
+          <h4 style="font-size: 14px; font-weight: 800; color: #0c0a09; margin: 4px 0 2px 0;" id="modalProdName">Prenda</h4>
+          <div style="font-size: 16px; font-weight: 900; color: #0c0a09; font-family: monospace;">
             $<span id="modalProdPrice">0</span> COP
           </div>
         </div>
       </div>
 
-      <!-- SELECCIÓN DE COLOR (CONFIGURADO POR EL ADMIN) -->
       <div style="margin-bottom: 14px;" id="modalColorsSection">
-        <label style="font-size: 11px; font-weight: 700; color: #44403c; display: block; margin-bottom: 6px;">Color Disponible:</label>
-        <div style="display: flex; flex-wrap: wrap; gap: 6px;" id="modalColorsContainer"></div>
+        <label style="font-size: 11px; font-weight: 800; color: #0c0a09; display: block; margin-bottom: 6px;">Color Disponible:</label>
+        <div style="display: flex; gap: 6px; flex-wrap: wrap;" id="modalColorsContainer"></div>
       </div>
 
-      <!-- SELECCIÓN DE TALLA (CONFIGURADO POR EL ADMIN) -->
-      <div style="margin-bottom: 14px;">
-        <label style="font-size: 11px; font-weight: 700; color: #44403c; display: block; margin-bottom: 6px;">Talla Disponible:</label>
-        <div style="display: flex; flex-wrap: wrap; gap: 6px;" id="modalSizesContainer"></div>
+      <div style="margin-bottom: 16px;" id="modalSizesSection">
+        <label style="font-size: 11px; font-weight: 800; color: #0c0a09; display: block; margin-bottom: 6px;">Talla:</label>
+        <div style="display: flex; gap: 6px; flex-wrap: wrap;" id="modalSizesContainer"></div>
       </div>
 
-      <!-- CANTIDAD -->
-      <div style="margin-bottom: 20px;">
-        <label style="font-size: 11px; font-weight: 700; color: #44403c; display: block; margin-bottom: 6px;">Cantidad:</label>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; background: #f5f5f4; padding: 10px 14px; border-radius: 12px;">
+        <span style="font-size: 12px; font-weight: 700; color: #0c0a09;">Cantidad:</span>
         <div style="display: flex; align-items: center; gap: 12px;">
-          <button onclick="changeModalQty(-1)" style="width: 36px; height: 36px; border-radius: 10px; border: 1px solid #d6d3d1; background: #fff; font-size: 18px; font-weight: bold; cursor: pointer;">-</button>
-          <span style="font-size: 16px; font-weight: 800; font-family: monospace; min-width: 24px; text-align: center;" id="modalQtyDisplay">1</span>
-          <button onclick="changeModalQty(1)" style="width: 36px; height: 36px; border-radius: 10px; border: 1px solid #d6d3d1; background: #fff; font-size: 18px; font-weight: bold; cursor: pointer;">+</button>
+          <button onclick="changeModalQty(-1)" style="width: 28px; height: 28px; border-radius: 8px; border: 1px solid #d4d4d4; background: #fff; font-weight: bold; cursor: pointer;">-</button>
+          <span id="modalQtyDisplay" style="font-size: 14px; font-weight: 800; font-family: monospace;">1</span>
+          <button onclick="changeModalQty(1)" style="width: 28px; height: 28px; border-radius: 8px; border: 1px solid #d4d4d4; background: #fff; font-weight: bold; cursor: pointer;">+</button>
         </div>
       </div>
 
       <button class="btn-primary" onclick="confirmAddToCart()">
-        Añadir al Carrito
+        ✅ Agregar al Pedido
       </button>
     </div>
   </div>
@@ -279,25 +365,25 @@
       <div id="cartItemsList" style="max-height: 220px; overflow-y: auto; margin-bottom: 14px;"></div>
 
       <!-- TOTAL -->
-      <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px; background: #fafaf9; border-radius: 12px; margin-bottom: 14px; border: 1px solid #e7e5e4;">
-        <span style="font-size: 12px; font-weight: 700; color: #44403c;">Total a Pagar:</span>
-        <span style="font-size: 18px; font-weight: 800; font-family: monospace; color: #1c1917;" id="cartTotalDisplay">$0 COP</span>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 16px; background: #0c0a09; border-radius: 14px; margin-bottom: 14px; border: 1px solid #d4af37;">
+        <span style="font-size: 12px; font-weight: 700; color: #ffffff;">Total a Pagar:</span>
+        <span style="font-size: 18px; font-weight: 900; font-family: monospace; color: #facc15;" id="cartTotalDisplay">$0 COP</span>
       </div>
 
       <!-- SOLICITUD DE DATOS SOLO AL ENVIAR EL PEDIDO -->
-      <div style="background: #fff; border: 1px solid #e7e5e4; border-radius: 14px; padding: 14px; margin-bottom: 14px;" id="checkoutFormSection">
-        <h4 style="font-size: 12px; font-weight: 800; text-transform: uppercase; color: #1c1917; margin-bottom: 4px;">
+      <div style="background: #ffffff; border: 1px solid #e5e5e5; border-radius: 14px; padding: 14px; margin-bottom: 14px;" id="checkoutFormSection">
+        <h4 style="font-size: 12px; font-weight: 800; text-transform: uppercase; color: #0c0a09; margin-bottom: 4px;">
           📍 Datos para tu Entrega (Pago Contraentrega / Envío):
         </h4>
-        <p style="font-size: 11px; color: #78716c; margin-bottom: 10px;">
-          🛵 Domicilios en Bucaramanga y Área Metropolitana (desde $5.000 según tu barrio) y envíos nacionales. Ingresa tu barrio y dirección para cotizar tu envío por WhatsApp:
+        <p style="font-size: 11px; color: #737373; margin-bottom: 10px;">
+          🛵 Domicilios en Bucaramanga y Área Metropolitana y envíos a todo el país. Ingresa tu barrio y dirección para confirmar tu pedido por WhatsApp:
         </p>
 
         <div style="margin-bottom: 8px;">
-          <input type="text" id="custName" placeholder="Nombre y Apellido *" style="width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid #d6d3d1; font-size: 12px; outline: none;">
+          <input type="text" id="custName" placeholder="Nombre y Apellido *" style="width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid #d4d4d4; font-size: 12px; outline: none;">
         </div>
         <div>
-          <input type="text" id="custAddress" placeholder="Dirección de Entrega y Barrio / Ciudad *" style="width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid #d6d3d1; font-size: 12px; outline: none;">
+          <input type="text" id="custAddress" placeholder="Dirección de Entrega y Barrio / Ciudad *" style="width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid #d4d4d4; font-size: 12px; outline: none;">
         </div>
       </div>
 
@@ -308,13 +394,13 @@
   </div>
 
   <!-- PIE DE PÁGINA -->
-  <footer style="background: #1c1917; color: #a8a29e; font-size: 11px; text-align: center; padding: 24px 16px; margin-top: auto; border-top: 1px solid #292524;">
-    <div style="display: flex; justify-content: center; margin-bottom: 10px;">
-      <img src="logo.jpg" alt="crewstore.co" style="width: 52px; height: 52px; border-radius: 50%; object-fit: cover; border: 2px solid #fde047; box-shadow: 0 2px 10px rgba(0,0,0,0.5);">
+  <footer style="background: #0c0a09; color: #a3a3a3; font-size: 11px; text-align: center; padding: 28px 16px; margin-top: auto; border-top: 2px solid #d4af37;">
+    <div style="display: flex; justify-content: center; margin-bottom: 12px;">
+      <img src="logo.jpg" alt="crewstore.co" style="width: 54px; height: 54px; border-radius: 50%; object-fit: cover; border: 2px solid #d4af37; box-shadow: 0 0 14px rgba(212, 175, 55, 0.4);">
     </div>
-    <div style="font-weight: 800; color: #fff; font-size: 14px; margin-bottom: 4px;" id="footerStoreName">crewstore.co</div>
+    <div style="font-weight: 900; color: #ffffff; font-size: 15px; margin-bottom: 4px;" id="footerStoreName">crewstore.co</div>
     <div>Catálogo Oficial Digital • Despacho sujeto a disponibilidad del producto, color y talla</div>
-    <div style="margin-top: 4px; font-size: 10px; color: #78716c;">© 2026 Todos los derechos reservados.</div>
+    <div style="margin-top: 6px; font-size: 10px; color: #737373;">© 2026 Todos los derechos reservados.</div>
   </footer>
 
   <script>
@@ -731,7 +817,7 @@
     "id": 16,
     "code": "REF-016",
     "name": "Conjunto Deportivo Bayern Múnich Blanco y Negro 016",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 60000,
     "marginPercent": 25,
     "salePrice": 75000,
@@ -758,7 +844,7 @@
     "id": 17,
     "code": "REF-017",
     "name": "Conjunto Deportivo FC Barcelona Spotify Azul 017",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 60000,
     "marginPercent": 25,
     "salePrice": 75000,
@@ -838,7 +924,7 @@
     "id": 20,
     "code": "REF-020",
     "name": "Buzo Retro Atlético Nacional Negro 020",
-    "category": "Fútbol Colombiano",
+    "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
     "salePrice": 105000,
@@ -865,7 +951,7 @@
     "id": 21,
     "code": "REF-021",
     "name": "Buzo Importado América de Cali 021",
-    "category": "Fútbol Colombiano",
+    "category": "Buzos & Chaquetas",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -918,7 +1004,7 @@
     "id": 23,
     "code": "REF-023",
     "name": "Buzo Selección Colombia 023",
-    "category": "Selecciones",
+    "category": "Buzos & Chaquetas",
     "supplierPrice": 95000,
     "marginPercent": 16,
     "salePrice": 110000,
@@ -2324,7 +2410,7 @@
     "id": 76,
     "code": "REF-076",
     "name": "Chaqueta Cortavientos Atlético Bucaramanga Lotto 076",
-    "category": "Buzos & Chaquetas",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 95000,
     "marginPercent": 16,
     "salePrice": 110000,
@@ -2732,7 +2818,7 @@
     "id": 91,
     "code": "REF-091",
     "name": "Pantaloneta Deportiva Adidas Clásica (Por Unidad) 091",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -2759,7 +2845,7 @@
     "id": 92,
     "code": "REF-092",
     "name": "Pantaloneta Deportiva Franja Tricolor (Por Unidad) 092",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -2785,7 +2871,7 @@
     "id": 93,
     "code": "REF-093",
     "name": "Pantaloneta Deportiva Nike Básica (Por Unidad) 093",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -2812,7 +2898,7 @@
     "id": 94,
     "code": "REF-094",
     "name": "Pantaloneta Deportiva Adidas Neutra (Por Unidad) 094",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -2839,7 +2925,7 @@
     "id": 95,
     "code": "REF-095",
     "name": "Conjunto NBA Utah Jazz Blanco 095",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -2872,7 +2958,7 @@
     "id": 96,
     "code": "REF-096",
     "name": "Conjunto NBA Los Angeles Lakers Morado 096",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -2904,7 +2990,7 @@
     "id": 97,
     "code": "REF-097",
     "name": "Conjunto NBA Golden State Warriors Negro 097",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -2937,7 +3023,7 @@
     "id": 98,
     "code": "REF-098",
     "name": "Conjunto NBA Miami Heat Rojo 098",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -2970,7 +3056,7 @@
     "id": 99,
     "code": "REF-099",
     "name": "Conjunto NBA Los Angeles Lakers Negro 099",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -3002,7 +3088,7 @@
     "id": 100,
     "code": "REF-100",
     "name": "Conjunto NBA Boston Celtics Negro y Verde 100",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -3034,7 +3120,7 @@
     "id": 101,
     "code": "REF-101",
     "name": "Conjunto NBA Boston Celtics Verde Clásico 101",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -3066,7 +3152,7 @@
     "id": 102,
     "code": "REF-102",
     "name": "Conjunto NBA Los Angeles Lakers Blanco 102",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -3099,7 +3185,7 @@
     "id": 103,
     "code": "REF-103",
     "name": "Conjunto Infantil NBA Lakers Amarillo 103",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -3126,7 +3212,7 @@
     "id": 104,
     "code": "REF-104",
     "name": "Conjunto Infantil NBA Chicago Bulls Blanco 104",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -3153,7 +3239,7 @@
     "id": 105,
     "code": "REF-105",
     "name": "Conjunto Infantil NBA Lakers Morado 105",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -3179,7 +3265,7 @@
     "id": 106,
     "code": "REF-106",
     "name": "Conjunto Infantil NBA Chicago Bulls Rojo 106",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -3205,7 +3291,7 @@
     "id": 107,
     "code": "REF-107",
     "name": "Conjunto Infantil NBA Lakers Negro 107",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -3231,7 +3317,7 @@
     "id": 108,
     "code": "REF-108",
     "name": "Conjunto Infantil NBA Chicago Bulls Negro 108",
-    "category": "Conjuntos Deportivos",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -3257,7 +3343,7 @@
     "id": 109,
     "code": "REF-109",
     "name": "Pantalonetas Deportivas Adidas Bicolor 109",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -3283,7 +3369,7 @@
     "id": 110,
     "code": "REF-110",
     "name": "Pantalonetas Deportivas Tres Líneas 110",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -3310,7 +3396,7 @@
     "id": 111,
     "code": "REF-111",
     "name": "Pantalonetas Deportivas Adidas Tricolor 111",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -3336,7 +3422,7 @@
     "id": 112,
     "code": "REF-112",
     "name": "Pantalonetas Deportivas Tres Chulos 112",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -3362,7 +3448,7 @@
     "id": 113,
     "code": "REF-113",
     "name": "Pantalonetas Deportivas Nike Tonos Fríos 113",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -3388,7 +3474,7 @@
     "id": 114,
     "code": "REF-114",
     "name": "Pantalonetas Deportivas Nike Clásicas 114",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -3415,7 +3501,7 @@
     "id": 115,
     "code": "REF-115",
     "name": "Pantalonetas Deportivas Nike Combinadas 115",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -3469,7 +3555,7 @@
     "id": 117,
     "code": "REF-117",
     "name": "Camiseta Básica Jordan 117",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3499,7 +3585,7 @@
     "id": 118,
     "code": "REF-118",
     "name": "Camiseta Básica Nike 118",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3530,7 +3616,7 @@
     "id": 119,
     "code": "REF-119",
     "name": "Camiseta Básica Adidas 119",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3556,7 +3642,7 @@
     "id": 120,
     "code": "REF-120",
     "name": "Bermuda Jean Rotos Calidad Rígida 120",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3583,7 +3669,7 @@
     "id": 121,
     "code": "REF-121",
     "name": "Camiseta Undergold Negra Estampado Ángel 121",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3607,7 +3693,7 @@
     "id": 122,
     "code": "REF-122",
     "name": "Camiseta Undergold Negra Calavera Naranja 122",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3632,7 +3718,7 @@
     "id": 123,
     "code": "REF-123",
     "name": "Camiseta Undergold Blanca Calavera Naranja 123",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3657,7 +3743,7 @@
     "id": 124,
     "code": "REF-124",
     "name": "Camiseta Undergold Negra Design Studio 124",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3682,7 +3768,7 @@
     "id": 125,
     "code": "REF-125",
     "name": "Camiseta Deportiva Nike con Líneas 125",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3712,7 +3798,7 @@
     "id": 126,
     "code": "REF-126",
     "name": "Camiseta Tipo Polo Negra Franjas Azules 126",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3738,7 +3824,7 @@
     "id": 127,
     "code": "REF-127",
     "name": "Camiseta Tipo Polo Roja Franja Negra 127",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3764,7 +3850,7 @@
     "id": 128,
     "code": "REF-128",
     "name": "Camiseta Tipo Polo Blanca Franja Rojinegra 128",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3790,7 +3876,7 @@
     "id": 129,
     "code": "REF-129",
     "name": "Camiseta Básica MST Verde Menta 129",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3814,7 +3900,7 @@
     "id": 130,
     "code": "REF-130",
     "name": "Camiseta Básica MST Negra 130",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3838,7 +3924,7 @@
     "id": 131,
     "code": "REF-131",
     "name": "Camiseta Básica MST Blanca 131",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3863,7 +3949,7 @@
     "id": 132,
     "code": "REF-132",
     "name": "Camiseta Básica Dolce & Gabbana Blanca 132",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -3888,7 +3974,7 @@
     "id": 133,
     "code": "REF-133",
     "name": "Camiseta Básica Dolce & Gabbana Negra 133",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4068,7 +4154,7 @@
     "id": 140,
     "code": "REF-140",
     "name": "Camiseta Tipo Polo Nike a Rayas 140",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4097,7 +4183,7 @@
     "id": 141,
     "code": "REF-141",
     "name": "Camiseta Tipo Polo Nautica Verde a Rayas 141",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4122,7 +4208,7 @@
     "id": 142,
     "code": "REF-142",
     "name": "Camiseta Tipo Polo Nautica Negra y Amarilla 142",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4148,7 +4234,7 @@
     "id": 143,
     "code": "REF-143",
     "name": "Camiseta Tipo Polo Nautica Blanca a Rayas 143",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4173,7 +4259,7 @@
     "id": 144,
     "code": "REF-144",
     "name": "Camiseta Básica Rosada Clásica 144",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4197,7 +4283,7 @@
     "id": 145,
     "code": "REF-145",
     "name": "Camiseta Básica Azul Claro Clásica 145",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4221,7 +4307,7 @@
     "id": 146,
     "code": "REF-146",
     "name": "Camiseta Básica Lacoste Verde Petróleo 146",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4246,7 +4332,7 @@
     "id": 147,
     "code": "REF-147",
     "name": "Camiseta Básica Lacoste Rosa 147",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4270,7 +4356,7 @@
     "id": 148,
     "code": "REF-148",
     "name": "Camiseta Básica Lacoste Blanca 148",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4294,7 +4380,7 @@
     "id": 149,
     "code": "REF-149",
     "name": "Camiseta Básica Lacoste Negra 149",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4318,7 +4404,7 @@
     "id": 150,
     "code": "REF-150",
     "name": "Camiseta Básica Negra Clásica 150",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4342,7 +4428,7 @@
     "id": 151,
     "code": "REF-151",
     "name": "Camiseta Tipo Polo Clásica Negra 151",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4366,7 +4452,7 @@
     "id": 152,
     "code": "REF-152",
     "name": "Camiseta Tipo Polo Clásica Blanca 152",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4390,7 +4476,7 @@
     "id": 153,
     "code": "REF-153",
     "name": "Camiseta Tipo Polo CH Verde Petróleo 153",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4414,7 +4500,7 @@
     "id": 154,
     "code": "REF-154",
     "name": "Camiseta Tipo Polo CH Blanca 154",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4438,7 +4524,7 @@
     "id": 155,
     "code": "REF-155",
     "name": "Camiseta Tipo Polo CH Negra 155",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4462,7 +4548,7 @@
     "id": 156,
     "code": "REF-156",
     "name": "Camiseta Tipo Polo Clásica Verde Oliva 156",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4486,7 +4572,7 @@
     "id": 157,
     "code": "REF-157",
     "name": "Camiseta Tipo Polo Clásica Beige 157",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4510,7 +4596,7 @@
     "id": 158,
     "code": "REF-158",
     "name": "Pantaloneta Jordan Tie-Dye Turquesa 158",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4535,7 +4621,7 @@
     "id": 159,
     "code": "REF-159",
     "name": "Pantaloneta Jordan Azul Rey y Rojo 159",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4561,7 +4647,7 @@
     "id": 160,
     "code": "REF-160",
     "name": "Pantaloneta Jordan Negra y Verde Menta 160",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4586,7 +4672,7 @@
     "id": 161,
     "code": "REF-161",
     "name": "Pantaloneta Jordan Negra Detalles Rojos 161",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4612,7 +4698,7 @@
     "id": 162,
     "code": "REF-162",
     "name": "Pantaloneta Jordan Crema y Café 162",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4637,7 +4723,7 @@
     "id": 163,
     "code": "REF-163",
     "name": "Pantaloneta Jordan Azul Oscuro y Blanco 163",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4662,7 +4748,7 @@
     "id": 164,
     "code": "REF-164",
     "name": "Pantaloneta Jordan Verde Menta 164",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4687,7 +4773,7 @@
     "id": 165,
     "code": "REF-165",
     "name": "Pantaloneta Jordan Tie-Dye Azul 165",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4712,7 +4798,7 @@
     "id": 166,
     "code": "REF-166",
     "name": "Pantaloneta Jordan Azul Celeste 166",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4737,7 +4823,7 @@
     "id": 167,
     "code": "REF-167",
     "name": "Pantaloneta Jordan Roja y Negro 167",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4762,7 +4848,7 @@
     "id": 168,
     "code": "REF-168",
     "name": "Pantaloneta Jordan Negra y Rojo 168",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4787,7 +4873,7 @@
     "id": 169,
     "code": "REF-169",
     "name": "Pantaloneta Jordan Negra y Blanco 169",
-    "category": "Shorts & Pantalonetas",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4937,7 +5023,7 @@
     "id": 175,
     "code": "REF-175",
     "name": "Camiseta Básica Adidas Líneas de Color 175",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4963,7 +5049,7 @@
     "id": 176,
     "code": "REF-176",
     "name": "Camiseta Adidas Blanca Tie-Dye Café 176",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -4988,7 +5074,7 @@
     "id": 177,
     "code": "REF-177",
     "name": "Camiseta Puma Vinotinto 177",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5014,7 +5100,7 @@
     "id": 178,
     "code": "REF-178",
     "name": "Camiseta The North Face Gris Deslavada 178",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5039,7 +5125,7 @@
     "id": 179,
     "code": "REF-179",
     "name": "Jean Diesel Negro Clásico 179",
-    "category": "Jeans & Pantalones",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5064,7 +5150,7 @@
     "id": 180,
     "code": "REF-180",
     "name": "Jean Diesel Azul Ref 01 180",
-    "category": "Jeans & Pantalones",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5089,7 +5175,7 @@
     "id": 181,
     "code": "REF-181",
     "name": "Camiseta Diesel Relieve Blanca 181",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5113,7 +5199,7 @@
     "id": 182,
     "code": "REF-182",
     "name": "Camiseta Básica Nike Just Do It 182",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5141,7 +5227,7 @@
     "id": 183,
     "code": "REF-183",
     "name": "Camiseta Diesel Relieve Beige 183",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5165,7 +5251,7 @@
     "id": 184,
     "code": "REF-184",
     "name": "Camiseta Diesel Relieve Negra 184",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5340,7 +5426,7 @@
     "id": 191,
     "code": "REF-191",
     "name": "Camiseta Tipo Polo Lacoste Blanca Franjas Azules 191",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5366,7 +5452,7 @@
     "id": 192,
     "code": "REF-192",
     "name": "Camiseta Tipo Polo Lacoste Negra Franjas Neón 192",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5393,7 +5479,7 @@
     "id": 193,
     "code": "REF-193",
     "name": "Camiseta Tipo Polo Lacoste Verde Franjas Blancas 193",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5422,7 +5508,7 @@
     "id": 194,
     "code": "REF-194",
     "name": "Camiseta Tipo Polo Bloques Beige y Negro 194",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5448,7 +5534,7 @@
     "id": 195,
     "code": "REF-195",
     "name": "Camiseta Tipo Polo Bloques Blanco y Beige 195",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5474,7 +5560,7 @@
     "id": 196,
     "code": "REF-196",
     "name": "Camiseta Tipo Polo Bloques Negro y Beige 196",
-    "category": "Polos",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5501,7 +5587,7 @@
     "id": 197,
     "code": "REF-197",
     "name": "Camiseta Undergold Blanca Retrato 197",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5526,7 +5612,7 @@
     "id": 198,
     "code": "REF-198",
     "name": "Camiseta Undergold Blanca Cartas 198",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5551,7 +5637,7 @@
     "id": 199,
     "code": "REF-199",
     "name": "Camiseta Deportiva Roja Detalles Blancos 199",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5576,7 +5662,7 @@
     "id": 200,
     "code": "REF-200",
     "name": "Camiseta Deportiva Blanca Detalles Negros 200",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5601,7 +5687,7 @@
     "id": 201,
     "code": "REF-201",
     "name": "Camiseta Deportiva Negra Detalles Blancos 201",
-    "category": "Camisetas Básicas & Urbanas",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -5738,7 +5824,7 @@
     "id": 206,
     "code": "REF-206",
     "name": "Esqueleto NBA Pistons Rodman #10 206",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -5766,7 +5852,7 @@
     "id": 207,
     "code": "REF-207",
     "name": "Esqueleto NBA USA Jordan #9 207",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -5793,7 +5879,7 @@
     "id": 208,
     "code": "REF-208",
     "name": "Esqueleto NBA Magic O'Neal #32 208",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -5820,7 +5906,7 @@
     "id": 209,
     "code": "REF-209",
     "name": "Esqueleto NBA Bulls Pippen #33 209",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -5847,7 +5933,7 @@
     "id": 210,
     "code": "REF-210",
     "name": "Esqueleto NBA Bulls Jordan #23 210",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -5874,7 +5960,7 @@
     "id": 211,
     "code": "REF-211",
     "name": "Esqueleto NBA Lakers Bryant #8 211",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -6203,7 +6289,7 @@
     "id": 223,
     "code": "REF-223",
     "name": "Conjunto Deportivo Corto Adidas 223",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -6232,7 +6318,7 @@
     "id": 224,
     "code": "REF-224",
     "name": "Conjunto Deportivo Corto Nike 224",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -6262,7 +6348,7 @@
     "id": 225,
     "code": "REF-225",
     "name": "Buzo Retro FC Barcelona Azul y Grana 225",
-    "category": "Fútbol & Retro",
+    "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
     "salePrice": 105000,
@@ -6288,7 +6374,7 @@
     "id": 226,
     "code": "REF-226",
     "name": "Buzo Retro FC Barcelona Blanco y Grana 226",
-    "category": "Fútbol & Retro",
+    "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
     "salePrice": 105000,
@@ -6314,7 +6400,7 @@
     "id": 227,
     "code": "REF-227",
     "name": "Camiseta Polo Nike Ref. 351 227",
-    "category": "Polos & Camisas",
+    "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -6345,7 +6431,7 @@
     "id": 228,
     "code": "REF-228",
     "name": "Camiseta Polo Adidas Ref. 358A1 228",
-    "category": "Polos & Camisas",
+    "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -6376,7 +6462,7 @@
     "id": 229,
     "code": "REF-229",
     "name": "Camiseta Polo Puma Negra 229",
-    "category": "Polos & Camisas",
+    "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -6401,7 +6487,7 @@
     "id": 230,
     "code": "REF-230",
     "name": "Camiseta Polo Puma Blanca Cuello Negro 230",
-    "category": "Polos & Camisas",
+    "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -6427,7 +6513,7 @@
     "id": 231,
     "code": "REF-231",
     "name": "Camiseta Polo Puma Turquesa Cuello Negro 231",
-    "category": "Polos & Camisas",
+    "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -6453,7 +6539,7 @@
     "id": 232,
     "code": "REF-232",
     "name": "Camiseta Polo Alo Verde Limón 232",
-    "category": "Polos & Camisas",
+    "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -6478,7 +6564,7 @@
     "id": 233,
     "code": "REF-233",
     "name": "Camiseta Polo Puma Gris 233",
-    "category": "Polos & Camisas",
+    "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -6503,7 +6589,7 @@
     "id": 234,
     "code": "REF-234",
     "name": "Camiseta Polo Alo Azul Rey 234",
-    "category": "Polos & Camisas",
+    "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -6528,7 +6614,7 @@
     "id": 235,
     "code": "REF-235",
     "name": "Camiseta Polo Alo Negra 235",
-    "category": "Polos & Camisas",
+    "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -6553,7 +6639,7 @@
     "id": 236,
     "code": "REF-236",
     "name": "Camiseta Polo Alo Vino Tinto 236",
-    "category": "Polos & Camisas",
+    "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -6719,7 +6805,7 @@
     "id": 242,
     "code": "REF-242",
     "name": "Pantaloneta Náutica Fina Nike Ref. 362 242",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -6746,7 +6832,7 @@
     "id": 243,
     "code": "REF-243",
     "name": "Pantaloneta Náutica Fina Under Armour Ref. 766 243",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -6773,7 +6859,7 @@
     "id": 244,
     "code": "REF-244",
     "name": "Pantaloneta Náutica Fina Nike Ref. 766 244",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -6801,7 +6887,7 @@
     "id": 245,
     "code": "REF-245",
     "name": "Pantaloneta Náutica Fina Nike Ref. 328 245",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -6828,7 +6914,7 @@
     "id": 246,
     "code": "REF-246",
     "name": "Pantaloneta Náutica Fina Nike Ref. 796 246",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -6856,7 +6942,7 @@
     "id": 247,
     "code": "REF-247",
     "name": "Pantaloneta Náutica Económica Adidas Ref. 774 247",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -7304,7 +7390,7 @@
     "id": 263,
     "code": "REF-263",
     "name": "Camiseta Atlético Bucaramanga Retro Leona #10 263",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -7667,7 +7753,7 @@
     "id": 276,
     "code": "REF-276",
     "name": "Camiseta Atlético Bucaramanga Rosada 276",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 75000,
     "marginPercent": 20,
     "salePrice": 90000,
@@ -7727,7 +7813,7 @@
     "id": 278,
     "code": "REF-278",
     "name": "Chaqueta Cortavientos Jordan Blanca y Gris 278",
-    "category": "Chaquetas & Buzos",
+    "category": "Buzos & Chaquetas",
     "supplierPrice": 95000,
     "marginPercent": 16,
     "salePrice": 110000,
@@ -7784,7 +7870,7 @@
     "id": 280,
     "code": "REF-280",
     "name": "Chaqueta Atlético Bucaramanga Amarilla y Verde 280",
-    "category": "Chaquetas & Buzos",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 105000,
     "marginPercent": 14,
     "salePrice": 120000,
@@ -7811,7 +7897,7 @@
     "id": 281,
     "code": "REF-281",
     "name": "Chaqueta Atlético Bucaramanga Blanca y Negra 281",
-    "category": "Chaquetas & Buzos",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 105000,
     "marginPercent": 14,
     "salePrice": 120000,
@@ -7838,7 +7924,7 @@
     "id": 282,
     "code": "REF-282",
     "name": "Chaqueta Atlético Bucaramanga Negra 282",
-    "category": "Chaquetas & Buzos",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 105000,
     "marginPercent": 14,
     "salePrice": 120000,
@@ -7922,7 +8008,7 @@
     "id": 285,
     "code": "REF-285",
     "name": "Camiseta Atlético Bucaramanga Amarilla Titular 285",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 75000,
     "marginPercent": 20,
     "salePrice": 90000,
@@ -7951,7 +8037,7 @@
     "id": 286,
     "code": "REF-286",
     "name": "Camiseta Atlético Bucaramanga Verde Rayas 286",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 75000,
     "marginPercent": 20,
     "salePrice": 90000,
@@ -8145,7 +8231,7 @@
     "id": 293,
     "code": "REF-293",
     "name": "Pantalonetas Deportivas Jordan 293",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 60000,
     "marginPercent": 25,
     "salePrice": 75000,
@@ -8379,7 +8465,7 @@
     "id": 301,
     "code": "REF-301",
     "name": "Conjunto Deportivo FC Barcelona Blaugrana 301",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -8405,7 +8491,7 @@
     "id": 302,
     "code": "REF-302",
     "name": "Conjunto Deportivo Chelsea Negro 302",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -8431,7 +8517,7 @@
     "id": 303,
     "code": "REF-303",
     "name": "Conjunto Deportivo Inter de Milán 303",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -8457,7 +8543,7 @@
     "id": 304,
     "code": "REF-304",
     "name": "Conjunto Deportivo Arsenal Amarillo y Azul 304",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -8483,7 +8569,7 @@
     "id": 305,
     "code": "REF-305",
     "name": "Conjunto Deportivo Manchester City Celeste 305",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -8509,7 +8595,7 @@
     "id": 306,
     "code": "REF-306",
     "name": "Conjunto Deportivo Liverpool Rojo 306",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -8535,7 +8621,7 @@
     "id": 307,
     "code": "REF-307",
     "name": "Conjunto Deportivo Arsenal Rojo y Blanco 307",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -8561,7 +8647,7 @@
     "id": 308,
     "code": "REF-308",
     "name": "Pantaloneta Deportiva Nike (Por Unidad) 308",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -8590,7 +8676,7 @@
     "id": 309,
     "code": "REF-309",
     "name": "Pantaloneta Deportiva Under Armour (Por Unidad) 309",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -8618,7 +8704,7 @@
     "id": 310,
     "code": "REF-310",
     "name": "Pantaloneta Deportiva Adidas (Por Unidad) 310",
-    "category": "Conjuntos & Shorts",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -8685,7 +8771,7 @@
     "id": 312,
     "code": "REF-312",
     "name": "Camiseta Deportiva Adidas Ref. 39014 312",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -8713,7 +8799,7 @@
     "id": 313,
     "code": "REF-313",
     "name": "Camiseta Deportiva Nike Dri-Fit Ref. 39017 313",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -8741,7 +8827,7 @@
     "id": 314,
     "code": "REF-314",
     "name": "Camiseta Deportiva Under Armour Ref. 7076 314",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -8769,7 +8855,7 @@
     "id": 315,
     "code": "REF-315",
     "name": "Camiseta Deportiva Nike Dri-Fit Degradé Ref. 7063 315",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -8797,7 +8883,7 @@
     "id": 316,
     "code": "REF-316",
     "name": "Camiseta Deportiva Nike Dri-Fit Ref. 39012 316",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -8825,7 +8911,7 @@
     "id": 317,
     "code": "REF-317",
     "name": "Camiseta Deportiva Jordan Ref. 7064 317",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -8853,7 +8939,7 @@
     "id": 318,
     "code": "REF-318",
     "name": "Camiseta Deportiva Adidas Ref. 39013 318",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -8881,7 +8967,7 @@
     "id": 319,
     "code": "REF-319",
     "name": "Camiseta Deportiva Nike Dri-Fit Ref. 7084 319",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -8908,7 +8994,7 @@
     "id": 320,
     "code": "REF-320",
     "name": "Camiseta Deportiva Adidas Climacool Ref. 7094 320",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -8936,7 +9022,7 @@
     "id": 321,
     "code": "REF-321",
     "name": "Camiseta Deportiva Adidas Ref. 7085 321",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -8964,7 +9050,7 @@
     "id": 322,
     "code": "REF-322",
     "name": "Camiseta Deportiva Nike Dri-Fit Degradé Ref. 7097 322",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -8992,7 +9078,7 @@
     "id": 323,
     "code": "REF-323",
     "name": "Camiseta Deportiva Under Armour Ref. 3321 323",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -9020,7 +9106,7 @@
     "id": 324,
     "code": "REF-324",
     "name": "Camiseta Deportiva Adidas Ref. 7075 324",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -9048,7 +9134,7 @@
     "id": 325,
     "code": "REF-325",
     "name": "Camiseta Deportiva Under Armour Ref. 8092 325",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -9075,7 +9161,7 @@
     "id": 326,
     "code": "REF-326",
     "name": "Camiseta dri-fit Deportiva Nike Dri-Fit Ref. 7059 326",
-    "category": "Básicos & Deportivos",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -9132,7 +9218,7 @@
     "id": 328,
     "code": "REF-328",
     "name": "Camisilla dri-fit Deportiva Adidas Sin Mangas 328",
-    "category": "Deportivo & Gym",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -9160,7 +9246,7 @@
     "id": 329,
     "code": "REF-329",
     "name": "Camisilla dri-fit Deportiva Nike Running Sin Mangas 329",
-    "category": "Deportivo & Gym",
+    "category": "Camisetas Básicas & Deportivas",
     "supplierPrice": 35000,
     "marginPercent": 43,
     "salePrice": 50000,
@@ -9190,7 +9276,7 @@
     "id": 330,
     "code": "REF-330",
     "name": "Camiseta Retro Real Madrid Polo Blanca Bwin 330",
-    "category": "Fútbol & Retro",
+    "category": "Polos Deportivas",
     "supplierPrice": 75000,
     "marginPercent": 20,
     "salePrice": 90000,
@@ -9317,7 +9403,7 @@
     "id": 334,
     "code": "REF-334",
     "name": "Camiseta Dama Polo Adidas Originals Pinstripes Retro 334",
-    "category": "Fútbol & Retro",
+    "category": "Polos Deportivas",
     "supplierPrice": 75000,
     "marginPercent": 20,
     "salePrice": 90000,
@@ -9935,7 +10021,7 @@
     "id": 357,
     "code": "REF-357",
     "name": "Uniforme Retro Real Madrid Polo Blanco y Dorado 357",
-    "category": "Fútbol & Retro",
+    "category": "Polos Deportivas",
     "supplierPrice": 55000,
     "marginPercent": 27,
     "salePrice": 70000,
@@ -9962,7 +10048,7 @@
     "id": 358,
     "code": "REF-358",
     "name": "Uniforme Retro Real Madrid Polo Azul Oscuro y Dorado 358",
-    "category": "Fútbol & Retro",
+    "category": "Polos Deportivas",
     "supplierPrice": 55000,
     "marginPercent": 27,
     "salePrice": 70000,
@@ -10020,7 +10106,7 @@
     "id": 360,
     "code": "REF-360",
     "name": "Camiseta Polo Manga Larga Adidas Originals x Oasis Retro 360",
-    "category": "Fútbol & Retro",
+    "category": "Polos Deportivas",
     "supplierPrice": 80000,
     "marginPercent": 19,
     "salePrice": 95000,
@@ -10049,7 +10135,7 @@
     "id": 361,
     "code": "REF-361",
     "name": "Camiseta Polo Atlético Bucaramanga Rosada y Blanca Lotto 361",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 75000,
     "marginPercent": 20,
     "salePrice": 90000,
@@ -10111,7 +10197,7 @@
     "id": 363,
     "code": "REF-363",
     "name": "Camiseta Atlético Bucaramanga Edición Especial Lila Lotto 363",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 70000,
     "marginPercent": 21,
     "salePrice": 85000,
@@ -10467,7 +10553,7 @@
     "id": 376,
     "code": "REF-376",
     "name": "polo tela fria Deportiva Adidas Clásica 376",
-    "category": "Deportivo & Gym",
+    "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -10495,7 +10581,7 @@
     "id": 377,
     "code": "REF-377",
     "name": "polo tela fría  Under Armour Clásica 377",
-    "category": "Deportivo & Gym",
+    "category": "Polos Deportivas",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -10523,7 +10609,7 @@
     "id": 378,
     "code": "REF-378",
     "name": "polo tela fria Deportiva Adidas Clásica 378",
-    "category": "Deportivo & Gym",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -10550,7 +10636,7 @@
     "id": 379,
     "code": "REF-379",
     "name": "polo tela fría  Under Armour Clásica 379",
-    "category": "Deportivo & Gym",
+    "category": "Polos Deportivas",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -10577,7 +10663,7 @@
     "id": 380,
     "code": "REF-380",
     "name": "Chaqueta Rompevientos Atlético Bucaramanga Bicolor Gris y Negra Lotto 380",
-    "category": "Chaquetas & Buzos",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 105000,
     "marginPercent": 14,
     "salePrice": 120000,
@@ -10608,7 +10694,7 @@
     "id": 381,
     "code": "REF-381",
     "name": "Sudadera Atlético Bucaramanga niño 381",
-    "category": "Deportivo & Gym",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -10637,7 +10723,7 @@
     "id": 382,
     "code": "REF-382",
     "name": "Camiseta Atlético Bucaramanga Verde Rayas Amarillas Lotto 382",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -10664,7 +10750,7 @@
     "id": 383,
     "code": "REF-383",
     "name": "Camiseta Atlético Bucaramanga Local Amarilla Lotto 383",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -10690,7 +10776,7 @@
     "id": 384,
     "code": "REF-384",
     "name": "Camiseta Atlético Bucaramanga Negra Pinstripes Lotto 384",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -10717,7 +10803,7 @@
     "id": 385,
     "code": "REF-385",
     "name": "Camiseta Retro Atlético Bucaramanga Caribú Celeste 385",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
     "salePrice": 70000,
@@ -10743,7 +10829,7 @@
     "id": 386,
     "code": "REF-386",
     "name": "Camiseta Retro Atlético Bucaramanga Caribú Blanca y Amarilla 386",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
     "salePrice": 70000,
@@ -10769,7 +10855,7 @@
     "id": 387,
     "code": "REF-387",
     "name": "Camiseta Polo Atlético Bucaramanga Negra Rayas Lotto 387",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -10797,7 +10883,7 @@
     "id": 388,
     "code": "REF-388",
     "name": "Pantaloneta Deportiva Adidas Clásica 388",
-    "category": "Deportivo & Gym",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -10826,7 +10912,7 @@
     "id": 389,
     "code": "REF-389",
     "name": "Pantaloneta Deportiva Nike Clásica 389",
-    "category": "Deportivo & Gym",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -10854,7 +10940,7 @@
     "id": 390,
     "code": "REF-390",
     "name": "Pantaloneta Deportiva Adidas Clásica 390",
-    "category": "Deportivo & Gym",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 0,
     "marginPercent": 45,
     "salePrice": 0,
@@ -10882,7 +10968,7 @@
     "id": 391,
     "code": "REF-391",
     "name": "Pantaloneta Deportiva Nike Clásica 391",
-    "category": "Deportivo & Gym",
+    "category": "Bermudas & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
     "salePrice": 60000,
@@ -10910,7 +10996,7 @@
     "id": 392,
     "code": "REF-392",
     "name": "Camiseta Retro Atlético Bucaramanga Freskaleche Azul #10 392",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -10937,7 +11023,7 @@
     "id": 393,
     "code": "REF-393",
     "name": "Camiseta Streetwear Undergold Wolf Negra 393",
-    "category": "Streetwear & Urbano",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 95000,
     "marginPercent": 16,
     "salePrice": 110000,
@@ -10962,7 +11048,7 @@
     "id": 394,
     "code": "REF-394",
     "name": "Camiseta Streetwear Undergold Cash & Dice 394",
-    "category": "Streetwear & Urbano",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 95000,
     "marginPercent": 16,
     "salePrice": 110000,
@@ -10989,7 +11075,7 @@
     "id": 395,
     "code": "REF-395",
     "name": "Camiseta Streetwear Undergold Wolf Negra 395",
-    "category": "Streetwear & Urbano",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 95000,
     "marginPercent": 16,
     "salePrice": 110000,
@@ -11014,7 +11100,7 @@
     "id": 396,
     "code": "REF-396",
     "name": "Camiseta Streetwear Undergold Cash & Dice 396",
-    "category": "Streetwear & Urbano",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 95000,
     "marginPercent": 16,
     "salePrice": 110000,
@@ -11041,7 +11127,7 @@
     "id": 397,
     "code": "REF-397",
     "name": "Camiseta Streetwear Undergold Portrait 397",
-    "category": "Streetwear & Urbano",
+    "category": "Conjuntos & Streetwear",
     "supplierPrice": 95000,
     "marginPercent": 16,
     "salePrice": 110000,
@@ -11068,7 +11154,7 @@
     "id": 398,
     "code": "REF-398",
     "name": "Camiseta Retro Atlético Bucaramanga Hipinto Amarilla con Estuche 398",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -11094,7 +11180,7 @@
     "id": 399,
     "code": "REF-399",
     "name": "Camiseta Retro Atlético Bucaramanga Cerveza Leona #10 con Estuche 399",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -11517,7 +11603,7 @@
     "id": 414,
     "code": "REF-414",
     "name": "Body Bebé Atlético Bucaramanga #10 414",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 28000,
     "marginPercent": 54,
     "salePrice": 43000,
@@ -11546,7 +11632,7 @@
     "id": 415,
     "code": "REF-415",
     "name": "Camiseta Retro Atlético Bucaramanga Hipinto Amarilla y Verde 415",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -11572,7 +11658,7 @@
     "id": 416,
     "code": "REF-416",
     "name": "Camiseta Retro Atlético Bucaramanga Cerveza Leona Amarilla y Verde #10 416",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -11598,7 +11684,7 @@
     "id": 417,
     "code": "REF-417",
     "name": "Camiseta Retro Atlético Bucaramanga Cerveza Leona Negra y Dorada #10 417",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -11624,7 +11710,7 @@
     "id": 418,
     "code": "REF-418",
     "name": "Camiseta Retro Atlético Bucaramanga Cristal Oro Blanca #10 418",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
     "salePrice": 80000,
@@ -11651,7 +11737,7 @@
     "id": 419,
     "code": "REF-419",
     "name": "Camiseta Polo Dama Atlético Bucaramanga Rosada y Blanca 419",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 70000,
     "marginPercent": 21,
     "salePrice": 85000,
@@ -11829,7 +11915,7 @@
     "id": 425,
     "code": "REF-425",
     "name": "Camiseta Polo Selección Portugal Negra Edición Especial Puma 425",
-    "category": "Fútbol & Retro",
+    "category": "Polos Deportivas",
     "supplierPrice": 85000,
     "marginPercent": 18,
     "salePrice": 100000,
@@ -11972,7 +12058,7 @@
     "id": 430,
     "code": "REF-430",
     "name": "Uniforme Niño Atlético Bucaramanga Rosado Lotto 430",
-    "category": "Fútbol & Retro",
+    "category": "Atlético Bucaramanga",
     "supplierPrice": 50000,
     "marginPercent": 30,
     "salePrice": 65000,
@@ -12024,11 +12110,21 @@
   </script>
   <script src="supabase_config.js"></script>
   <script src="products.js" onerror="console.log('Usando catálogo integrado')"></script>
-  <script src="products.js" onerror="console.log('Catálogo predeterminado cargado.')"></script>
 
   <script>
+    const SECTIONS_CONFIG = [
+      { id: 'Fútbol & Retro', name: 'Fútbol & Retro', icon: '⚽', tag: 'Camisetas Clubes & Selecciones' },
+      { id: 'Atlético Bucaramanga', name: 'Atlético Bucaramanga', icon: '🐆', tag: 'Edición Especial Campeón & Retro' },
+      { id: 'Camisetas Básicas & Deportivas', name: 'Camisetas Básicas & Gym', icon: '⚡', tag: 'Jordan, Nike, Adidas & Under Armour' },
+      { id: 'Bermudas & Shorts', name: 'Bermudas & Shorts', icon: '🩳', tag: 'Bermudas Rígidas & Pantalonetas Deportivas' },
+      { id: 'Polos Deportivas', name: 'Polos Deportivas', icon: '👕', tag: 'Camisetas Tipo Polo & Presentación' },
+      { id: 'Buzos & Chaquetas', name: 'Buzos & Chaquetas', icon: '🧥', tag: 'Cortavientos, Rompevientos & Hoodies' },
+      { id: 'Conjuntos & Streetwear', name: 'Conjuntos & Streetwear', icon: '🔥', tag: 'Conjuntos Deportivos & Moda Urbana' }
+    ];
+
     let state = {
       searchQuery: '',
+      activeCategory: 'all',
       products: (window.CATALOG_PRODUCTS && Array.isArray(window.CATALOG_PRODUCTS)) ? [...window.CATALOG_PRODUCTS] : [...window.DEFAULT_CATALOG_PRODUCTS],
       cart: [],
       selectedProductModal: null,
@@ -12084,9 +12180,7 @@
 
     function getProductGallery(prod) {
       if (!prod) return [];
-      if (Array.isArray(prod.images) && prod.images.length > 0) {
-        return prod.images;
-      }
+      if (Array.isArray(prod.images) && prod.images.length > 0) return prod.images;
       const list = [prod.image || `./products/item_${prod.id}.jpg`];
       if (prod.editorialImage && !list.includes(prod.editorialImage)) {
         list.push(prod.editorialImage);
@@ -12094,7 +12188,6 @@
       return list;
     }
 
-    // Alternar imagen en la tarjeta entre todas las fotos agrupadas del producto
     function toggleCardImage(prodId, imgIndex, e) {
       if (e) e.stopPropagation();
       const img = document.getElementById(`cardImg_${prodId}`);
@@ -12111,93 +12204,212 @@
       }
     }
 
-    // Búsqueda simplificada por número de prenda (ej. 1, 10, 25, 005)
-    function handleNumberSearch(val) {
+    function handleSearchInput(val) {
       state.searchQuery = val.trim();
-      renderProductsGrid();
+      const btnClear = document.getElementById('btnClearSearch');
+      if (btnClear) btnClear.style.display = state.searchQuery ? 'flex' : 'none';
+      renderSectionsAndProducts();
     }
 
-    function renderProductsGrid() {
-      const grid = document.getElementById('productsGrid');
-      if (!grid) return;
+    function clearSearch() {
+      const input = document.getElementById('searchInput');
+      if (input) input.value = '';
+      state.searchQuery = '';
+      const btnClear = document.getElementById('btnClearSearch');
+      if (btnClear) btnClear.style.display = 'none';
+      renderSectionsAndProducts();
+    }
+
+    function filterBySection(catId) {
+      state.activeCategory = catId;
+      document.querySelectorAll('#categoryPillsBar .cat-pill').forEach(pill => {
+        pill.classList.toggle('active', pill.dataset.cat === catId);
+      });
+      renderSectionsAndProducts();
+    }
+
+    function updateCategoryCounts() {
+      const prods = state.products.filter(p => p.active !== false);
+      const counts = {
+        all: prods.length,
+        'Fútbol & Retro': 0,
+        'Atlético Bucaramanga': 0,
+        'Camisetas Básicas & Deportivas': 0,
+        'Bermudas & Shorts': 0,
+        'Polos Deportivas': 0,
+        'Buzos & Chaquetas': 0,
+        'Conjuntos & Streetwear': 0
+      };
+
+      prods.forEach(p => {
+        if (counts[p.category] !== undefined) {
+          counts[p.category]++;
+        } else {
+          counts['Fútbol & Retro']++;
+        }
+      });
+
+      const setVal = (id, val) => { const el = document.getElementById(id); if (el) el.innerText = val; };
+      setVal('pillCountAll', counts.all);
+      setVal('pillCountFutbol', counts['Fútbol & Retro']);
+      setVal('pillCountBuc', counts['Atlético Bucaramanga']);
+      setVal('pillCountBasicas', counts['Camisetas Básicas & Deportivas']);
+      setVal('pillCountShorts', counts['Bermudas & Shorts']);
+      setVal('pillCountPolos', counts['Polos Deportivas']);
+      setVal('pillCountBuzos', counts['Buzos & Chaquetas']);
+      setVal('pillCountConjuntos', counts['Conjuntos & Streetwear']);
+    }
+
+    function renderCard(item) {
+      const gallery = getProductGallery(item);
+      const hasMulti = gallery.length > 1;
+      const primaryImg = resolveImgPath(gallery[0] || item.image, item.id);
+      
+      const colorsList = item.colors && item.colors.length ? item.colors : ['Único'];
+      const sizesList = item.sizes && item.sizes.length ? item.sizes : ['S', 'M', 'L', 'XL'];
+
+      const colorBadges = colorsList.map(c => `<span class="color-chip">${c}</span>`).join('');
+      const sizeBadges = sizesList.map(s => `<span class="size-chip">${s}</span>`).join('');
+      const multiBadge = hasMulti ? `<span class="card-multi-badge">📸 ${gallery.length} fotos</span>` : '';
+
+      const galleryDots = hasMulti ? `
+        <div class="slider-toggle-bar">
+          ${gallery.map((_, gIdx) => `
+            <button class="slider-dot-btn ${gIdx === 0 ? 'active' : ''}" onclick="toggleCardImage(${item.id}, ${gIdx}, event)">${gIdx + 1}</button>
+          `).join('')}
+        </div>
+      ` : '';
+
+      return `
+        <div class="card">
+          <div class="card-img-wrap" onclick="openAddToCartModal(${item.id})">
+            <img id="cardImg_${item.id}" src="${primaryImg}" class="card-img" alt="" loading="lazy" decoding="async" onerror="handleImgError(this, ${item.id})">
+            <span class="card-badge">${item.code}</span>
+            ${multiBadge}
+            ${galleryDots}
+          </div>
+          <div class="card-body">
+            <div>
+              <h3 class="card-title" title="${item.name}">${item.name}</h3>
+              <div class="card-badges">${colorBadges} ${sizeBadges}</div>
+            </div>
+            <div class="card-footer">
+              <div>
+                <span class="card-price-label">Precio</span>
+                <span class="card-price">$${formatCOP(item.salePrice)}</span>
+              </div>
+              <button class="btn-order-card" onclick="openAddToCartModal(${item.id})">Pedir</button>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderSectionsAndProducts() {
+      const container = document.getElementById('sectionsContainer');
+      if (!container) return;
 
       let list = state.products.filter(p => p.active !== false);
 
+      // Si hay término de búsqueda activo (por número o por texto)
       if (state.searchQuery) {
         const raw = state.searchQuery.toLowerCase();
-        // Extraer número limpio
         const numOnly = raw.replace(/\D/g, '');
 
         list = list.filter(p => {
           const codeLower = (p.code || '').toLowerCase();
+          const nameLower = (p.name || '').toLowerCase();
+          const catLower = (p.category || '').toLowerCase();
           const idStr = String(p.id);
 
-          // Si el usuario escribió un número (ej. "25" o "1")
           if (numOnly) {
             const numInt = parseInt(numOnly, 10);
-            return p.id === numInt || idStr.includes(numOnly) || codeLower.includes(numOnly);
+            if (p.id === numInt || idStr.includes(numOnly) || codeLower.includes(numOnly)) return true;
           }
-          // O si escribió "REF-001"
-          return codeLower.includes(raw) || (p.name && p.name.toLowerCase().includes(raw));
+          return codeLower.includes(raw) || nameLower.includes(raw) || catLower.includes(raw);
         });
-      }
 
-      if (list.length === 0) {
-        grid.innerHTML = `
-          <div style="grid-column: 1 / -1; text-align: center; padding: 40px; background: #fff; border-radius: 20px; border: 1px solid #e7e5e4;">
-            <div style="font-size: 32px; margin-bottom: 8px;">🔍</div>
-            <h3 style="font-size: 16px; font-weight: 800;">No encontramos la prenda #${state.searchQuery}</h3>
-            <p style="font-size: 12px; color: #78716c; margin-top: 4px;">Ingresa un número del 1 al ${state.products.length} para encontrarla al instante.</p>
+        document.getElementById('activeCategoryTitle').innerText = `Búsqueda: "${state.searchQuery}"`;
+        document.getElementById('activeCategoryCount').innerText = `${list.length} Encontradas`;
+
+        if (list.length === 0) {
+          container.innerHTML = `
+            <div style="text-align: center; padding: 48px 16px; background: #ffffff; border-radius: 20px; border: 1px solid #e5e5e5; margin-bottom: 30px;">
+              <div style="font-size: 36px; margin-bottom: 8px;">🔍</div>
+              <h3 style="font-size: 16px; font-weight: 800; color: #0c0a09;">No encontramos resultados para "${state.searchQuery}"</h3>
+              <p style="font-size: 12px; color: #737373; margin: 6px 0 16px 0;">Intenta buscar por número (ej: 1, 25, 120) o por equipo como "Bucaramanga", "Madrid", "River", "Buzo".</p>
+              <button onclick="clearSearch()" class="btn-primary" style="max-width: 200px; margin: 0 auto; padding: 8px 14px; font-size: 12px;">Limpiar Búsqueda</button>
+            </div>
+          `;
+          return;
+        }
+
+        container.innerHTML = `
+          <div class="products-grid">
+            ${list.map(renderCard).join('')}
           </div>
         `;
         return;
       }
 
-      grid.innerHTML = list.map(item => {
-        const gallery = getProductGallery(item);
-        const hasMulti = gallery.length > 1;
-        const primaryImg = resolveImgPath(gallery[0] || item.image, item.id);
-        
-        const colorsList = item.colors && item.colors.length ? item.colors : ['Único'];
-        const sizesList = item.sizes && item.sizes.length ? item.sizes : ['S', 'M', 'L', 'XL'];
+      // MODO 1: Una categoría específica seleccionada
+      if (state.activeCategory !== 'all') {
+        const secCfg = SECTIONS_CONFIG.find(s => s.id === state.activeCategory) || { id: state.activeCategory, name: state.activeCategory, icon: '🏷️', tag: 'Colección' };
+        const catItems = list.filter(p => (p.category || '') === state.activeCategory);
 
-        const colorBadges = colorsList.map(c => `<span class="color-chip">${c}</span>`).join('');
-        const sizeBadges = sizesList.map(s => `<span class="size-chip">${s}</span>`).join('');
+        document.getElementById('activeCategoryTitle').innerText = secCfg.name;
+        document.getElementById('activeCategoryCount').innerText = `${catItems.length} Prendas`;
 
-        const multiBadge = hasMulti ? `<span style="position:absolute; top:10px; right:10px; background:rgba(28,25,23,0.82); color:#fde047; font-size:10px; font-weight:800; padding:3px 8px; border-radius:9999px; backdrop-filter:blur(4px);">📸 ${gallery.length} fotos</span>` : '';
-
-        const galleryDots = hasMulti ? `
-          <div class="slider-toggle-bar">
-            ${gallery.map((_, gIdx) => `
-              <button class="slider-dot-btn ${gIdx === 0 ? 'active' : ''}" onclick="toggleCardImage(${item.id}, ${gIdx}, event)">Foto ${gIdx + 1}</button>
-            `).join('<span style="color:#a8a29e; font-size:8px;">•</span>')}
-          </div>
-        ` : '';
-
-        return `
-          <div class="card">
-            <div class="card-img-wrap" onclick="openAddToCartModal(${item.id})">
-              <img id="cardImg_${item.id}" src="${primaryImg}" class="card-img" alt="" loading="lazy" decoding="async" onerror="handleImgError(this, ${item.id})">
-              <span class="card-badge">${item.code}</span>
-              ${multiBadge}
-              ${galleryDots}
-            </div>
-            <div class="card-body">
+        container.innerHTML = `
+          <div class="section-header-banner" style="margin-top: 0;">
+            <div class="section-title-wrap">
+              <span class="section-icon">${secCfg.icon}</span>
               <div>
-                <h3 class="card-title" title="${item.name}">${item.name}</h3>
-                <div class="card-badges">${colorBadges} ${sizeBadges}</div>
-              </div>
-              <div class="card-footer">
-                <div>
-                  <span class="card-price-label">Precio</span>
-                  <span class="card-price">$${formatCOP(item.salePrice)}</span>
-                </div>
-                <button class="btn-order-card" onclick="openAddToCartModal(${item.id})">Pedir</button>
+                <h3 class="section-title">${secCfg.name}</h3>
+                <span style="font-size: 10px; color: #d4af37;">${secCfg.tag}</span>
               </div>
             </div>
+            <button class="btn-sec-filter" onclick="filterBySection('all')">Ver Todas Las Secciones</button>
+          </div>
+          <div class="products-grid">
+            ${catItems.map(renderCard).join('')}
           </div>
         `;
-      }).join('');
+        return;
+      }
+
+      // MODO 2: Vista General Organizada por Secciones Claras
+      document.getElementById('activeCategoryTitle').innerText = 'Todas las Secciones';
+      document.getElementById('activeCategoryCount').innerText = `${list.length} Prendas`;
+
+      let htmlBlocks = '';
+      SECTIONS_CONFIG.forEach(sec => {
+        const secItems = list.filter(p => (p.category || '') === sec.id);
+        if (secItems.length === 0) return;
+
+        htmlBlocks += `
+          <section id="section-${sec.id.replace(/\s+/g, '-')}" style="margin-bottom: 28px;">
+            <div class="section-header-banner">
+              <div class="section-title-wrap">
+                <span class="section-icon">${sec.icon}</span>
+                <div>
+                  <h3 class="section-title">${sec.name}</h3>
+                  <span style="font-size: 10px; color: #d4af37;">${sec.tag}</span>
+                </div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <span class="section-badge-cnt">${secItems.length} prendas</span>
+                <button class="btn-sec-filter" onclick="filterBySection('${sec.id}')">Ver sólo esta →</button>
+              </div>
+            </div>
+            <div class="products-grid">
+              ${secItems.map(renderCard).join('')}
+            </div>
+          </section>
+        `;
+      });
+
+      container.innerHTML = htmlBlocks;
     }
 
     function ensureSequentialNumbering(list) {
@@ -12222,7 +12434,6 @@
       } catch (e) {}
     }
 
-    // Abrir Modal de Producto: Modelo primero
     function openAddToCartModal(prodId) {
       const prod = state.products.find(p => p.id === prodId);
       if (!prod) return;
@@ -12255,13 +12466,11 @@
         sliderBar.innerHTML = '';
       }
 
-      // Colores configurados por el Administrador
       const colorsContainer = document.getElementById('modalColorsContainer');
       colorsContainer.innerHTML = colors.map((c, idx) => `
         <button class="cat-btn ${idx === 0 ? 'active' : ''}" onclick="selectModalColor('${c}', this)">${c}</button>
       `).join('');
 
-      // Tallas configuradas por el Administrador
       const sizesContainer = document.getElementById('modalSizesContainer');
       sizesContainer.innerHTML = sizes.map((s, idx) => `
         <button class="cat-btn ${idx === 0 ? 'active' : ''}" onclick="selectModalSize('${s}', this)">${s}</button>
@@ -12340,21 +12549,21 @@
       if (!list) return;
 
       if (state.cart.length === 0) {
-        list.innerHTML = `<div style="text-align: center; padding: 24px; color: #a8a29e; font-size: 13px;">Tu pedido está vacío. Elige una prenda del catálogo para comenzar.</div>`;
+        list.innerHTML = `<div style="text-align: center; padding: 24px; color: #737373; font-size: 13px;">Tu pedido está vacío. Elige una prenda del catálogo para comenzar.</div>`;
         document.getElementById('checkoutFormSection').style.display = 'none';
       } else {
         document.getElementById('checkoutFormSection').style.display = 'block';
         list.innerHTML = state.cart.map((item, idx) => `
-          <div style="display: flex; gap: 10px; align-items: center; padding: 8px 0; border-bottom: 1px solid #f5f5f4;">
-            <img src="${item.image}" style="width: 44px; height: 44px; object-fit: cover; border-radius: 8px;">
+          <div style="display: flex; gap: 10px; align-items: center; padding: 10px 0; border-bottom: 1px solid #f5f5f4;">
+            <img src="${item.image}" style="width: 46px; height: 46px; object-fit: cover; border-radius: 8px; border: 1px solid #e5e5e5;">
             <div style="flex-grow: 1;">
-              <div style="font-size: 12px; font-weight: 700; color: #1c1917;">${item.name} (${item.code})</div>
-              <div style="font-size: 10px; color: #78716c;">Color: <strong>${item.selectedColor}</strong> • Talla: <strong>${item.selectedSize}</strong>${item.quantity > 1 ? ` • Cant: <strong>${item.quantity}</strong>` : ''}</div>
-              <div style="font-size: 12px; font-weight: 800; font-family: monospace; color: #1c1917; margin-top: 2px;">
+              <div style="font-size: 12px; font-weight: 800; color: #0c0a09;">${item.name} (${item.code})</div>
+              <div style="font-size: 11px; color: #737373;">Color: <strong>${item.selectedColor}</strong> • Talla: <strong>${item.selectedSize}</strong>${item.quantity > 1 ? ` • Cant: <strong>${item.quantity}</strong>` : ''}</div>
+              <div style="font-size: 13px; font-weight: 900; font-family: monospace; color: #0c0a09; margin-top: 2px;">
                 $${formatCOP(item.salePrice * item.quantity)} COP
               </div>
             </div>
-            <button onclick="removeCartItem(${idx})" style="background: none; border: none; color: #ef4444; font-size: 14px; font-weight: bold; cursor: pointer; padding: 4px;">✕</button>
+            <button onclick="removeCartItem(${idx})" style="background: none; border: none; color: #ef4444; font-size: 15px; font-weight: bold; cursor: pointer; padding: 4px;">✕</button>
           </div>
         `).join('');
       }
@@ -12390,19 +12599,19 @@
       const code = 'PED-' + Math.floor(1000 + Math.random() * 9000);
 
       const eSparkles = '\u2728';
-      const eHeart = '\uD83E\uDD0D';
-      const eDress = '\uD83D\uDC57';
+      const eFire = '\uD83D\uDD25';
+      const eShirt = '\uD83D\uDC55';
       const ePin = '\uD83D\uDCCD';
       const eBag = '\uD83D\uDECD';
       const eMoney = '\uD83D\uDCB0';
 
-      let text = `${eSparkles} *¡Hola crewstore.co!* ${eHeart}\n`;
-      text += `Me encantaría realizar el siguiente pedido (${code}):\n\n`;
-      text += `${eBag} *MIS PRENDAS ELEGIDAS:*\n`;
+      let text = `${eSparkles} *¡Hola crewstore.co!* ${eFire}\n`;
+      text += `Me gustaría realizar el siguiente pedido (${code}):\n\n`;
+      text += `${eBag} *PRENDAS SELECCIONADAS:*\n`;
 
       state.cart.forEach((i, idx) => {
         const itemTotal = i.salePrice * i.quantity;
-        text += `\n${idx + 1}. ${eDress} *${i.name}* (${i.code})\n`;
+        text += `\n${idx + 1}. ${eShirt} *${i.name}* (${i.code})\n`;
         text += `   • Color: ${i.selectedColor} | Talla: ${i.selectedSize}${i.quantity > 1 ? ` | Cant: ${i.quantity}` : ''}\n`;
         text += `   • Valor: *$${formatCOP(itemTotal)} COP*\n`;
       });
@@ -12411,7 +12620,7 @@
       text += `${ePin} *DATOS DE ENTREGA:*\n`;
       text += `   • *Nombre:* ${name}\n`;
       text += `   • *Dirección / Barrio:* ${address}\n\n`;
-      text += `Quedo atenta para confirmar disponibilidad y el valor del envío. ¡Muchas gracias! ${eSparkles}`;
+      text += `Quedo atento(a) para coordinar disponibilidad y despacho. ¡Muchas gracias! ${eSparkles}`;
 
       if (state.cloud.url && state.cloud.anonKey) {
         fetch(state.cloud.url + '/rest/v1/orders', {
@@ -12448,7 +12657,6 @@
             if (sRows[0].whatsapp_number) state.settings.whatsappNumber = sRows[0].whatsapp_number;
             document.getElementById('heroWhatsAppText').innerText = formatPhone(state.settings.whatsappNumber);
             document.getElementById('brandTitle').innerText = state.settings.storeName;
-            // logo image active
             document.getElementById('footerStoreName').innerText = state.settings.storeName;
           }
         }).catch(() => {});
@@ -12502,29 +12710,25 @@
       } else {
         const cachedSettings = localStorage.getItem('crewstore_v2_settings_cache');
         if (cachedSettings) {
-          try {
-            state.settings = { ...state.settings, ...JSON.parse(cachedSettings) };
-          } catch(e){}
+          try { state.settings = { ...state.settings, ...JSON.parse(cachedSettings) }; } catch(e){}
         }
         const cachedProds = localStorage.getItem('crewstore_v9_products_cache');
         if (cachedProds) {
           try {
             const parsed = JSON.parse(cachedProds);
-            if (parsed && parsed.length > 0) {
-              state.products = ensureSequentialNumbering(parsed);
-            }
+            if (parsed && parsed.length > 0) state.products = ensureSequentialNumbering(parsed);
           } catch(e){}
         }
       }
       state.products = ensureSequentialNumbering(state.products);
 
-      renderProductsGrid();
+      updateCategoryCounts();
+      renderSectionsAndProducts();
       updateCartBadge();
 
       document.getElementById('heroTotalCount').innerText = state.products.length;
       document.getElementById('heroWhatsAppText').innerText = formatPhone(state.settings.whatsappNumber);
       document.getElementById('brandTitle').innerText = state.settings.storeName;
-      // logo image active
       document.getElementById('footerStoreName').innerText = state.settings.storeName;
 
       try {
@@ -12538,7 +12742,6 @@
             state.settings = { ...state.settings, ...srvSettings };
             document.getElementById('heroWhatsAppText').innerText = formatPhone(state.settings.whatsappNumber);
             document.getElementById('brandTitle').innerText = state.settings.storeName;
-            // logo image active
             document.getElementById('footerStoreName').innerText = state.settings.storeName;
           }
         }
@@ -12546,7 +12749,8 @@
           const srvProds = await resProds.json();
           if (Array.isArray(srvProds) && srvProds.length > 0) {
             state.products = ensureSequentialNumbering(srvProds);
-            renderProductsGrid();
+            updateCategoryCounts();
+            renderSectionsAndProducts();
             document.getElementById('heroTotalCount').innerText = state.products.length;
           }
         }
@@ -12554,12 +12758,13 @@
 
       const loaded = await loadProductsFromSupabase();
       if (loaded) {
-        renderProductsGrid();
+        updateCategoryCounts();
+        renderSectionsAndProducts();
         document.getElementById('heroTotalCount').innerText = state.products.length;
       }
     }
 
-    // Acceso oculto: 5 toques rápidos sobre el nombre de la tienda en el pie de página
+    // Acceso oculto al panel: 5 toques rápidos en el footer
     (function () {
       let taps = 0, timer = null;
       const el = document.getElementById('footerStoreName');
@@ -12576,12 +12781,12 @@
 
     initApp();
 
-    // Sincronización en tiempo real al volver a la pestaña o cada 20s
     async function refreshRealtimeCatalog() {
       if (document.hidden || state.selectedProductModal) return;
       const loaded = await loadProductsFromSupabase();
       if (loaded) {
-        renderProductsGrid();
+        updateCategoryCounts();
+        renderSectionsAndProducts();
         document.getElementById('heroTotalCount').innerText = state.products.length;
       }
     }
