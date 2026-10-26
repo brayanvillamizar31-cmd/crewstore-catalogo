@@ -3646,9 +3646,9 @@ window.CATALOG_PRODUCTS = [
     "code": "REF-136",
     "name": "Buzo Tommy Hilfiger Azul Oscuro Mangas Blancas 136",
     "category": "Buzos & Chaquetas",
-    "supplierPrice": 0,
-    "marginPercent": 45,
-    "salePrice": 0,
+    "supplierPrice": 85000,
+    "marginPercent": 18,
+    "salePrice": 100000,
     "colors": [
       "Azul",
       "Blanco"
@@ -3664,7 +3664,8 @@ window.CATALOG_PRODUCTS = [
       "products/item_144.jpg"
     ],
     "editorialImage": null,
-    "active": true
+    "active": true,
+    "bagCharge": 0
   },
   {
     "id": 137,
