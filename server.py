@@ -198,7 +198,7 @@ class BoutiqueHandler(http.server.SimpleHTTPRequestHandler):
                 self.wfile.write(b"[]")
             return
 
-                elif path == "/api/purchases":
+        elif path == "/api/purchases":
             self.send_response(200)
             self.send_header("Content-Type", "application/json; charset=utf-8")
             self.send_header("Access-Control-Allow-Origin", "*")
@@ -261,7 +261,7 @@ class BoutiqueHandler(http.server.SimpleHTTPRequestHandler):
                 self.wfile.write(json.dumps({"error": str(e)}).encode("utf-8"))
             return
 
-                elif path == "/api/purchases":
+        elif path == "/api/purchases":
             self.send_response(200)
             self.send_header("Content-Type", "application/json; charset=utf-8")
             self.send_header("Access-Control-Allow-Origin", "*")
