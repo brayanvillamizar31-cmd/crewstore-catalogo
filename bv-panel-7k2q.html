@@ -14944,11 +14944,17 @@
         }
         const cachedProds = localStorage.getItem('crewstore_v9_products_cache');
         if (cachedProds) {
-          await fetch('http://localhost:8081/api/products', {
-            method: 'POST',
-            headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
-            body: cachedProds
-          });
+          try {
+            const list = JSON.parse(cachedProds);
+            const hasSupplierPrices = Array.isArray(list) && list.some(p => (Number(p.supplierPrice) || 0) > 0);
+            if (hasSupplierPrices) {
+              await fetch('http://localhost:8081/api/products', {
+                method: 'POST',
+                headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+                body: cachedProds
+              });
+            }
+          } catch (e) {}
         }
       } catch (e) {
         console.warn('Sync servidor local:', e);
@@ -14972,7 +14978,12 @@
       if (cachedProds) {
         try {
           const parsed = JSON.parse(cachedProds);
-          if (parsed && parsed.length > 0) state.products = ensureSequentialNumbering(parsed);
+          const hasCosts = Array.isArray(parsed) && parsed.some(p => (Number(p.supplierPrice) || 0) > 0);
+          if (hasCosts) {
+            state.products = ensureSequentialNumbering(parsed);
+          } else {
+            localStorage.removeItem('crewstore_v9_products_cache');
+          }
         } catch(e){}
       }
       state.products = ensureSequentialNumbering(state.products);
