@@ -190,10 +190,20 @@
           <div style="font-size: 10px; color: #047857; font-weight: 700; margin-top: 4px;" id="lblFixedProfitHint">Se suma +$15.000 al costo de cada prenda</div>
         </div>
 
-        <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 12px; padding: 10px 12px;">
-          <label style="font-size: 10px; font-weight: 800; color: #44403c; text-transform: uppercase; display: block; margin-bottom: 4px;">🛍️ Costo de Bolsas / Empaque ($ COP)</label>
-          <input type="number" id="inputBagCost" value="0" step="500" placeholder="Ej: 1500 o paquete" oninput="updateFinanceInputs()" style="width: 100%; padding: 8px 10px; border-radius: 8px; border: 1px solid #a8a29e; font-family: monospace; font-weight: 800; font-size: 14px; background: #fff;">
-          <div style="font-size: 10px; color: #78716c; margin-top: 4px;">Bolsas, etiquetas o empaque del producto</div>
+        <div style="background: #fffbeb; border: 2px solid #d97706; border-radius: 12px; padding: 10px 12px;">
+          <label style="font-size: 10px; font-weight: 800; color: #92400e; text-transform: uppercase; display: block; margin-bottom: 4px;">🛍️ Paquete de Bolsas (Valor pagado $ / Cantidad)</label>
+          <div style="display: flex; gap: 6px;">
+            <input type="number" id="inputBagCost" value="92000" step="1000" title="Valor pagado por el paquete" oninput="updateFinanceInputs()" style="width: 60%; padding: 8px 8px; border-radius: 8px; border: 1px solid #d97706; font-family: monospace; font-weight: 800; font-size: 13px; background: #fff;">
+            <input type="number" id="inputBagQty" value="99" step="1" min="1" title="Cantidad de bolsas" oninput="updateFinanceInputs()" style="width: 40%; padding: 8px 8px; border-radius: 8px; border: 1px solid #d97706; font-family: monospace; font-weight: 800; font-size: 13px; background: #fff;">
+          </div>
+          <div style="display: flex; align-items: center; gap: 4px; margin-top: 6px;">
+            <span style="font-size: 10px; font-weight: 800; color: #92400e;">Ventas con bolsa:</span>
+            <button type="button" onclick="stepBagsUsed(-1)" style="background:#fff; border:1px solid #d97706; border-radius:4px; padding:1px 6px; font-weight:800; cursor:pointer;">-</button>
+            <input type="number" id="inputBagsUsed" value="0" min="0" oninput="updateFinanceInputs()" style="width: 52px; padding: 3px; border-radius: 6px; border: 1px solid #d97706; font-family: monospace; font-weight: 800; text-align: center;">
+            <button type="button" onclick="stepBagsUsed(1)" style="background:#d97706; color:#fff; border:none; border-radius:4px; padding:2px 7px; font-weight:800; cursor:pointer;">+1</button>
+          </div>
+          <div style="background:#fde68a; height:6px; border-radius:9999px; margin-top:6px; overflow:hidden;"><div id="barBagRecovery" style="background:#059669; height:100%; width:0%;"></div></div>
+          <div style="font-size: 10px; color: #92400e; font-weight: 700; margin-top: 4px;" id="lblBagRecovery">Cobro por venta: $930 • Recuperado $0 de $92.000</div>
         </div>
 
         <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 12px; padding: 10px 12px;">
