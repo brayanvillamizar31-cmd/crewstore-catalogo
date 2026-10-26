@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Agente de Optimización & UI/UX - Tienda Boutique
+Agente de Optimización & UI/UX - crewstore.co
 Optimización Inteligente de Calidad Visual:
 - Respaldo de seguridad automático de originales en products_backup/
 - Preserva la calidad visual al 100% (calidad 85% y resolución retina hasta 1400px)

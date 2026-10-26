@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS public.products (
     id BIGINT PRIMARY KEY,
     code TEXT NOT NULL UNIQUE,
     name TEXT NOT NULL,
-    category TEXT NOT NULL DEFAULT 'Prendas Femeninas',
+    category TEXT NOT NULL DEFAULT 'Camisetas & Polos',
     supplier_price NUMERIC NOT NULL DEFAULT 20000,
     margin_percent NUMERIC NOT NULL DEFAULT 40,
     sale_price NUMERIC NOT NULL DEFAULT 28000,
@@ -28,8 +28,8 @@ ALTER TABLE public.products ADD COLUMN IF NOT EXISTS editorial_image TEXT;
 -- 2. TABLA DE CONFIGURACIÓN DE LA TIENDA
 CREATE TABLE IF NOT EXISTS public.store_settings (
     id TEXT PRIMARY KEY DEFAULT 'main',
-    store_name TEXT NOT NULL DEFAULT 'PERLA BOUTIQUE',
-    whatsapp_number TEXT NOT NULL DEFAULT '573173104097',
+    store_name TEXT NOT NULL DEFAULT 'crewstore.co',
+    whatsapp_number TEXT NOT NULL DEFAULT '573170128692',
     global_margin NUMERIC NOT NULL DEFAULT 40,
     admin_pin TEXT NOT NULL DEFAULT '1234',
     round_thousands BOOLEAN NOT NULL DEFAULT true,
@@ -98,5 +98,5 @@ CREATE POLICY "Permitir gestion de pedidos solo a administradores" ON public.ord
 
 -- Insertar configuración inicial por defecto
 INSERT INTO public.store_settings (id, store_name, whatsapp_number, global_margin, admin_pin)
-VALUES ('main', 'PERLA BOUTIQUE', '573173104097', 40, '1234')
-ON CONFLICT (id) DO UPDATE SET store_name = 'PERLA BOUTIQUE';
+VALUES ('main', 'crewstore.co', '573170128692', 40, '1234')
+ON CONFLICT (id) DO UPDATE SET store_name = 'crewstore.co';

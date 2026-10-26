@@ -1,6 +1,6 @@
 #!/bin/bash
 # ==============================================================================
-# AGENTE DE OPTIMIZACIÓN & RENDIMIENTO UI/UX - BOUTIQUE ONLINE
+# AGENTE DE OPTIMIZACIÓN & RENDIMIENTO UI/UX - CREWSTORE.CO
 # Audita y optimiza fotos, tiempos de carga y velocidad móvil
 # ==============================================================================
 

@@ -797,7 +797,7 @@
         <input type="password" id="cloudKey" placeholder="eyJhb..." style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-family: monospace; font-size: 12px; margin-bottom: 10px;">
 
         <label style="font-size: 11px; font-weight: 700; display: block; margin-bottom: 4px;">Correo Administrador Supabase (Auth):</label>
-        <input type="email" id="cloudAdminEmail" placeholder="brayan@tienda.com" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px;">
+        <input type="email" id="cloudAdminEmail" placeholder="admin@crewstore.co" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px;">
       </div>
 
       <div style="display: flex; gap: 8px; margin-bottom: 14px;">
@@ -12846,7 +12846,7 @@
 
     async function attemptSupabaseAuth(password) {
       if (!state.cloud.url || !state.cloud.anonKey) return;
-      const email = state.cloud.adminEmail || localStorage.getItem('crewstore_supabase_admin_email') || 'brayan@tienda.com';
+      const email = state.cloud.adminEmail || localStorage.getItem('crewstore_supabase_admin_email') || 'admin@crewstore.co';
       try {
         const res = await fetch(state.cloud.url + '/auth/v1/token?grant_type=password', {
           method: 'POST',
@@ -13955,7 +13955,7 @@
     function openCloudModal() {
       document.getElementById('cloudUrl').value = state.cloud.url;
       document.getElementById('cloudKey').value = state.cloud.anonKey;
-      document.getElementById('cloudAdminEmail').value = state.cloud.adminEmail || 'brayan@tienda.com';
+      document.getElementById('cloudAdminEmail').value = state.cloud.adminEmail || 'admin@crewstore.co';
       document.getElementById('modalCloud').style.display = 'flex';
     }
 
@@ -13969,7 +13969,7 @@
       const em = document.getElementById('cloudAdminEmail').value.trim();
       state.cloud.url = u;
       state.cloud.anonKey = k;
-      state.cloud.adminEmail = em || 'brayan@tienda.com';
+      state.cloud.adminEmail = em || 'admin@crewstore.co';
       localStorage.setItem('crewstore_supabase_url', u);
       localStorage.setItem('crewstore_supabase_anon_key', k);
       localStorage.setItem('crewstore_supabase_admin_email', state.cloud.adminEmail);
@@ -14064,7 +14064,7 @@
       const blob = new Blob([JSON.stringify(b, null, 2)], { type: 'application/json' });
       const a = document.createElement('a');
       a.href = URL.createObjectURL(blob);
-      a.download = `respaldo_boutique_${new Date().toISOString().slice(0, 10)}.json`;
+      a.download = `respaldo_crewstore_${new Date().toISOString().slice(0, 10)}.json`;
       a.click();
     }
 
@@ -14438,7 +14438,7 @@
               <li>✅ <strong>Meta-etiquetas Google & OpenGraph WhatsApp:</strong> Activas con marca <em>crewstore.co</em>.</li>
               <li>✅ <strong>Secuencia limpia sin saltos:</strong> <code>REF-001</code> a <code>REF-${String(state.products.length).padStart(3, '0')}</code> verificada y sin duplicados.</li>
               <li>✅ <strong>Doble vista (Modelo + Prenda sola):</strong> ${withEditorial} prendas destacadas con exhibición flat-lay.</li>
-              <li>💡 <strong>Oportunidad SEO:</strong> Personaliza el nombre de tus 10 prendas más pedidas (ej. <em>"Top Corset Perla"</em> en vez de <em>"Prenda Exclusiva"</em>) para aumentar clics un +28%.</li>
+              <li>💡 <strong>Oportunidad SEO:</strong> Personaliza el nombre de tus 10 prendas más pedidas (ej. <em>"Camiseta Retro Originals"</em> en vez de <em>"Prenda Exclusiva"</em>) para aumentar clics un +28%.</li>
             </ul>
           </div>
         `;
@@ -14867,7 +14867,7 @@
       if (cachedSettings) {
         try {
           state.settings = { ...state.settings, ...JSON.parse(cachedSettings) };
-          if (!state.settings.storeName || state.settings.storeName.toUpperCase() === 'AURORA BOUTIQUE') {
+          if (!state.settings.storeName || state.settings.storeName.toUpperCase() === 'AURORA BOUTIQUE' || state.settings.storeName.toUpperCase() === 'PERLA BOUTIQUE') {
             state.settings.storeName = 'crewstore.co';
             localStorage.setItem('crewstore_v2_settings_cache', JSON.stringify(state.settings));
           }

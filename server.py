@@ -177,7 +177,7 @@ def git_auto_sync_loop():
                 print(f"Aviso git auto-sync: {e}", flush=True)
 
 
-class BoutiqueHandler(http.server.SimpleHTTPRequestHandler):
+class CrewStoreHandler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=PUBLIC_DIR, **kwargs)
 
@@ -328,7 +328,7 @@ def run():
     socketserver.TCPServer.allow_reuse_address = True
     for port in [8081, 8080, 8082, 3000, 5000]:
         try:
-            with socketserver.TCPServer(("", port), BoutiqueHandler) as httpd:
+            with socketserver.TCPServer(("", port), CrewStoreHandler) as httpd:
                 print(f"Servidor iniciado exitosamente en http://localhost:{port} (Auto-sync GitHub + Supabase activo)", flush=True)
                 httpd.serve_forever()
                 break
