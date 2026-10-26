@@ -10636,9 +10636,9 @@ window.CATALOG_PRODUCTS = [
     "code": "REF-394",
     "name": "Camiseta Streetwear Undergold Cash & Dice 394",
     "category": "Streetwear & Urbano",
-    "supplierPrice": 45000,
-    "marginPercent": 33,
-    "salePrice": 61850,
+    "supplierPrice": 95000,
+    "marginPercent": 16,
+    "salePrice": 110930,
     "colors": [
       "Negro",
       "Blanco"
