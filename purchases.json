@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "COMP-654181",
+    "date": "2026-10-26",
+    "supplier": "FRAMANDY MEDELLIN",
+    "description": "GORRAS MEXICANAS",
+    "quantity": 7,
+    "totalCost": 189500,
+    "paymentMethod": "Consignación Bancaria",
+    "notes": "",
+    "createdAt": "2026-10-26T18:50:54.181Z"
+  }
+]
