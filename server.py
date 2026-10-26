@@ -253,6 +253,15 @@ class CrewStoreHandler(http.server.SimpleHTTPRequestHandler):
                             try:
                                 with open(PRODUCTS_FILE, "r", encoding="utf-8") as f_old:
                                     old_prods = json.load(f_old)
+
+                                # Protección anti-truncamiento accidental de prendas
+                                if len(old_prods) > 400 and len(data) < len(old_prods) - 5:
+                                    print(f"⚠️ Alerta: Intento de guardar lista truncada ({len(data)} vs {len(old_prods)}). Protegido.", flush=True)
+                                    existing_ids = {p["id"] for p in data}
+                                    missing_prods = [p for p in old_prods if p["id"] not in existing_ids]
+                                    data.extend(missing_prods)
+                                    data.sort(key=lambda x: x["id"])
+
                                 old_costs = {p["id"]: p.get("supplierPrice") for p in old_prods if (p.get("supplierPrice") or 0) > 0}
                                 old_margins = {p["id"]: p.get("marginPercent") for p in old_prods if p.get("marginPercent")}
                                 for p in data:
