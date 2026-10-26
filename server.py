@@ -247,6 +247,22 @@ class CrewStoreHandler(http.server.SimpleHTTPRequestHandler):
                 data = json.loads(body.decode("utf-8"))
                 if isinstance(data, list) and len(data) > 0:
                     with _sync_lock:
+                        # Protección anti-borrado de costos de bodega:
+                        # Si los datos entrantes no tienen supplierPrice, recuperar del archivo existente
+                        if os.path.exists(PRODUCTS_FILE):
+                            try:
+                                with open(PRODUCTS_FILE, "r", encoding="utf-8") as f_old:
+                                    old_prods = json.load(f_old)
+                                old_costs = {p["id"]: p.get("supplierPrice") for p in old_prods if (p.get("supplierPrice") or 0) > 0}
+                                old_margins = {p["id"]: p.get("marginPercent") for p in old_prods if p.get("marginPercent")}
+                                for p in data:
+                                    if (p.get("supplierPrice") or 0) == 0 and p.get("id") in old_costs:
+                                        p["supplierPrice"] = old_costs[p["id"]]
+                                        if "marginPercent" not in p or not p.get("marginPercent"):
+                                            p["marginPercent"] = old_margins.get(p["id"], 20)
+                            except Exception:
+                                pass
+
                         with open(PRODUCTS_FILE, "w", encoding="utf-8") as f:
                             json.dump(data, f, ensure_ascii=False, indent=2)
                         js_content = "window.CATALOG_PRODUCTS = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n"
