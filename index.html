@@ -1366,6 +1366,321 @@
       text-transform: uppercase;
     }
 
+  
+    /* ========================================================
+       SISTEMA RESPONSIVO MÓVIL PROFESIONAL (ANTI-CORTE & ANTI-OVERFLOW)
+       ======================================================== */
+    *, *::before, *::after {
+      min-width: 0;
+    }
+    html, body {
+      max-width: 100vw;
+      overflow-x: hidden;
+    }
+    img {
+      max-width: 100%;
+    }
+
+    @media (max-width: 640px) {
+      /* 1. Contenedor principal sin bordes cortados */
+      .container {
+        padding: 0 10px !important;
+        max-width: 100vw !important;
+        box-sizing: border-box !important;
+      }
+
+      /* 2. Barra de Anuncio Superior: 1 sola línea centrada y limpia */
+      .top-announcement {
+        justify-content: center !important;
+        text-align: center !important;
+        font-size: 10px !important;
+        padding: 7px 8px !important;
+        letter-spacing: 0.5px !important;
+      }
+      .top-announcement span:first-child,
+      .top-announcement span:last-child {
+        display: none !important;
+      }
+      .top-announcement span:nth-child(2) {
+        display: inline-block !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+      }
+
+      /* 3. Navbar: Proporciones exactas para celular */
+      .navbar {
+        height: 60px !important;
+      }
+      .brand-logo-wrap {
+        width: 36px !important;
+        height: 36px !important;
+      }
+      .brand-title {
+        font-size: 16px !important;
+      }
+      .brand-sub {
+        display: none !important;
+      }
+      .btn-cart-nav {
+        padding: 7px 12px !important;
+        font-size: 11px !important;
+        gap: 6px !important;
+      }
+
+      /* 4. Hero Editorial: Compacto, centrado y sin desbordes 3D */
+      .hero-editorial {
+        padding: 16px 12px !important;
+        border-radius: 18px !important;
+        margin: 10px 0 14px 0 !important;
+      }
+      .hero-editorial::before {
+        display: none !important;
+      }
+      .hero-tag-wrap {
+        padding: 4px 10px !important;
+        margin-bottom: 10px !important;
+      }
+      .hero-tag-text {
+        font-size: 9.5px !important;
+      }
+      .hero-title {
+        font-size: 22px !important;
+        line-height: 1.15 !important;
+        margin-bottom: 8px !important;
+      }
+      .hero-desc {
+        font-size: 12px !important;
+        margin-bottom: 14px !important;
+        line-height: 1.5 !important;
+      }
+      .hero-badges-row {
+        gap: 6px !important;
+        margin-bottom: 14px !important;
+      }
+      .hero-spec-badge {
+        font-size: 10px !important;
+        padding: 4px 8px !important;
+      }
+      .hero-cta-group {
+        width: 100% !important;
+        gap: 8px !important;
+      }
+      .btn-hero-primary, .btn-hero-secondary {
+        width: 100% !important;
+        justify-content: center !important;
+        padding: 11px 16px !important;
+        font-size: 12px !important;
+      }
+
+      /* Hero Deck 3D: Plano y 100% contenido en la pantalla móvil */
+      .hero-deck-wrap {
+        perspective: none !important;
+        margin-top: 6px !important;
+        width: 100% !important;
+      }
+      .hero-deck-card {
+        transform: none !important;
+        max-width: 100% !important;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.6) !important;
+        padding: 10px !important;
+      }
+      .deck-player-bar {
+        padding: 8px 10px !important;
+        gap: 8px !important;
+      }
+      .player-track-info {
+        flex: 1 !important;
+        min-width: 140px !important;
+      }
+      .player-play-icon {
+        width: 28px !important;
+        height: 28px !important;
+        font-size: 12px !important;
+      }
+      .player-title {
+        font-size: 11px !important;
+        max-width: 130px !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+      }
+      .player-sub {
+        font-size: 9.5px !important;
+      }
+      .btn-order-deck {
+        padding: 6px 10px !important;
+        font-size: 10.5px !important;
+      }
+
+      /* 5. Banner de Ofertas: Vertical en móvil */
+      .promo-basket {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        padding: 14px !important;
+        gap: 12px !important;
+        border-radius: 16px !important;
+      }
+      .promo-title {
+        font-size: 13.5px !important;
+      }
+      .promo-sub {
+        font-size: 11px !important;
+      }
+      .btn-promo {
+        width: 100% !important;
+        text-align: center !important;
+        padding: 9px !important;
+      }
+
+      /* 6. Controles Sticky: Buscador + Píldoras */
+      .sticky-controls {
+        top: 60px !important;
+        padding: 10px 0 8px 0 !important;
+        margin-bottom: 14px !important;
+      }
+      .search-bar-wrap {
+        padding: 8px 12px !important;
+        border-radius: 12px !important;
+        margin-bottom: 8px !important;
+      }
+      .search-input {
+        font-size: 12.5px !important;
+      }
+      .cat-pill {
+        padding: 6px 12px !important;
+        font-size: 11px !important;
+        gap: 5px !important;
+      }
+
+      /* 7. Encabezados de Sección: Ordenados en dos niveles limpios */
+      .section-header-banner {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        padding: 12px 12px !important;
+        gap: 8px !important;
+        margin: 22px 0 12px 0 !important;
+      }
+      .section-title-wrap {
+        width: 100% !important;
+        gap: 8px !important;
+      }
+      .section-num-tag {
+        font-size: 10px !important;
+        padding: 3px 6px !important;
+      }
+      .section-icon {
+        font-size: 17px !important;
+      }
+      .section-title {
+        font-size: 14px !important;
+      }
+      .section-subtag {
+        font-size: 10px !important;
+      }
+      .section-header-banner > div:last-child {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+        padding-top: 8px !important;
+        margin-top: 2px !important;
+      }
+      .section-badge-cnt {
+        font-size: 9.5px !important;
+        padding: 2px 7px !important;
+      }
+      .btn-sec-filter {
+        font-size: 10px !important;
+        padding: 5px 10px !important;
+      }
+
+      /* 8. Cuadrícula de Productos: 2 columnas perfectas sin cortes */
+      .products-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 8px !important;
+        margin-bottom: 20px !important;
+      }
+      .card {
+        border-radius: 14px !important;
+      }
+      .card-body {
+        padding: 8px 9px !important;
+      }
+      .card-tech-tag {
+        font-size: 8.5px !important;
+      }
+      .card-title {
+        font-size: 12px !important;
+        margin: 1px 0 5px 0 !important;
+      }
+      .card-badges {
+        gap: 3px !important;
+        margin-bottom: 6px !important;
+      }
+      .color-chip, .size-chip {
+        font-size: 8.5px !important;
+        padding: 1px 5px !important;
+      }
+      .card-footer {
+        padding-top: 7px !important;
+      }
+      .card-price-label {
+        font-size: 8px !important;
+      }
+      .card-price {
+        font-size: 13px !important;
+      }
+      .btn-order-card {
+        padding: 5px 9px !important;
+        font-size: 10px !important;
+        border-radius: 8px !important;
+      }
+      .card-lookbook-strip {
+        bottom: 5px !important;
+        padding: 2px 5px !important;
+        gap: 3px !important;
+      }
+      .card-angle-chip {
+        font-size: 8px !important;
+        padding: 1px 4px !important;
+      }
+      .card-badge {
+        font-size: 8.5px !important;
+        padding: 2px 6px !important;
+        top: 6px !important;
+        left: 6px !important;
+      }
+      .card-multi-badge {
+        font-size: 8px !important;
+        padding: 2px 6px !important;
+        top: 6px !important;
+        right: 6px !important;
+      }
+
+      /* 9. Barra Móvil Flotante Inferior */
+      .mobile-cart-bar {
+        padding: 10px 14px !important;
+      }
+      .mobile-cart-sum {
+        font-size: 16px !important;
+      }
+      .mobile-cart-btn {
+        padding: 8px 16px !important;
+        font-size: 11px !important;
+      }
+
+      /* 10. Modales en Móvil */
+      .modal-content {
+        padding: 16px 14px !important;
+        border-radius: 20px 20px 0 0 !important;
+        max-height: 85vh !important;
+      }
+      .modal-title {
+        font-size: 15px !important;
+      }
+    }
+
   </style>
 </head>
 <body>
