@@ -156,19 +156,13 @@
       </div>
     </section>
 
-    <!-- PANEL DE INVERSIÓN INICIAL ($2.500.000) Y COSTOS DEL PRODUCTO (BOLSAS + DOMICILIO DE COMPRA DE MERCANCÍA) -->
+    <!-- PANEL DE INVERSIÓN INICIAL ($2.500.000) Y RECUPERACIÓN DE BOLSAS (99 und por $92.000) -->
     <section style="background: #fff; border: 2px solid #1c1917; border-radius: 16px; padding: 16px 18px; margin-bottom: 18px; box-shadow: 0 4px 14px rgba(0,0,0,0.05);">
       <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 12px;">
         <div>
-          <span style="background: #1c1917; color: #fde047; font-size: 10px; font-weight: 800; padding: 3px 9px; border-radius: 9999px;">💰 CONTROL DE CAPITAL & COSTOS DEL PRODUCTO</span>
-          <h3 style="font-size: 15px; font-weight: 800; color: #1c1917; margin-top: 5px;">Inversión Inicial ($2.500.000) y Costos de Mercancía (Bolsas y Domicilio de Compra)</h3>
-          <p style="font-size: 11px; color: #57534e;">Registra tu inversión inicial y los costos asociados al producto (bolsas/empaque y el domicilio pagado al comprar o traer la mercancía). Todo se guarda en tiempo real:</p>
-        </div>
-        <div style="display: flex; align-items: center; gap: 8px;">
-          <label style="font-size: 11px; font-weight: 800; color: #1c1917; display: flex; align-items: center; gap: 5px; cursor: pointer; background: #f5f5f4; padding: 6px 10px; border-radius: 8px; border: 1px solid #d6d3d1;">
-            <input type="checkbox" id="chkApplyUnitCosts" onchange="updateFinanceInputs()" style="accent-color: #1c1917;">
-            Descontar Bolsa + Domicilio Compra en ganancia de cada prenda
-          </label>
+          <span style="background: #1c1917; color: #fde047; font-size: 10px; font-weight: 800; padding: 3px 9px; border-radius: 9999px;">💰 CONTROL DE CAPITAL & AMORTIZACIÓN DE BOLSAS</span>
+          <h3 style="font-size: 15px; font-weight: 800; color: #1c1917; margin-top: 5px;">Inversión Inicial ($2.500.000) y Recuperación de Bolsas (99 und por $92.000)</h3>
+          <p style="font-size: 11px; color: #57534e;">Control de capital invertido y recuperación automática del paquete de bolsas: se cobra una cuota proporcional en cada venta hasta amortizar los $92.000.</p>
         </div>
       </div>
 
@@ -206,17 +200,11 @@
           <div style="font-size: 10px; color: #92400e; font-weight: 700; margin-top: 4px;" id="lblBagRecovery">Cobro por venta: $930 • Recuperado $0 de $92.000</div>
         </div>
 
-        <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 12px; padding: 10px 12px;">
-          <label style="font-size: 10px; font-weight: 800; color: #44403c; text-transform: uppercase; display: block; margin-bottom: 4px;">🛵 Domicilio Compra de Mercancía ($ COP)</label>
-          <input type="number" id="inputMerchShippingCost" value="0" step="1000" placeholder="Ej: 8000 o flete" oninput="updateFinanceInputs()" style="width: 100%; padding: 8px 10px; border-radius: 8px; border: 1px solid #a8a29e; font-family: monospace; font-weight: 800; font-size: 14px; background: #fff;">
-          <div style="font-size: 10px; color: #78716c; margin-top: 4px;">Domicilio o envío al comprar la mercancía</div>
-        </div>
-
         <div style="background: #1c1917; color: #fff; border-radius: 12px; padding: 10px 14px; display: flex; flex-direction: column; justify-content: center;">
-          <div style="font-size: 10px; font-weight: 800; color: #fde047; text-transform: uppercase;">📊 Resumen de Inversión + Costos</div>
-          <div style="font-size: 17px; font-weight: 800; font-family: monospace; margin-top: 3px;" id="lblTotalInvestmentPlusCosts">$2.500.000</div>
-          <div style="font-size: 10px; color: #d6d3d1; margin-top: 3px;" id="lblExtraProductCostsSummary">Bolsas + Domicilio Compra: $0</div>
-          <div style="font-size: 10px; color: #6ee7b7; font-weight: 700; margin-top: 2px;" id="lblRoiBreakEven">Meta recuperación lista</div>
+          <div style="font-size: 10px; font-weight: 800; color: #fde047; text-transform: uppercase;">📊 Inversión Total + Bolsas</div>
+          <div style="font-size: 17px; font-weight: 800; font-family: monospace; margin-top: 3px;" id="lblTotalInvestmentPlusCosts">$2.592.000</div>
+          <div style="font-size: 10px; color: #d6d3d1; margin-top: 3px;" id="lblExtraProductCostsSummary">Paquete bolsas: $92.000 (99 und)</div>
+          <div style="font-size: 10px; color: #6ee7b7; font-weight: 700; margin-top: 2px;" id="lblRoiBreakEven">Recuperando $930 por venta</div>
         </div>
       </div>
     </section>
@@ -13450,8 +13438,6 @@
         bagCost: 92000,
         bagQty: 99,
         bagsUsed: 0,
-        merchShippingCost: 0,
-        applyUnitCosts: false,
         fixedProfit: 15000
       },
       cloud: {
@@ -13721,26 +13707,20 @@
     let _financeSyncTimer = null;
     function syncFinanceUI() {
       const inv = Number(state.settings.investmentAmount ?? 2500000);
-      const bag = Number(state.settings.bagCost || 0);
-      const ship = Number(state.settings.merchShippingCost || 0);
-      const applyUnit = !!state.settings.applyUnitCosts;
+      const bag = Number(state.settings.bagCost || 92000);
+      const bagQty = Math.max(1, Number(state.settings.bagQty || 99));
+      const bagsUsed = Math.max(0, Number(state.settings.bagsUsed || 0));
 
       const elInv = document.getElementById('inputInvestmentAmount');
       const elBag = document.getElementById('inputBagCost');
-      const elShip = document.getElementById('inputMerchShippingCost');
-      const elChk = document.getElementById('chkApplyUnitCosts');
+      const elQty = document.getElementById('inputBagQty');
+      const elUsed = document.getElementById('inputBagsUsed');
 
       if (elInv && document.activeElement !== elInv) elInv.value = inv;
       if (elBag && document.activeElement !== elBag) elBag.value = bag;
-      if (elShip && document.activeElement !== elShip) elShip.value = ship;
-      if (elChk) elChk.checked = applyUnit;
-
-      const bagQty = Math.max(1, Number(state.settings.bagQty || 99));
-      const bagsUsed = Math.max(0, Number(state.settings.bagsUsed || 0));
-      const elQty = document.getElementById('inputBagQty');
-      const elUsed = document.getElementById('inputBagsUsed');
       if (elQty && document.activeElement !== elQty) elQty.value = bagQty;
       if (elUsed && document.activeElement !== elUsed) elUsed.value = bagsUsed;
+
       const shareNow = getBagShare();
       const unitShare = Math.ceil((bag / bagQty) / 10) * 10;
       const recovered = Math.min(bag, bagsUsed * unitShare);
@@ -13759,37 +13739,30 @@
         if (el && document.activeElement !== el) el.value = fixedP;
       });
       const hintFP = document.getElementById('lblFixedProfitHint');
-      if (hintFP) hintFP.innerText = `Se suma +$${formatCOP(fixedP)} al costo de cada prenda`;
-
-      const extraCosts = bag + ship;
-      const totalOutlay = inv + (applyUnit ? 0 : extraCosts);
+      if (hintFP) hintFP.innerText = `Se suma +$${formatCOP(fixedP)} de ganancia neta por prenda`;
 
       const lblInv = document.getElementById('lblInvestmentFormatted');
       if (lblInv) lblInv.innerText = `Inversión base: $${formatCOP(inv)} COP`;
 
       const lblTotal = document.getElementById('lblTotalInvestmentPlusCosts');
-      if (lblTotal) lblTotal.innerText = `$${formatCOP(inv + extraCosts)} COP`;
+      if (lblTotal) lblTotal.innerText = `$${formatCOP(inv + bag)} COP`;
 
       const lblExtra = document.getElementById('lblExtraProductCostsSummary');
       if (lblExtra) {
-        lblExtra.innerText = `Bolsas ($${formatCOP(bag)}) + Domicilio Mercancía ($${formatCOP(ship)}) = $${formatCOP(extraCosts)}`;
+        lblExtra.innerText = `Paquete bolsas: $${formatCOP(bag)} (${bagQty} und a $${formatCOP(unitShare)} c/u)`;
       }
     }
 
     function updateFinanceInputs() {
       const elInv = document.getElementById('inputInvestmentAmount');
       const elBag = document.getElementById('inputBagCost');
-      const elShip = document.getElementById('inputMerchShippingCost');
-      const elChk = document.getElementById('chkApplyUnitCosts');
-
-      state.settings.investmentAmount = elInv ? Number(elInv.value || 0) : 2500000;
-      state.settings.bagCost = elBag ? Number(elBag.value || 0) : 0;
-      state.settings.merchShippingCost = elShip ? Number(elShip.value || 0) : 0;
-      state.settings.applyUnitCosts = elChk ? !!elChk.checked : false;
       const elQty = document.getElementById('inputBagQty');
       const elUsed = document.getElementById('inputBagsUsed');
-      if (elQty) state.settings.bagQty = Math.max(1, Number(elQty.value || 99));
-      if (elUsed) state.settings.bagsUsed = Math.min(state.settings.bagQty || 99, Math.max(0, Number(elUsed.value || 0)));
+
+      state.settings.investmentAmount = elInv ? Number(elInv.value || 0) : 2500000;
+      state.settings.bagCost = elBag ? Number(elBag.value || 0) : 92000;
+      state.settings.bagQty = elQty ? Math.max(1, Number(elQty.value || 99)) : 99;
+      state.settings.bagsUsed = elUsed ? Math.min(state.settings.bagQty, Math.max(0, Number(elUsed.value || 0))) : 0;
 
       localStorage.setItem('crewstore_v2_settings_cache', JSON.stringify(state.settings));
       syncFinanceUI();
@@ -13809,8 +13782,6 @@
                 store_name: JSON.stringify({
                   investmentAmount: state.settings.investmentAmount,
                   bagCost: state.settings.bagCost,
-                  merchShippingCost: state.settings.merchShippingCost,
-                  applyUnitCosts: state.settings.applyUnitCosts,
                   bagQty: Number(state.settings.bagQty || 99),
                   bagsUsed: Number(state.settings.bagsUsed || 0),
                   fixedProfit: Number(state.settings.fixedProfit ?? 15000)
@@ -13870,8 +13841,7 @@
       const active = state.products.filter(p => p.active !== false).length;
       const pricedProds = state.products.filter(p => (p.salePrice || 0) > 0);
       const countForAvg = pricedProds.length > 0 ? pricedProds.length : (total || 1);
-      const unitExtra = state.settings.applyUnitCosts ? Number(state.settings.merchShippingCost || 0) : 0;
-      const totalCost = pricedProds.reduce((acc, p) => acc + (p.supplierPrice || 0) + Number(p.bagCharge || 0) + unitExtra, 0);
+      const totalCost = pricedProds.reduce((acc, p) => acc + (p.supplierPrice || 0) + Number(p.bagCharge || 0), 0);
       const totalSale = pricedProds.reduce((acc, p) => acc + (p.salePrice || 0), 0);
       const avgCost = Math.round(totalCost / countForAvg);
       const avgSale = Math.round(totalSale / countForAvg);
@@ -13887,14 +13857,14 @@
       document.getElementById('metricMarginAvg').innerText = `Margen promedio: ${marginAvg}% por prenda`;
 
       const inv = Number(state.settings.investmentAmount ?? 2500000);
-      const extraTotal = Number(state.settings.bagCost || 0) + Number(state.settings.merchShippingCost || 0);
-      const targetToRecover = inv + (state.settings.applyUnitCosts ? 0 : extraTotal);
+      const bag = Number(state.settings.bagCost || 92000);
+      const targetToRecover = inv + bag;
       const lblRoi = document.getElementById('lblRoiBreakEven');
       if (lblRoi) {
         const unitsNeeded = avgProfit > 0 ? Math.ceil(targetToRecover / avgProfit) : 0;
         lblRoi.innerText = unitsNeeded > 0
-          ? `Recuperas inversión con ~${unitsNeeded} prendas (+$${formatCOP(avgProfit)}/prenda)`
-          : `Utilidad promedio: +$${formatCOP(avgProfit)}/prenda`;
+          ? `Recuperas inversión + bolsas con ~${unitsNeeded} prendas (+$${formatCOP(avgProfit)} libre/prenda)`
+          : `Utilidad promedio: +$${formatCOP(avgProfit)} libre/prenda`;
       }
     }
 
@@ -13911,10 +13881,8 @@
         );
       }
 
-      const unitExtra = state.settings.applyUnitCosts ? Number(state.settings.merchShippingCost || 0) : 0;
-
       tbody.innerHTML = list.map(p => {
-        const net = (p.salePrice || 0) - ((p.supplierPrice || 0) + Number(p.bagCharge || 0) + unitExtra);
+        const net = (p.salePrice || 0) - ((p.supplierPrice || 0) + Number(p.bagCharge || 0));
         const colorBadges = (p.colors || []).map(c => `<span class="pill-tag">${c}</span>`).join('');
         const sizeBadges = (p.sizes || ['Única']).map(s => `<span class="pill-tag" style="background:#e0f2fe; color:#0369a1;">${s}</span>`).join('');
 
@@ -13959,7 +13927,7 @@
                 <input type="number" step="1000" class="input-table" title="Valor que se gana en esta prenda (editable)" style="width: 78px; border: 2px solid #059669; color: #065f46; font-weight: 800;" value="${(p.salePrice || 0) - (p.supplierPrice || 0) - Number(p.bagCharge || 0)}" onchange="updateProdProfit(${p.id}, this.value)">
               </div>
               ${Number(p.bagCharge || 0) > 0 ? `<div style="font-size: 9px; color: #b45309; font-weight: 700; margin-top: 2px;">+ $${formatCOP(p.bagCharge)} bolsa</div>` : ''}
-              ${unitExtra > 0 ? `<div style="font-size: 9px; color: #78716c; margin-top: 2px;">Neto tras bolsa/domicilio: +$${formatCOP(net)}</div>` : ''}
+              
             </td>
             <td>
               <div style="max-width: 140px;">
