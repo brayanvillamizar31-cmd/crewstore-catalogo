@@ -1810,18 +1810,23 @@
         <button class="btn-close" onclick="closeAddToCartModal()">✕</button>
       </div>
 
-      <div style="display: flex; gap: 14px; margin-bottom: 16px; align-items: center;">
-        <div style="position: relative; width: 90px; height: 90px; border-radius: 14px; overflow: hidden; border: 1.5px solid var(--border-gold); background: #000;">
-          <img id="modalProdImg" src="" style="width: 100%; height: 100%; object-fit: cover;">
-          <div id="modalSliderBar" style="position: absolute; bottom: 4px; left: 0; right: 0; display: flex; justify-content: center; gap: 4px;"></div>
+      <div style="display: flex; gap: 16px; margin-bottom: 18px; flex-wrap: wrap;">
+        <!-- Visor Lookbook de Imagen Grande -->
+        <div style="flex: 0 0 130px; position: relative; border-radius: 16px; overflow: hidden; border: 1.5px solid var(--border-gold); background: #000;">
+          <img id="modalProdImg" src="" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; display: block;">
         </div>
-        <div>
-          <span style="background: #09090c; color: var(--gold-light); font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 9999px; border: 1px solid var(--gold-primary);" id="modalProdCode">REF-001</span>
-          <h4 style="font-size: 15px; font-weight: 800; font-family: 'Space Grotesk', sans-serif; color: #ffffff; margin: 6px 0 3px 0;" id="modalProdName">Prenda</h4>
-          <div style="font-size: 17px; font-weight: 900; color: var(--gold-light); font-family: 'JetBrains Mono', monospace;">
+        <div style="flex: 1; min-width: 180px; display: flex; flex-direction: column; justify-content: center;">
+          <span style="background: #09090c; color: var(--gold-light); font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 9999px; border: 1px solid var(--gold-primary); width: fit-content;" id="modalProdCode">REF-001</span>
+          <h4 style="font-size: 16px; font-weight: 800; font-family: 'Space Grotesk', sans-serif; color: #ffffff; margin: 6px 0 4px 0; line-height: 1.25;" id="modalProdName">Prenda</h4>
+          <div style="font-size: 18px; font-weight: 900; color: var(--gold-light); font-family: 'JetBrains Mono', monospace; margin-bottom: 4px;">
             $<span id="modalProdPrice">0</span> COP
           </div>
+          <div style="font-size: 11px; color: var(--gold-primary); font-family: 'Space Grotesk', sans-serif; font-weight: 700;">
+            ⚡ CALIDAD 1.1 • EN STOCK EN BODEGA
+          </div>
         </div>
+        <!-- Tira de Ángulos Lookbook (Frente, Espalda, Detalle) -->
+        <div id="modalSliderBar" style="width: 100%; display: flex; gap: 8px; margin-top: 4px;"></div>
       </div>
 
       <div style="margin-bottom: 16px;" id="modalColorsSection">
@@ -14083,10 +14088,12 @@
       const sliderBar = document.getElementById('modalSliderBar');
       if (gallery.length > 1) {
         sliderBar.innerHTML = gallery.map((_, gIdx) => `
-          <button class="slider-dot-btn ${gIdx === 0 ? 'active' : ''}" onclick="setModalImg(${gIdx}, this)">${gIdx + 1}</button>
+          <button class="cat-btn ${gIdx === 0 ? 'active' : ''}" style="padding: 6px 12px; font-size: 11px;" onclick="setModalImg(${gIdx}, this)">
+            ${gIdx === 0 ? '📸 Frente' : (gIdx === 1 ? '📸 Espalda' : '🔍 Detalle ' + gIdx)}
+          </button>
         `).join('');
       } else {
-        sliderBar.innerHTML = '';
+        sliderBar.innerHTML = '<span style="font-size: 11px; color: var(--text-secondary);">📸 Foto Oficial Única</span>';
       }
 
       const colorsContainer = document.getElementById('modalColorsContainer');
@@ -14113,8 +14120,10 @@
       if (!p) return;
       const gallery = getProductGallery(p);
       const img = document.getElementById('modalProdImg');
-      img.src = resolveImgPath(gallery[imgIdx] || p.image, p.id);
-      document.querySelectorAll('#modalSliderBar .slider-dot-btn').forEach((b, i) => {
+      if (img && gallery[imgIdx]) {
+        img.src = resolveImgPath(gallery[imgIdx], p.id);
+      }
+      document.querySelectorAll('#modalSliderBar .cat-btn').forEach((b, i) => {
         b.classList.toggle('active', i === imgIdx);
       });
     }
