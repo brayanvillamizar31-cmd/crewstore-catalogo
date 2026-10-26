@@ -1,0 +1,10 @@
+#!/bin/bash
+cd "$(dirname "$0")"
+echo "=============================================="
+echo "       CATÁLOGO & PANEL DE CONTROL 24/7"
+echo "=============================================="
+echo "Abriendo catálogo en tu navegador..."
+open -u "file://$(pwd)/index.html?v=$(date +%s)" || open "index.html"
+echo ""
+echo "✅ ¡Catálogo cargado con éxito!"
+echo "Puedes cerrar esta ventana de la terminal."

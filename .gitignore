@@ -1,0 +1,5 @@
+.DS_Store
+__pycache__/
+*.pyc
+products_backup/
+raw_products/
