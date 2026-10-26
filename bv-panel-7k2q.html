@@ -14421,7 +14421,6 @@
             <td style="font-size: 11px;">${itemsDesc}</td>
             <td style="font-family: monospace; font-weight: 700; color: #57534e;">$${formatCOP(bodegaCost)}</td>
             <td style="font-family: monospace; font-weight: 800; color: #1c1917;">$${formatCOP(saleTotal)}</td>
-            <td style="font-family: monospace; font-weight: 700; color: #0284c7;">$${formatCOP(deliveryFee)}</td>
             <td style="font-family: monospace; font-weight: 800; color: #059669;">+$${formatCOP(netOrderProfit)}</td>
             <td>
               <select onchange="updateOrderStatus(${idx}, this.value)" style="padding: 4px 6px; border-radius: 6px; font-size: 10px; font-weight: 800; border: 1px solid #d6d3d1;">
@@ -14455,8 +14454,8 @@
 
       tbody.innerHTML = rowsHtml || `
         <tr>
-          <td colspan="9" style="text-align: center; padding: 24px; color: #78716c; font-size: 12px;">
-            Aún no hay pedidos registrados. Cuando un cliente pida desde el catálogo o registres un pedido de WhatsApp con el botón verde arriba, aparecerá aquí con el cálculo exacto de pago a bodega, domicilio y tu ganancia libre.
+          <td colspan="8" style="text-align: center; padding: 24px; color: #78716c; font-size: 12px;">
+            Aún no hay pedidos registrados. Cuando un cliente pida desde el catálogo o registres un pedido de WhatsApp con el botón verde arriba, aparecerá aquí con el cálculo exacto de pago a bodega y tu ganancia libre.
           </td>
         </tr>
       `;
@@ -14474,7 +14473,7 @@
     function saveManualOrder() {
       const name = document.getElementById('manOrdCustomer').value.trim();
       const addr = document.getElementById('manOrdAddress').value.trim();
-      if (!name || !addr) { alert('Ingresa el nombre del cliente y la dirección de domicilio.'); return; }
+      if (!name || !addr) { alert('Ingresa el nombre del cliente y la dirección de entrega.'); return; }
 
       const prodId = Number(document.getElementById('manOrdProd').value);
       const qty = Math.max(1, Number(document.getElementById('manOrdQty').value) || 1);
@@ -14485,7 +14484,6 @@
         customer_name: name,
         customer_phone: document.getElementById('manOrdPhone').value.trim(),
         customer_address: addr,
-        delivery_fee: Number(document.getElementById('manOrdDelivery').value) || 8000,
         status: document.getElementById('manOrdStatus').value || 'pendiente',
         created_at: new Date().toISOString(),
         items: [{
