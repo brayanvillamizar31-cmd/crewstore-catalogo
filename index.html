@@ -9,7 +9,9 @@
   <meta property="og:title" content="crewstore.co | Catálogo Oficial 2026 • Camisetas Deportivas, Retro & Moda Urbana">
   <meta property="og:description" content="Catálogo digital oficial crewstore.co 2026. Camisetas de fútbol, retro originals, buzos y moda urbana. Pide fácil por WhatsApp con envío a domicilio.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="products/item_1.jpg">
+  <link rel="icon" type="image/jpeg" href="logo.jpg">
+  <link rel="apple-touch-icon" href="logo.jpg">
+  <meta property="og:image" content="logo.jpg">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -140,7 +142,7 @@
   <nav class="navbar">
     <div class="container nav-content">
       <div class="brand" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
-        <div class="brand-logo" id="brandLogo">C</div>
+        <img src="logo.jpg" alt="crewstore.co logo" style="width: 44px; height: 44px; border-radius: 50%; object-fit: cover; border: 2px solid #1c1917; box-shadow: 0 2px 8px rgba(0,0,0,0.18);">
         <div>
           <div class="brand-title" id="brandTitle">crewstore.co</div>
           <div class="brand-sub">Catálogo Oficial 2026</div>
@@ -161,8 +163,13 @@
     
     <!-- HERO BANNER -->
     <section class="hero">
-      <span class="hero-tag">Catálogo Oficial 2026 • crewstore.co</span>
-      <h2 id="heroTitle">Catálogo Oficial crewstore.co</h2>
+      <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 12px; flex-wrap: wrap;">
+        <img src="logo.jpg" alt="crewstore.co" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover; border: 2.5px solid #fde047; box-shadow: 0 4px 14px rgba(0,0,0,0.4);">
+        <div>
+          <span class="hero-tag" style="margin-bottom: 4px;">Catálogo Oficial 2026 • crewstore.co</span>
+          <h2 id="heroTitle" style="margin-bottom: 0;">crewstore.co</h2>
+        </div>
+      </div>
       <p>Todas las prendas disponibles. Haz clic o desliza en las prendas que tienen foto sola para ver los detalles. Puedes buscar fácilmente cualquier prenda por su número.</p>
       <div class="hero-features">
         <span><span class="dot" style="background:#10b981;"></span> <strong id="heroTotalCount">431</strong> Prendas Disponibles</span>
@@ -302,6 +309,9 @@
 
   <!-- PIE DE PÁGINA -->
   <footer style="background: #1c1917; color: #a8a29e; font-size: 11px; text-align: center; padding: 24px 16px; margin-top: auto; border-top: 1px solid #292524;">
+    <div style="display: flex; justify-content: center; margin-bottom: 10px;">
+      <img src="logo.jpg" alt="crewstore.co" style="width: 52px; height: 52px; border-radius: 50%; object-fit: cover; border: 2px solid #fde047; box-shadow: 0 2px 10px rgba(0,0,0,0.5);">
+    </div>
     <div style="font-weight: 800; color: #fff; font-size: 14px; margin-bottom: 4px;" id="footerStoreName">crewstore.co</div>
     <div>Catálogo Oficial Digital • Despacho sujeto a disponibilidad del producto, color y talla</div>
     <div style="margin-top: 4px; font-size: 10px; color: #78716c;">© 2026 Todos los derechos reservados.</div>
@@ -12438,7 +12448,7 @@
             if (sRows[0].whatsapp_number) state.settings.whatsappNumber = sRows[0].whatsapp_number;
             document.getElementById('heroWhatsAppText').innerText = formatPhone(state.settings.whatsappNumber);
             document.getElementById('brandTitle').innerText = state.settings.storeName;
-            document.getElementById('brandLogo').innerText = state.settings.storeName.charAt(0);
+            // logo image active
             document.getElementById('footerStoreName').innerText = state.settings.storeName;
           }
         }).catch(() => {});
@@ -12514,7 +12524,7 @@
       document.getElementById('heroTotalCount').innerText = state.products.length;
       document.getElementById('heroWhatsAppText').innerText = formatPhone(state.settings.whatsappNumber);
       document.getElementById('brandTitle').innerText = state.settings.storeName;
-      document.getElementById('brandLogo').innerText = state.settings.storeName.charAt(0);
+      // logo image active
       document.getElementById('footerStoreName').innerText = state.settings.storeName;
 
       try {
@@ -12528,7 +12538,7 @@
             state.settings = { ...state.settings, ...srvSettings };
             document.getElementById('heroWhatsAppText').innerText = formatPhone(state.settings.whatsappNumber);
             document.getElementById('brandTitle').innerText = state.settings.storeName;
-            document.getElementById('brandLogo').innerText = state.settings.storeName.charAt(0);
+            // logo image active
             document.getElementById('footerStoreName').innerText = state.settings.storeName;
           }
         }

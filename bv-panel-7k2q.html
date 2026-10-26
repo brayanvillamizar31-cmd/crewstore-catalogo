@@ -59,8 +59,11 @@
   <!-- MODAL DE ACCESO PRIVADO (USUARIO + CONTRASEÑA) -->
   <div class="modal-overlay" id="modalAuth" style="display: flex;">
     <div class="modal-content" style="max-width: 360px; text-align: center;">
-      <div style="font-size: 36px; margin-bottom: 6px;">🔐</div>
-      <h2 style="font-size: 18px; font-weight: 800; margin-bottom: 4px;">Acceso Privado</h2>
+      <div style="display: flex; justify-content: center; margin-bottom: 10px;">
+        <img src="logo.jpg" alt="crewstore.co" style="width: 72px; height: 72px; border-radius: 50%; object-fit: cover; border: 3px solid #1c1917; box-shadow: 0 4px 14px rgba(0,0,0,0.2);">
+      </div>
+      <h2 style="font-size: 18px; font-weight: 800; margin-bottom: 4px;">crewstore.co</h2>
+      <div style="font-size: 11px; font-weight: 800; color: #059669; text-transform: uppercase; margin-bottom: 4px;">Panel Profesional</div>
       <p style="font-size: 12px; color: #78716c; margin-bottom: 16px;">Ingresa tus credenciales para gestionar la tienda.</p>
 
       <form onsubmit="event.preventDefault(); verifyLogin();" autocomplete="on">
@@ -81,13 +84,16 @@
     
     <!-- BARRA SUPERIOR ADMIN -->
     <header class="admin-top-bar">
-      <div>
-        <div class="admin-title">
-          <span>⚙️ Panel de Control & Tienda</span>
-          <span class="admin-badge">Privado</span>
-        </div>
-        <div style="font-size: 11px; color: #a8a29e; margin-top: 3px;">
-          Tienda: <strong id="topStoreName" style="color:#fff;">crewstore.co</strong> • Control de inventario en tiempo real
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <img src="logo.jpg" alt="crewstore.co" style="width: 44px; height: 44px; border-radius: 50%; object-fit: cover; border: 2px solid #fde047; box-shadow: 0 2px 8px rgba(0,0,0,0.35);">
+        <div>
+          <div class="admin-title">
+            <span>crewstore.co • Panel Profesional</span>
+            <span class="admin-badge">Privado</span>
+          </div>
+          <div style="font-size: 11px; color: #a8a29e; margin-top: 3px;">
+            Tienda Oficial • Control de inventario en tiempo real
+          </div>
         </div>
       </div>
 
