@@ -4,5 +4,10 @@
   "globalMargin": 45,
   "currency": "COP",
   "adminPin": "1234",
-  "roundThousands": true
+  "roundThousands": true,
+  "investmentAmount": 2500000,
+  "bagCost": 92000,
+  "bagQty": 99,
+  "bagsUsed": 0,
+  "fixedProfit": 15000
 }
