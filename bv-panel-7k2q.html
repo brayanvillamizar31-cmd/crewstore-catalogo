@@ -14139,7 +14139,6 @@
       const s2 = document.getElementById('basketProd2');
       const sf = document.getElementById('agentFocusProduct');
       const mo = document.getElementById('manOrdProd');
-      const bq = document.getElementById('bgaQuoteProd');
       if (s1 && !s1.innerHTML) s1.innerHTML = opts;
       if (s2 && !s2.innerHTML) {
         s2.innerHTML = opts;
@@ -14147,70 +14146,6 @@
       }
       if (sf && !sf.innerHTML) sf.innerHTML = opts;
       if (mo) mo.innerHTML = opts;
-      if (bq && !bq.innerHTML) bq.innerHTML = opts;
-      calculateBgaDelivery();
-    }
-
-    function onSelectBgaZone(val) {
-      const [kmStr] = (val || '1.5|Campo Hermoso').split('|');
-      const kmInput = document.getElementById('bgaKmInput');
-      if (kmInput) kmInput.value = Number(kmStr) || 1.5;
-      calculateBgaDelivery();
-    }
-
-    function calculateBgaDelivery() {
-      const zoneSel = document.getElementById('bgaZoneSelect');
-      const kmInput = document.getElementById('bgaKmInput');
-      const prodSel = document.getElementById('bgaQuoteProd');
-      const resBox = document.getElementById('bgaDeliveryResultBox');
-      if (!resBox) return;
-
-      const km = Math.max(0.5, Number(kmInput?.value) || 1.5);
-      const zoneLabel = zoneSel ? (zoneSel.value.split('|')[1] || 'Bucaramanga') : 'Bucaramanga';
-      const prodId = Number(prodSel?.value) || (state.products[0]?.id || 1);
-      const prod = state.products.find(p => p.id === prodId) || state.products[0] || { code: 'REF-001', name: 'Prenda', supplierPrice: 22000, salePrice: 31000 };
-
-      // Regla de cobro desde Campo Hermoso (Frulapp):
-      // Mínima $5.000 hasta 2.5 km; luego +$700 por km adicional redondeado a $500
-      let fee = 5000;
-      if (km >= 90) {
-        fee = 16000; // Envío nacional
-      } else if (km > 2.5) {
-        fee = Math.round((5000 + (km - 2.5) * 700) / 500) * 500;
-      }
-
-      const prodProfit = (prod.salePrice || 0) - (prod.supplierPrice || 0);
-      const totalClientPay = (prod.salePrice || 0) + fee;
-      const totalDuoPay = ((prod.salePrice || 0) * 2 - 5000) + fee;
-      const quoteMsg = `✨ *COTIZACIÓN crewstore.co (PAGO CONTRAENTREGA)* ✨\n\n` +
-        `👚 *Prenda:* ${prod.name} (${prod.code})\n` +
-        `💰 *Valor Prenda:* $${formatCOP(prod.salePrice)} COP\n` +
-        `🛵 *Domicilio hasta ${zoneLabel} (${km >= 90 ? 'Envío Nacional' : km + ' km desde nuestra bodega'}):* $${formatCOP(fee)} COP\n` +
-        `----------------------------------\n` +
-        `✅ *TOTAL A PAGAR AL RECIBIR:* $${formatCOP(totalClientPay)} COP\n\n` +
-        `🎁 *Tip de ahorro:* Si agregas una 2da prenda en el mismo envío te damos bono de -$5.000 y pagas este mismo domicilio. ¿Te confirmo disponibilidad en bodega para despacharte hoy? 📲`;
-
-      state.lastBgaQuoteMsg = quoteMsg;
-
-      resBox.innerHTML = `
-        <div style="display: flex; flex-wrap: wrap; gap: 14px; align-items: center;">
-          <div style="background: #fff; border: 1px solid #e7e5e4; padding: 8px 12px; border-radius: 10px;">
-            <div style="font-size: 10px; color: #78716c; font-weight: 700;">TARIFA DOMICILIO (${km >= 90 ? 'NACIONAL' : km + ' KM DESDE FRULAPP'})</div>
-            <div style="font-size: 18px; font-weight: 800; font-family: monospace; color: #0284c7;">$${formatCOP(fee)} COP</div>
-          </div>
-          <div style="background: #fff; border: 1px solid #e7e5e4; padding: 8px 12px; border-radius: 10px;">
-            <div style="font-size: 10px; color: #78716c; font-weight: 700;">TOTAL CLIENTE CONTRAENTREGA (${prod.code})</div>
-            <div style="font-size: 18px; font-weight: 800; font-family: monospace; color: #1c1917;">$${formatCOP(totalClientPay)} COP</div>
-          </div>
-          <div style="background: #ecfdf5; border: 1px solid #059669; padding: 8px 12px; border-radius: 10px;">
-            <div style="font-size: 10px; color: #065f46; font-weight: 800;">TU GANANCIA EN LA PRENDA (PAGO BODEGA: $${formatCOP(prod.supplierPrice)})</div>
-            <div style="font-size: 18px; font-weight: 800; font-family: monospace; color: #059669;">+$${formatCOP(prodProfit)} COP</div>
-          </div>
-        </div>
-        <button id="btnCopyBgaQuote" onclick='copyAgentScript("btnCopyBgaQuote", state.lastBgaQuoteMsg)' style="background: #1c1917; color: #fde047; border: none; padding: 10px 14px; border-radius: 10px; font-size: 11px; font-weight: 800; cursor: pointer;">
-          📋 Copiar Cotización Contraentrega para WhatsApp
-        </button>
-      `;
     }
 
     function renderSeoAndAnalytics() {
@@ -14220,13 +14155,12 @@
       const avgUnitProfit = Math.max(1000, Math.round((totalSale - totalCost) / total));
 
       const goal = Number(document.getElementById('simMonthlyGoal')?.value) || 2500000;
-      const delCharge = Number(document.getElementById('simDeliveryCharge')?.value) || 8000;
-      const delCost = Number(document.getElementById('simDeliveryCost')?.value) || 6000;
-      const delMargin = delCharge - delCost;
+      const profitDisplay = document.getElementById('simAvgProfitDisplay');
+      if (profitDisplay) profitDisplay.value = '+$' + formatCOP(avgUnitProfit) + ' COP';
 
-      // Ganancia por pedido de 1 prenda vs Cesta de 2 prendas
-      const profitSingleOrder = avgUnitProfit + delMargin;
-      const profitBasket2Order = (avgUnitProfit * 2) + delMargin;
+      // Ganancia pura de prendas (el cliente le paga el domicilio directo al repartidor externo)
+      const profitSingleOrder = avgUnitProfit;
+      const profitBasket2Order = avgUnitProfit * 2;
 
       const singleOrdersMonth = Math.ceil(goal / Math.max(1, profitSingleOrder));
       const singleOrdersDay = (singleOrdersMonth / 30).toFixed(1);
@@ -14241,24 +14175,28 @@
             <div style="background: #fff; padding: 10px; border-radius: 10px; border: 1px solid #e7e5e4;">
               <div style="font-size: 10px; color: #78716c; font-weight: 700;">VENDIENDO DE A 1 PRENDA:</div>
               <div style="font-size: 16px; font-weight: 800; color: #1c1917; font-family: monospace; margin: 2px 0;">
-                ${singleOrdersMonth} pedidos / mes
+                ${singleOrdersMonth} prendas / mes
               </div>
               <div style="font-size: 11px; color: #57534e;">
-                👉 <strong>${singleOrdersDay} pedidos al día</strong> (Ganancia libre: <strong>+$${formatCOP(profitSingleOrder)}</strong> c/u incl. domicilio)
+                👉 <strong>${singleOrdersDay} prendas al día</strong> (Ganancia libre: <strong>+$${formatCOP(profitSingleOrder)}</strong> c/u)
               </div>
             </div>
             <div style="background: #ecfdf5; padding: 10px; border-radius: 10px; border: 1px solid #059669;">
-              <div style="font-size: 10px; color: #065f46; font-weight: 800;">🎁 VENDIENDO CESTAS DE 2 PRENDAS:</div>
+              <div style="font-size: 10px; color: #065f46; font-weight: 800;">🎁 VENDIENDO COMBOS DE 2 PRENDAS:</div>
               <div style="font-size: 16px; font-weight: 800; color: #065f46; font-family: monospace; margin: 2px 0;">
-                Solo ${basket2OrdersMonth} cestas / mes
+                Solo ${basket2OrdersMonth} combos / mes
               </div>
               <div style="font-size: 11px; color: #065f46;">
-                👉 <strong>${basket2OrdersDay} clientes al día</strong> (Ganancia libre: <strong>+$${formatCOP(profitBasket2Order)}</strong> por viaje a bodega)
+                👉 <strong>${basket2OrdersDay} combos al día</strong> (Ganancia libre: <strong>+$${formatCOP(profitBasket2Order)}</strong> por combo)
               </div>
             </div>
           </div>
         `;
       }
+
+      calculateBasketOffer();
+      renderAnalyticsCharts();
+    }
 
       calculateBasketOffer();
       renderAnalyticsCharts();
