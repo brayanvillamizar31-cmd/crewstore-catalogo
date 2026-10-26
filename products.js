@@ -6,7 +6,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 86850,
+    "salePrice": 85000,
     "colors": [
       "Blanco",
       "Rojo"
@@ -26,7 +26,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_1_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 2,
@@ -35,7 +35,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 86850,
+    "salePrice": 85000,
     "colors": [
       "Blanco",
       "Azul",
@@ -56,7 +56,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_2_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 3,
@@ -65,7 +65,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Azul",
       "Rojo"
@@ -82,7 +82,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 4,
@@ -91,7 +91,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Azul",
@@ -109,7 +109,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 5,
@@ -118,7 +118,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Negro"
@@ -135,7 +135,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 6,
@@ -144,7 +144,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Negro",
       "Blanco"
@@ -161,7 +161,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 7,
@@ -170,7 +170,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Negro",
       "Amarillo"
@@ -188,7 +188,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_7_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 8,
@@ -197,7 +197,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -215,7 +215,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_8_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 9,
@@ -224,7 +224,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 106850,
+    "salePrice": 105000,
     "colors": [
       "Blanco",
       "Rojo"
@@ -241,7 +241,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 10,
@@ -250,7 +250,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 106850,
+    "salePrice": 105000,
     "colors": [
       "Azul",
       "Rojo"
@@ -267,7 +267,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 11,
@@ -276,7 +276,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 106850,
+    "salePrice": 105000,
     "colors": [
       "Blanco",
       "Azul",
@@ -294,7 +294,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 12,
@@ -303,7 +303,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 106850,
+    "salePrice": 105000,
     "colors": [
       "Azul",
       "Blanco"
@@ -320,7 +320,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 13,
@@ -329,7 +329,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 106850,
+    "salePrice": 105000,
     "colors": [
       "Negro",
       "Blanco",
@@ -348,7 +348,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 14,
@@ -357,7 +357,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 86850,
+    "salePrice": 85000,
     "colors": [
       "Rojo",
       "Blanco",
@@ -377,7 +377,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_14_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 15,
@@ -386,7 +386,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 86850,
+    "salePrice": 85000,
     "colors": [
       "Azul",
       "Rojo"
@@ -405,7 +405,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_15_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 16,
@@ -414,7 +414,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Blanco",
       "Negro",
@@ -432,7 +432,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 17,
@@ -441,7 +441,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Azul",
       "Amarillo"
@@ -458,7 +458,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 18,
@@ -467,7 +467,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Negro",
       "Rojo"
@@ -485,7 +485,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_18_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 19,
@@ -494,7 +494,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Azul",
@@ -512,7 +512,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 20,
@@ -521,7 +521,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol Colombiano",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 106850,
+    "salePrice": 105000,
     "colors": [
       "Negro",
       "Blanco",
@@ -539,7 +539,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 21,
@@ -548,7 +548,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol Colombiano",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Negro",
       "Blanco"
@@ -566,7 +566,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_21_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 22,
@@ -575,7 +575,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 111850,
+    "salePrice": 110000,
     "colors": [
       "Negro",
       "Blanco"
@@ -592,7 +592,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 23,
@@ -601,7 +601,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Selecciones",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 111850,
+    "salePrice": 110000,
     "colors": [
       "Rojo",
       "Negro"
@@ -618,7 +618,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 24,
@@ -627,7 +627,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Verde",
       "Blanco",
@@ -646,7 +646,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_24_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 25,
@@ -655,7 +655,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 101850,
+    "salePrice": 100000,
     "colors": [
       "Blanco",
       "Negro"
@@ -673,7 +673,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_25_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 26,
@@ -682,7 +682,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -699,7 +699,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 27,
@@ -708,7 +708,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -725,7 +725,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 28,
@@ -734,7 +734,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Amarillo"
@@ -751,7 +751,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 29,
@@ -760,7 +760,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Verde"
@@ -777,7 +777,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 30,
@@ -786,7 +786,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -803,7 +803,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 31,
@@ -812,7 +812,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Amarillo",
@@ -830,7 +830,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 32,
@@ -839,7 +839,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Verde",
       "Amarillo"
@@ -856,7 +856,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 33,
@@ -865,7 +865,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Negro",
       "Gris",
@@ -883,7 +883,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 34,
@@ -892,7 +892,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Blanco",
       "Verde",
@@ -910,7 +910,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 35,
@@ -919,7 +919,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Blanco",
       "Amarillo",
@@ -937,7 +937,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 36,
@@ -946,7 +946,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Blanco",
       "Negro"
@@ -963,7 +963,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 37,
@@ -972,7 +972,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Negro",
       "Amarillo",
@@ -990,7 +990,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 38,
@@ -999,7 +999,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 25000,
     "marginPercent": 60,
-    "salePrice": 41850,
+    "salePrice": 40000,
     "colors": [
       "Amarillo",
       "Blanco",
@@ -1018,7 +1018,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 39,
@@ -1027,7 +1027,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Verde"
@@ -1044,7 +1044,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 40,
@@ -1053,7 +1053,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1070,7 +1070,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 41,
@@ -1079,7 +1079,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Negro"
@@ -1096,7 +1096,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 42,
@@ -1105,7 +1105,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Negro",
       "Amarillo"
@@ -1122,7 +1122,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 43,
@@ -1131,7 +1131,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1148,7 +1148,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 44,
@@ -1157,7 +1157,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Verde",
       "Amarillo"
@@ -1175,7 +1175,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_44_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 45,
@@ -1184,7 +1184,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Negro",
       "Verde",
@@ -1202,7 +1202,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 46,
@@ -1211,7 +1211,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Azul",
       "Naranja"
@@ -1228,7 +1228,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 47,
@@ -1237,7 +1237,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Blanco",
       "Amarillo"
@@ -1254,7 +1254,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 48,
@@ -1263,7 +1263,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Negro",
       "Gris"
@@ -1280,7 +1280,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 49,
@@ -1289,7 +1289,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1306,7 +1306,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 50,
@@ -1315,7 +1315,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Negro",
       "Amarillo"
@@ -1332,7 +1332,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 51,
@@ -1341,7 +1341,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde",
@@ -1359,7 +1359,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 52,
@@ -1368,7 +1368,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1385,7 +1385,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 53,
@@ -1394,7 +1394,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Blanco",
       "Rojo",
@@ -1412,7 +1412,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 54,
@@ -1421,7 +1421,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 106850,
+    "salePrice": 105000,
     "colors": [
       "Blanco",
       "Rojo"
@@ -1438,7 +1438,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 55,
@@ -1447,7 +1447,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Verde",
       "Blanco"
@@ -1464,7 +1464,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 56,
@@ -1473,7 +1473,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Verde",
       "Blanco"
@@ -1490,7 +1490,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 57,
@@ -1499,7 +1499,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Verde",
       "Blanco"
@@ -1516,7 +1516,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 58,
@@ -1525,7 +1525,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Verde",
       "Blanco"
@@ -1542,7 +1542,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 59,
@@ -1551,7 +1551,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Blanco",
       "Naranja"
@@ -1571,7 +1571,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_59_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 60,
@@ -1580,7 +1580,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 28000,
     "marginPercent": 54,
-    "salePrice": 44850,
+    "salePrice": 43000,
     "colors": [
       "Amarillo",
       "Negro",
@@ -1598,7 +1598,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 61,
@@ -1607,7 +1607,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1624,7 +1624,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 62,
@@ -1633,7 +1633,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1650,7 +1650,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 63,
@@ -1659,7 +1659,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Verde",
       "Amarillo"
@@ -1676,7 +1676,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 64,
@@ -1685,7 +1685,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Blanco",
       "Verde"
@@ -1702,7 +1702,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 65,
@@ -1711,7 +1711,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Amarillo"
     ],
@@ -1727,7 +1727,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 66,
@@ -1736,7 +1736,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Negro",
       "Gris"
@@ -1753,7 +1753,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 67,
@@ -1762,7 +1762,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Negro",
       "Gris"
@@ -1780,7 +1780,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_67_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 68,
@@ -1789,7 +1789,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Blanco",
       "Gris"
@@ -1807,7 +1807,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_68_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 69,
@@ -1816,7 +1816,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1833,7 +1833,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 70,
@@ -1842,7 +1842,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Morado",
       "Verde"
@@ -1859,7 +1859,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 71,
@@ -1868,7 +1868,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -1886,7 +1886,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_71_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 72,
@@ -1895,7 +1895,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Negro",
       "Amarillo",
@@ -1917,7 +1917,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_72_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 73,
@@ -1926,7 +1926,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 101850,
+    "salePrice": 100000,
     "colors": [
       "Negro",
       "Blanco"
@@ -1944,7 +1944,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_73_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 74,
@@ -1953,7 +1953,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 101850,
+    "salePrice": 100000,
     "colors": [
       "Blanco",
       "Negro"
@@ -1971,7 +1971,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_74_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 75,
@@ -1980,7 +1980,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 101850,
+    "salePrice": 100000,
     "colors": [
       "Azul",
       "Blanco"
@@ -1998,7 +1998,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_75_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 76,
@@ -2007,7 +2007,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Buzos & Chaquetas",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 111850,
+    "salePrice": 110000,
     "colors": [
       "Negro",
       "Verde",
@@ -2026,7 +2026,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_76_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 77,
@@ -2035,7 +2035,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Rojo",
       "Blanco",
@@ -2053,7 +2053,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 78,
@@ -2062,7 +2062,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Azul",
@@ -2080,7 +2080,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 79,
@@ -2089,7 +2089,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Azul",
       "Amarillo"
@@ -2106,7 +2106,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 80,
@@ -2115,7 +2115,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Negro",
       "Amarillo"
@@ -2132,7 +2132,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 81,
@@ -2141,7 +2141,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -2158,7 +2158,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 82,
@@ -2167,7 +2167,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 86850,
+    "salePrice": 85000,
     "colors": [
       "Blanco",
       "Azul"
@@ -2184,7 +2184,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 83,
@@ -2193,7 +2193,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 86850,
+    "salePrice": 85000,
     "colors": [
       "Rojo",
       "Negro"
@@ -2210,7 +2210,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 84,
@@ -2219,7 +2219,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 111850,
+    "salePrice": 110000,
     "colors": [
       "Azul",
       "Blanco",
@@ -2238,7 +2238,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_84_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 85,
@@ -2247,7 +2247,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 111850,
+    "salePrice": 110000,
     "colors": [
       "Azul",
       "Blanco"
@@ -2265,7 +2265,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_85_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 86,
@@ -2274,7 +2274,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 111850,
+    "salePrice": 110000,
     "colors": [
       "Negro",
       "Rojo",
@@ -2292,7 +2292,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 87,
@@ -2301,7 +2301,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Atlético Bucaramanga",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Amarillo",
@@ -2325,7 +2325,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_87_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 88,
@@ -2334,7 +2334,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Negro",
       "Amarillo"
@@ -2353,7 +2353,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_88_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 89,
@@ -2362,7 +2362,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Rojo",
       "Blanco",
@@ -2380,7 +2380,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 90,
@@ -2389,7 +2389,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 111850,
+    "salePrice": 110000,
     "colors": [
       "Azul",
       "Rojo"
@@ -2406,7 +2406,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 91,
@@ -2415,7 +2415,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Shorts & Pantalonetas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Negro",
       "Azul",
@@ -2433,7 +2433,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 92,
@@ -2442,7 +2442,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Shorts & Pantalonetas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Negro",
       "Blanco"
@@ -2459,7 +2459,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 93,
@@ -2468,7 +2468,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Shorts & Pantalonetas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Negro",
       "Blanco",
@@ -2486,7 +2486,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 94,
@@ -2495,7 +2495,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Shorts & Pantalonetas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Negro",
       "Azul",
@@ -2513,7 +2513,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 95,
@@ -2522,7 +2522,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Blanco",
       "Morado",
@@ -2546,7 +2546,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 96,
@@ -2555,7 +2555,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Morado",
       "Amarillo"
@@ -2578,7 +2578,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 97,
@@ -2587,7 +2587,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Negro",
       "Amarillo"
@@ -2611,7 +2611,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_97_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 98,
@@ -2620,7 +2620,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Rojo",
       "Negro",
@@ -2644,7 +2644,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 99,
@@ -2653,7 +2653,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Negro",
       "Amarillo"
@@ -2676,7 +2676,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 100,
@@ -2685,7 +2685,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Negro",
       "Verde"
@@ -2708,7 +2708,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 101,
@@ -2717,7 +2717,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Verde",
       "Blanco"
@@ -2740,7 +2740,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 102,
@@ -2749,7 +2749,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Blanco",
       "Amarillo",
@@ -2773,7 +2773,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 103,
@@ -2782,7 +2782,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Amarillo",
       "Morado"
@@ -2800,7 +2800,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_103_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 104,
@@ -2809,7 +2809,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Blanco",
       "Rojo"
@@ -2827,7 +2827,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_104_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 105,
@@ -2836,7 +2836,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Morado",
       "Amarillo"
@@ -2853,7 +2853,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 106,
@@ -2862,7 +2862,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -2879,7 +2879,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 107,
@@ -2888,7 +2888,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Negro",
       "Amarillo"
@@ -2905,7 +2905,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 108,
@@ -2914,7 +2914,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos Deportivos",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Negro",
       "Rojo"
@@ -2931,7 +2931,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 109,
@@ -2940,7 +2940,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Shorts & Pantalonetas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Azul",
       "Gris"
@@ -2957,7 +2957,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 110,
@@ -2966,7 +2966,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Shorts & Pantalonetas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Negro",
       "Azul",
@@ -2984,7 +2984,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 111,
@@ -2993,7 +2993,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Shorts & Pantalonetas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Amarillo",
       "Azul"
@@ -3010,7 +3010,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 112,
@@ -3019,7 +3019,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Shorts & Pantalonetas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Gris",
       "Amarillo"
@@ -3036,7 +3036,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 113,
@@ -3045,7 +3045,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Shorts & Pantalonetas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Azul",
       "Verde"
@@ -3062,7 +3062,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 114,
@@ -3071,7 +3071,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Shorts & Pantalonetas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Blanco",
       "Negro",
@@ -3089,7 +3089,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 115,
@@ -3098,7 +3098,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Shorts & Pantalonetas",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Negro",
       "Gris"
@@ -3115,7 +3115,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 116,
@@ -3124,7 +3124,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Verde",
       "Negro"
@@ -3143,7 +3143,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_116_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 117,
@@ -5303,7 +5303,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 86850,
+    "salePrice": 85000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -5322,7 +5322,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_215_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 203,
@@ -5331,7 +5331,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Dorado"
@@ -5350,7 +5350,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_216_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 204,
@@ -5359,7 +5359,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Blanco",
       "Verde"
@@ -5378,7 +5378,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_217_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 205,
@@ -5387,7 +5387,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Rosado",
       "Blanco"
@@ -5406,7 +5406,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_218_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 206,
@@ -5415,7 +5415,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Rojo",
@@ -5434,7 +5434,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_219_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 207,
@@ -5443,7 +5443,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Azul Oscuro",
       "Rojo"
@@ -5461,7 +5461,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_220_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 208,
@@ -5470,7 +5470,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Azul"
@@ -5488,7 +5488,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_221_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 209,
@@ -5497,7 +5497,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Rojo",
       "Negro"
@@ -5515,7 +5515,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_222_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 210,
@@ -5524,7 +5524,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Negro",
       "Rojo"
@@ -5542,7 +5542,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_223_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 211,
@@ -5551,7 +5551,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Morado"
@@ -5569,7 +5569,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_224_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 212,
@@ -5578,7 +5578,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 106850,
+    "salePrice": 105000,
     "colors": [
       "Verde",
       "Blanco"
@@ -5596,7 +5596,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_225_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 213,
@@ -5605,7 +5605,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -5624,7 +5624,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_226_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 214,
@@ -5633,7 +5633,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Negro",
       "Amarillo"
@@ -5651,7 +5651,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_227_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 215,
@@ -5660,7 +5660,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Azul Rey",
       "Amarillo"
@@ -5678,7 +5678,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_228_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 216,
@@ -5687,7 +5687,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Amarillo",
       "Azul",
@@ -5706,7 +5706,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_229_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 217,
@@ -5715,7 +5715,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Blanco"
     ],
@@ -5733,7 +5733,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_230_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 218,
@@ -5742,7 +5742,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -5760,7 +5760,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_231_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 219,
@@ -5769,7 +5769,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Azul",
       "Turquesa"
@@ -5787,7 +5787,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_232_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 220,
@@ -5796,7 +5796,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Amarillo",
       "Negro"
@@ -5815,7 +5815,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_233_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 221,
@@ -5824,7 +5824,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Negro"
@@ -5843,7 +5843,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_234_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 222,
@@ -5852,7 +5852,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Negro"
@@ -5871,7 +5871,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_235_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 223,
@@ -5880,7 +5880,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Negro",
       "Blanco",
@@ -5900,7 +5900,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_236_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 224,
@@ -5909,7 +5909,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Blanco",
       "Negro",
@@ -5930,7 +5930,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_237_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 225,
@@ -5939,7 +5939,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 106850,
+    "salePrice": 105000,
     "colors": [
       "Azul",
       "Rojo"
@@ -5956,7 +5956,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 226,
@@ -5965,7 +5965,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 106850,
+    "salePrice": 105000,
     "colors": [
       "Blanco",
       "Rojo"
@@ -5982,7 +5982,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 227,
@@ -5991,7 +5991,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos & Camisas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Negro",
       "Gris",
@@ -6013,7 +6013,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_241.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 228,
@@ -6022,7 +6022,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos & Camisas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Azul",
       "Negro",
@@ -6044,7 +6044,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_244.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 229,
@@ -6053,7 +6053,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos & Camisas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Negro"
     ],
@@ -6069,7 +6069,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 230,
@@ -6078,7 +6078,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos & Camisas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Blanco",
       "Negro"
@@ -6095,7 +6095,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 231,
@@ -6104,7 +6104,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos & Camisas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Turquesa",
       "Negro"
@@ -6121,7 +6121,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 232,
@@ -6130,7 +6130,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos & Camisas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Verde Limón"
     ],
@@ -6146,7 +6146,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 233,
@@ -6155,7 +6155,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos & Camisas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Gris"
     ],
@@ -6171,7 +6171,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 234,
@@ -6180,7 +6180,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos & Camisas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Azul Rey"
     ],
@@ -6196,7 +6196,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 235,
@@ -6205,7 +6205,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos & Camisas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Negro"
     ],
@@ -6221,7 +6221,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 236,
@@ -6230,7 +6230,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Polos & Camisas",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Vino Tinto"
     ],
@@ -6246,7 +6246,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 237,
@@ -6255,7 +6255,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -6274,7 +6274,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_256_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 238,
@@ -6283,7 +6283,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Vino Tinto",
       "Rojo"
@@ -6303,7 +6303,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_257_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 239,
@@ -6312,7 +6312,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Azul Celeste"
     ],
@@ -6330,7 +6330,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_258_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 240,
@@ -6339,7 +6339,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 106850,
+    "salePrice": 105000,
     "colors": [
       "Blanco",
       "Negro"
@@ -6358,7 +6358,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_259_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 241,
@@ -6367,7 +6367,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 101850,
+    "salePrice": 100000,
     "colors": [
       "Rojo",
       "Azul Oscuro"
@@ -6387,7 +6387,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_260_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 242,
@@ -6396,7 +6396,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Negro",
       "Gris",
@@ -6414,7 +6414,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 243,
@@ -6423,7 +6423,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Negro",
       "Gris",
@@ -6441,7 +6441,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 244,
@@ -6450,7 +6450,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Negro",
       "Blanco",
@@ -6469,7 +6469,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_263_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 245,
@@ -6478,7 +6478,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Azul Rey",
       "Negro",
@@ -6496,7 +6496,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 246,
@@ -6505,7 +6505,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Beige",
       "Gris",
@@ -6524,7 +6524,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 247,
@@ -6533,7 +6533,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Negro",
       "Blanco",
@@ -6551,7 +6551,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 248,
@@ -6560,7 +6560,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Blanco",
       "Rojo",
@@ -6580,7 +6580,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_267_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 249,
@@ -6589,7 +6589,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Blanco",
       "Azul Oscuro",
@@ -6610,7 +6610,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_268_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 250,
@@ -6619,7 +6619,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Verde Menta",
       "Azul",
@@ -6639,7 +6639,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_269_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 251,
@@ -6648,7 +6648,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Azul"
@@ -6667,7 +6667,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_270_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 252,
@@ -6676,7 +6676,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Blanco",
       "Verde",
@@ -6696,7 +6696,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_271_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 253,
@@ -6705,7 +6705,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 101850,
+    "salePrice": 100000,
     "colors": [
       "Negro",
       "Azul"
@@ -6724,7 +6724,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_272_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 254,
@@ -6733,7 +6733,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Blanco",
       "Rojo",
@@ -6753,7 +6753,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_273_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 255,
@@ -6762,7 +6762,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Blanco",
       "Verde",
@@ -6783,7 +6783,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_274_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 256,
@@ -6792,7 +6792,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Rojo",
@@ -6812,7 +6812,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_275_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 257,
@@ -6847,7 +6847,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Rojo",
@@ -6867,7 +6867,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_277_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 259,
@@ -6876,7 +6876,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Verde"
@@ -6893,7 +6893,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 260,
@@ -6902,7 +6902,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Negro",
       "Dorado"
@@ -6919,7 +6919,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 261,
@@ -6928,7 +6928,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -6945,7 +6945,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 262,
@@ -6954,7 +6954,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Verde",
@@ -6972,7 +6972,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 263,
@@ -6981,7 +6981,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -6998,7 +6998,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 264,
@@ -7007,7 +7007,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -7024,7 +7024,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 265,
@@ -7033,7 +7033,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Rojo",
@@ -7053,7 +7053,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_284_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 266,
@@ -7062,7 +7062,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 101850,
+    "salePrice": 100000,
     "colors": [
       "Blanco",
       "Azul Oscuro",
@@ -7082,7 +7082,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_285_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 267,
@@ -7091,7 +7091,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Blanco",
       "Azul",
@@ -7111,7 +7111,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_286_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 268,
@@ -7120,7 +7120,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Gris",
@@ -7140,7 +7140,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_287_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 269,
@@ -7149,7 +7149,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -7168,7 +7168,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_288_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 270,
@@ -7177,7 +7177,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Blanco",
       "Azul"
@@ -7196,7 +7196,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_289_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 271,
@@ -7205,7 +7205,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 101850,
+    "salePrice": 100000,
     "colors": [
       "Azul Petróleo",
       "Blanco"
@@ -7224,7 +7224,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_290_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 272,
@@ -7233,7 +7233,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Verde",
       "Blanco"
@@ -7252,7 +7252,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_291_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 273,
@@ -7261,7 +7261,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -7279,7 +7279,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_292_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 274,
@@ -7288,7 +7288,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Negro",
       "Blanco"
@@ -7307,7 +7307,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_293_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 275,
@@ -7316,7 +7316,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Azul Oscuro",
       "Celeste"
@@ -7335,7 +7335,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_294_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 276,
@@ -7344,7 +7344,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Rosado",
       "Blanco"
@@ -7366,7 +7366,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_295_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 277,
@@ -7375,7 +7375,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 106850,
+    "salePrice": 105000,
     "colors": [
       "Azul Rey",
       "Naranja",
@@ -7395,7 +7395,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_296_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 278,
@@ -7404,7 +7404,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Chaquetas & Buzos",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 111850,
+    "salePrice": 110000,
     "colors": [
       "Blanco",
       "Gris",
@@ -7423,7 +7423,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_297_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 279,
@@ -7432,7 +7432,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Rojo",
@@ -7452,7 +7452,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_298_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 280,
@@ -7461,7 +7461,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Chaquetas & Buzos",
     "supplierPrice": 105000,
     "marginPercent": 14,
-    "salePrice": 121850,
+    "salePrice": 120000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -7479,7 +7479,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_299_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 281,
@@ -7488,7 +7488,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Chaquetas & Buzos",
     "supplierPrice": 105000,
     "marginPercent": 14,
-    "salePrice": 121850,
+    "salePrice": 120000,
     "colors": [
       "Blanco",
       "Negro"
@@ -7506,7 +7506,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_300_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 282,
@@ -7515,7 +7515,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Chaquetas & Buzos",
     "supplierPrice": 105000,
     "marginPercent": 14,
-    "salePrice": 121850,
+    "salePrice": 120000,
     "colors": [
       "Negro",
       "Amarillo"
@@ -7533,7 +7533,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_301_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 283,
@@ -7542,7 +7542,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Azul",
       "Rojo",
@@ -7561,7 +7561,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_302_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 284,
@@ -7570,7 +7570,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Rojo",
@@ -7590,7 +7590,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_303_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 285,
@@ -7599,7 +7599,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -7619,7 +7619,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_304_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 286,
@@ -7628,7 +7628,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Verde",
       "Amarillo"
@@ -7647,7 +7647,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_305_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 287,
@@ -7656,7 +7656,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Rojo",
       "Blanco",
@@ -7675,7 +7675,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_306_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 288,
@@ -7684,7 +7684,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 101850,
+    "salePrice": 100000,
     "colors": [
       "Verde Oscuro",
       "Verde Claro"
@@ -7703,7 +7703,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_307_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 289,
@@ -7712,7 +7712,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Gris"
@@ -7731,7 +7731,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_308_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 290,
@@ -7740,7 +7740,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Azul Rey",
       "Amarillo"
@@ -7758,7 +7758,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_309_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 291,
@@ -7767,7 +7767,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Negro",
       "Amarillo"
@@ -7785,7 +7785,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_310_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 292,
@@ -7794,7 +7794,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -7813,7 +7813,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_311_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 293,
@@ -7822,7 +7822,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Negro",
       "Azul",
@@ -7848,7 +7848,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_312_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 294,
@@ -7857,7 +7857,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Azul",
       "Rojo"
@@ -7876,7 +7876,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_313_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 295,
@@ -7885,7 +7885,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 86850,
+    "salePrice": 85000,
     "colors": [
       "Blanco",
       "Negro",
@@ -7905,7 +7905,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_314_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 296,
@@ -7914,7 +7914,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Rojo",
       "Negro"
@@ -7932,7 +7932,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_315_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 297,
@@ -7941,7 +7941,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -7961,7 +7961,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_316_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 298,
@@ -7970,7 +7970,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Blanco",
       "Verde"
@@ -7989,7 +7989,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_317_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 299,
@@ -7998,7 +7998,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Verde",
       "Blanco"
@@ -8017,7 +8017,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_318_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 300,
@@ -8026,7 +8026,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Vino Tinto",
@@ -8047,7 +8047,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_319_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 301,
@@ -8056,7 +8056,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Azul",
       "Rojo"
@@ -8073,7 +8073,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 302,
@@ -8082,7 +8082,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Negro",
       "Amarillo"
@@ -8099,7 +8099,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 303,
@@ -8108,7 +8108,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Azul",
       "Negro"
@@ -8125,7 +8125,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 304,
@@ -8134,7 +8134,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Amarillo",
       "Azul Oscuro"
@@ -8151,7 +8151,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 305,
@@ -8160,7 +8160,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Celeste",
       "Azul"
@@ -8177,7 +8177,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 306,
@@ -8186,7 +8186,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -8203,7 +8203,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 307,
@@ -8212,7 +8212,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -8229,7 +8229,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 308,
@@ -8238,7 +8238,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Negro",
       "Azul Oscuro",
@@ -8258,7 +8258,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_327_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 309,
@@ -8267,7 +8267,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Negro",
       "Azul Oscuro",
@@ -8286,7 +8286,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_328_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 310,
@@ -8295,7 +8295,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Conjuntos & Shorts",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Negro",
       "Azul Oscuro",
@@ -8316,7 +8316,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_329_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 311,
@@ -8325,7 +8325,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Blanco y Verde",
       "Negro y Verde",
@@ -8353,7 +8353,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_330_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 312,
@@ -8362,7 +8362,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Verde Neón",
       "Gris",
@@ -8381,7 +8381,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 313,
@@ -8390,7 +8390,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Blanco",
       "Gris",
@@ -8409,7 +8409,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 314,
@@ -8418,7 +8418,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Gris Claro",
       "Gris Oscuro",
@@ -8437,7 +8437,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 315,
@@ -8446,7 +8446,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Blanco",
       "Gris",
@@ -8465,7 +8465,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 316,
@@ -8474,7 +8474,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Azul Oscuro",
       "Gris",
@@ -8493,7 +8493,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 317,
@@ -8502,7 +8502,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Azul",
       "Gris",
@@ -8521,7 +8521,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 318,
@@ -8530,7 +8530,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Verde Militar",
       "Gris",
@@ -8549,7 +8549,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 319,
@@ -8558,7 +8558,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Gris",
       "Negro",
@@ -8576,7 +8576,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 320,
@@ -8585,7 +8585,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Blanco",
       "Gris",
@@ -8604,7 +8604,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 321,
@@ -8613,7 +8613,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Blanco",
       "Gris",
@@ -8632,7 +8632,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 322,
@@ -8641,7 +8641,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Azul Rey",
       "Gris",
@@ -8660,7 +8660,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 323,
@@ -8669,7 +8669,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Blanco",
       "Gris",
@@ -8688,7 +8688,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 324,
@@ -8697,7 +8697,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Rojo",
       "Gris",
@@ -8716,7 +8716,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 325,
@@ -8725,7 +8725,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Gris",
       "Negro",
@@ -8743,7 +8743,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 326,
@@ -8752,7 +8752,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Básicos & Deportivos",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Blanco",
       "Azul Celeste",
@@ -8771,7 +8771,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 327,
@@ -8780,7 +8780,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Azul",
@@ -8800,7 +8800,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_350_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 328,
@@ -8809,7 +8809,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Deportivo & Gym",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Rosa",
       "Gris",
@@ -8828,7 +8828,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 329,
@@ -8837,7 +8837,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Deportivo & Gym",
     "supplierPrice": 35000,
     "marginPercent": 43,
-    "salePrice": 51850,
+    "salePrice": 50000,
     "colors": [
       "Turquesa",
       "Blanco",
@@ -8858,7 +8858,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_352_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 330,
@@ -8867,7 +8867,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Dorado"
@@ -8886,7 +8886,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_353_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 331,
@@ -8895,7 +8895,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Azul",
       "Rojo",
@@ -8915,7 +8915,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_354_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 332,
@@ -8924,7 +8924,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Rojo",
       "Azul Rey",
@@ -8950,7 +8950,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_355_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 333,
@@ -8959,7 +8959,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Azul Rey",
       "Blanco",
@@ -8985,7 +8985,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_356_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 334,
@@ -8994,7 +8994,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Negro",
       "Verde",
@@ -9021,7 +9021,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_357_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 335,
@@ -9030,7 +9030,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Azul",
       "Rojo"
@@ -9047,7 +9047,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 336,
@@ -9056,7 +9056,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Blanco",
       "Negro"
@@ -9073,7 +9073,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 337,
@@ -9082,7 +9082,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -9099,7 +9099,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 338,
@@ -9108,7 +9108,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Azul",
       "Rojo"
@@ -9125,7 +9125,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 339,
@@ -9134,7 +9134,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -9151,7 +9151,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 340,
@@ -9160,7 +9160,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Blanco",
       "Negro"
@@ -9177,7 +9177,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 341,
@@ -9186,7 +9186,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Blanco",
       "Amarillo",
@@ -9207,7 +9207,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_364_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 342,
@@ -9216,7 +9216,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 30000,
     "marginPercent": 50,
-    "salePrice": 46850,
+    "salePrice": 45000,
     "colors": [
       "Amarillo",
       "Rojo",
@@ -9235,7 +9235,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_365_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 343,
@@ -9244,7 +9244,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Negro",
       "Amarillo",
@@ -9263,7 +9263,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 344,
@@ -9272,7 +9272,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Blanco",
       "Amarillo",
@@ -9291,7 +9291,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 345,
@@ -9300,7 +9300,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Azul",
       "Negro"
@@ -9317,7 +9317,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 346,
@@ -9326,7 +9326,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Azul Celeste",
       "Blanco"
@@ -9343,7 +9343,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 347,
@@ -9452,7 +9452,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -9469,7 +9469,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 352,
@@ -9478,7 +9478,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Vino Tinto",
       "Blanco"
@@ -9495,7 +9495,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 353,
@@ -9504,7 +9504,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Azul",
       "Rojo",
@@ -9522,7 +9522,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 354,
@@ -9531,7 +9531,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Rojo",
       "Azul Oscuro",
@@ -9549,7 +9549,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 355,
@@ -9558,7 +9558,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Blanco",
       "Vino Tinto",
@@ -9576,7 +9576,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 356,
@@ -9585,7 +9585,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 90000,
     "marginPercent": 17,
-    "salePrice": 106850,
+    "salePrice": 105000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -9603,7 +9603,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_380_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 357,
@@ -9612,7 +9612,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Blanco",
       "Dorado",
@@ -9630,7 +9630,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 358,
@@ -9639,7 +9639,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Azul Oscuro",
       "Dorado"
@@ -9656,7 +9656,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 359,
@@ -9665,7 +9665,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Azul Rey",
       "Vino Tinto",
@@ -9688,7 +9688,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_383_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 360,
@@ -9697,7 +9697,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Negro",
       "Verde",
@@ -9717,7 +9717,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_386_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 361,
@@ -9726,7 +9726,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Rosa",
       "Blanco"
@@ -9747,7 +9747,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_387_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 362,
@@ -9756,7 +9756,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 101850,
+    "salePrice": 100000,
     "colors": [
       "Azul Celeste",
       "Blanco",
@@ -9779,7 +9779,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_388_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 363,
@@ -9788,7 +9788,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 86850,
+    "salePrice": 85000,
     "colors": [
       "Lila",
       "Blanco"
@@ -9809,7 +9809,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_389_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 364,
@@ -9818,7 +9818,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Vino Tinto",
       "Blanco"
@@ -9836,7 +9836,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_390_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 365,
@@ -9845,7 +9845,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Blanco",
       "Negro",
@@ -9864,7 +9864,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_391_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 366,
@@ -9873,7 +9873,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Azul",
       "Rojo"
@@ -9890,7 +9890,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 367,
@@ -9899,7 +9899,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Blanco",
       "Azul Celeste",
@@ -9918,7 +9918,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_393_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 368,
@@ -9927,7 +9927,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -9944,7 +9944,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 369,
@@ -9980,7 +9980,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Rojo",
       "Negro",
@@ -9999,7 +9999,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_396_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 371,
@@ -10008,7 +10008,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Azul",
       "Rojo",
@@ -10027,7 +10027,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_397_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 372,
@@ -10036,7 +10036,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Blanco",
       "Verde",
@@ -10056,7 +10056,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_398_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 373,
@@ -10065,7 +10065,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -10083,7 +10083,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_399_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 374,
@@ -10092,7 +10092,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -10109,7 +10109,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 375,
@@ -10118,7 +10118,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Azul Celeste",
       "Blanco"
@@ -10135,7 +10135,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 376,
@@ -10144,7 +10144,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Deportivo & Gym",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Blanco",
       "Negro",
@@ -10163,7 +10163,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 377,
@@ -10172,7 +10172,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Deportivo & Gym",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Verde Oliva",
       "Azul Oscuro",
@@ -10191,7 +10191,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 378,
@@ -10254,7 +10254,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Chaquetas & Buzos",
     "supplierPrice": 105000,
     "marginPercent": 14,
-    "salePrice": 121850,
+    "salePrice": 120000,
     "colors": [
       "Negro",
       "Gris",
@@ -10276,7 +10276,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_406_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 381,
@@ -10285,7 +10285,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Deportivo & Gym",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Negro",
       "Blanco",
@@ -10305,7 +10305,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 382,
@@ -10314,7 +10314,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Verde",
       "Amarillo",
@@ -10332,7 +10332,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 383,
@@ -10341,7 +10341,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -10358,7 +10358,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 384,
@@ -10367,7 +10367,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Negro",
       "Amarillo",
@@ -10385,7 +10385,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 385,
@@ -10394,7 +10394,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Azul Celeste",
       "Amarillo"
@@ -10411,7 +10411,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 386,
@@ -10420,7 +10420,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Blanco",
       "Amarillo"
@@ -10437,7 +10437,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 387,
@@ -10446,7 +10446,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Negro",
       "Verde",
@@ -10465,7 +10465,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_413_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 388,
@@ -10474,7 +10474,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Deportivo & Gym",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Gris",
       "Azul Oscuro",
@@ -10494,7 +10494,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_414_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 389,
@@ -10503,7 +10503,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Deportivo & Gym",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Gris",
       "Azul Oscuro",
@@ -10522,7 +10522,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_415_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 390,
@@ -10559,7 +10559,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Deportivo & Gym",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 60930,
+    "salePrice": 60000,
     "colors": [
       "Gris",
       "Azul Oscuro",
@@ -10578,7 +10578,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_415_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 392,
@@ -10587,7 +10587,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Azul Rey",
       "Amarillo",
@@ -10605,7 +10605,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 393,
@@ -10614,7 +10614,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Streetwear & Urbano",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110930,
+    "salePrice": 110000,
     "colors": [
       "Negro"
     ],
@@ -10630,7 +10630,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 394,
@@ -10639,7 +10639,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Streetwear & Urbano",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110930,
+    "salePrice": 110000,
     "colors": [
       "Negro",
       "Blanco"
@@ -10657,7 +10657,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_420_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 395,
@@ -10666,7 +10666,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Streetwear & Urbano",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110930,
+    "salePrice": 110000,
     "colors": [
       "Negro"
     ],
@@ -10682,7 +10682,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 396,
@@ -10691,7 +10691,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Streetwear & Urbano",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110930,
+    "salePrice": 110000,
     "colors": [
       "Negro",
       "Blanco"
@@ -10709,7 +10709,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_420_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 397,
@@ -10718,7 +10718,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Streetwear & Urbano",
     "supplierPrice": 95000,
     "marginPercent": 16,
-    "salePrice": 110930,
+    "salePrice": 110000,
     "colors": [
       "Negro",
       "Blanco"
@@ -10736,7 +10736,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_421_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 398,
@@ -10745,7 +10745,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -10762,7 +10762,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 399,
@@ -10771,7 +10771,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -10788,7 +10788,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 400,
@@ -10797,7 +10797,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Verde",
       "Blanco"
@@ -10817,7 +10817,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_426_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 401,
@@ -10826,7 +10826,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Rojo",
       "Blanco"
@@ -10846,7 +10846,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_427_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 402,
@@ -10855,7 +10855,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Negro",
       "Verde",
@@ -10875,7 +10875,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_428_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 403,
@@ -10884,7 +10884,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Negro",
@@ -10904,7 +10904,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_429_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 404,
@@ -10913,7 +10913,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Azul",
       "Rojo",
@@ -10932,7 +10932,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_430_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 405,
@@ -10941,7 +10941,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Rojo",
@@ -10960,7 +10960,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_431_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 406,
@@ -10969,7 +10969,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Negro",
       "Dorado",
@@ -10989,7 +10989,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_432_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 407,
@@ -10998,7 +10998,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Azul Oscuro",
@@ -11018,7 +11018,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_433_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 408,
@@ -11027,7 +11027,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 86850,
+    "salePrice": 85000,
     "colors": [
       "Blanco",
       "Rosa"
@@ -11047,7 +11047,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_434_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 409,
@@ -11056,7 +11056,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Rojo",
       "Negro"
@@ -11076,7 +11076,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_435_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 410,
@@ -11085,7 +11085,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Rojo",
@@ -11105,7 +11105,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_436_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 411,
@@ -11114,7 +11114,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 45000,
     "marginPercent": 33,
-    "salePrice": 61850,
+    "salePrice": 60000,
     "colors": [
       "Rojo",
       "Blanco",
@@ -11132,7 +11132,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 412,
@@ -11141,7 +11141,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Morado",
       "Negro"
@@ -11158,7 +11158,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 413,
@@ -11167,7 +11167,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Azul",
       "Amarillo"
@@ -11185,7 +11185,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_439_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 414,
@@ -11194,7 +11194,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 28000,
     "marginPercent": 54,
-    "salePrice": 44850,
+    "salePrice": 43000,
     "colors": [
       "Amarillo",
       "Negro",
@@ -11214,7 +11214,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_440_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 415,
@@ -11223,7 +11223,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -11240,7 +11240,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 416,
@@ -11249,7 +11249,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Amarillo",
       "Verde"
@@ -11266,7 +11266,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 417,
@@ -11275,7 +11275,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Negro",
       "Dorado"
@@ -11292,7 +11292,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 418,
@@ -11301,7 +11301,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Verde",
@@ -11319,7 +11319,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 419,
@@ -11328,7 +11328,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 70000,
     "marginPercent": 21,
-    "salePrice": 86850,
+    "salePrice": 85000,
     "colors": [
       "Rosa",
       "Blanco"
@@ -11345,7 +11345,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 420,
@@ -11354,7 +11354,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Azul Rey",
       "Blanco"
@@ -11374,7 +11374,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_446_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 421,
@@ -11383,7 +11383,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Blanco",
       "Azul Celeste",
@@ -11404,7 +11404,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_447_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 422,
@@ -11413,7 +11413,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Blanco",
       "Azul Celeste",
@@ -11436,7 +11436,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_448_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 423,
@@ -11445,7 +11445,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Rojo",
       "Azul Oscuro",
@@ -11466,7 +11466,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_449_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 424,
@@ -11475,7 +11475,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 80000,
     "marginPercent": 19,
-    "salePrice": 96850,
+    "salePrice": 95000,
     "colors": [
       "Blanco",
       "Vino Tinto",
@@ -11497,7 +11497,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_450_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 425,
@@ -11506,7 +11506,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 85000,
     "marginPercent": 18,
-    "salePrice": 101850,
+    "salePrice": 100000,
     "colors": [
       "Negro",
       "Dorado",
@@ -11530,7 +11530,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_451_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 426,
@@ -11539,7 +11539,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 60000,
     "marginPercent": 25,
-    "salePrice": 76850,
+    "salePrice": 75000,
     "colors": [
       "Azul",
       "Amarillo"
@@ -11557,7 +11557,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_452_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 427,
@@ -11566,7 +11566,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 75000,
     "marginPercent": 20,
-    "salePrice": 91850,
+    "salePrice": 90000,
     "colors": [
       "Verde",
       "Blanco",
@@ -11587,7 +11587,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": "products/item_453_2.jpg",
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 428,
@@ -11596,7 +11596,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Beige",
       "Azul Oscuro",
@@ -11614,7 +11614,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 429,
@@ -11623,7 +11623,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 65000,
     "marginPercent": 23,
-    "salePrice": 81850,
+    "salePrice": 80000,
     "colors": [
       "Blanco",
       "Dorado"
@@ -11640,7 +11640,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 430,
@@ -11649,7 +11649,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 50000,
     "marginPercent": 30,
-    "salePrice": 66850,
+    "salePrice": 65000,
     "colors": [
       "Rosa",
       "Blanco"
@@ -11666,7 +11666,7 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   },
   {
     "id": 431,
@@ -11675,7 +11675,7 @@ window.CATALOG_PRODUCTS = [
     "category": "Fútbol & Retro",
     "supplierPrice": 55000,
     "marginPercent": 27,
-    "salePrice": 71850,
+    "salePrice": 70000,
     "colors": [
       "Blanco",
       "Negro"
@@ -11692,6 +11692,6 @@ window.CATALOG_PRODUCTS = [
     ],
     "editorialImage": null,
     "active": true,
-    "bagCharge": 930
+    "bagCharge": 0
   }
 ];
