@@ -1223,6 +1223,305 @@
       from { transform: translateY(100%); }
       to { transform: translateY(0); }
     }
+  
+    /* Hero Deck Interactive Controls & Catalog Preview */
+    .deck-angle-pills {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      display: flex;
+      gap: 5px;
+      z-index: 3;
+    }
+    .deck-angle-btn {
+      background: rgba(9, 9, 11, 0.88);
+      color: #d4d4d8;
+      border: 1px solid var(--border-gold);
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 10px;
+      font-weight: 700;
+      font-family: 'Space Grotesk', sans-serif;
+      cursor: pointer;
+      backdrop-filter: blur(6px);
+      transition: 0.2s;
+    }
+    .deck-angle-btn.active {
+      background: var(--gold-light);
+      color: #09090b;
+      font-weight: 800;
+      border-color: #fef08a;
+    }
+    .deck-nav-btns {
+      display: flex;
+      gap: 4px;
+    }
+    .deck-btn-nav {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--border-gold);
+      color: #ffffff;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 10px;
+      transition: all 0.2s;
+    }
+    .deck-btn-nav:hover {
+      background: var(--gold-light);
+      color: #09090b;
+      border-color: var(--gold-light);
+    }
+    .btn-order-deck {
+      background: linear-gradient(135deg, #facc15 0%, #ca8a04 100%);
+      color: #09090b;
+      border: 1px solid #fef08a;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 11px;
+      font-weight: 800;
+      font-family: 'Space Grotesk', sans-serif;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: 0.2s;
+    }
+    .btn-order-deck:hover {
+      filter: brightness(1.12);
+      transform: translateY(-1px);
+    }
+
+    /* Card Dual-Image Hover Flip & Lookbook Detail Strips */
+    .card-img-wrap {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 1/1;
+      background: #09090c;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      transition: opacity 0.35s ease, transform 0.4s ease;
+      display: block;
+    }
+    .card-img.primary-img {
+      position: relative;
+      z-index: 1;
+    }
+    .card-img.secondary-img {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .card:hover .card-img.secondary-img {
+      opacity: 1;
+    }
+    .card-lookbook-strip {
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(9, 9, 11, 0.9);
+      backdrop-filter: blur(8px);
+      padding: 3px 8px;
+      border-radius: 9999px;
+      border: 1px solid var(--border-gold);
+      z-index: 4;
+    }
+    .card-angle-chip {
+      background: transparent;
+      border: none;
+      color: #a1a1aa;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 9px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .card-angle-chip.active {
+      background: var(--gold-light);
+      color: #09090b;
+      font-weight: 800;
+    }
+    .card-tech-tag {
+      font-size: 9.5px;
+      color: var(--gold-primary);
+      font-family: 'Space Grotesk', monospace;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+    }
+
+    /* Outfit Builder Module Styles */
+    .outfit-builder-section {
+      background: linear-gradient(135deg, rgba(20, 20, 26, 0.95) 0%, rgba(10, 10, 14, 0.98) 100%);
+      border: 1.5px solid var(--border-gold);
+      border-radius: 24px;
+      padding: 24px 20px;
+      margin: 28px 0;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.5);
+      position: relative;
+      overflow: hidden;
+    }
+    .outfit-builder-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 14px;
+    }
+    .outfit-builder-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 18px;
+      font-weight: 900;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .outfit-stage-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    @media (min-width: 860px) {
+      .outfit-stage-grid {
+        grid-template-columns: 360px 1fr;
+        gap: 28px;
+      }
+    }
+    .outfit-preview-card {
+      background: #121217;
+      border: 1px solid var(--border-gold);
+      border-radius: 20px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .outfit-combo-items {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+    }
+    .outfit-combo-item-box {
+      position: relative;
+      width: 145px;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1.5px solid var(--border-gold);
+      background: #09090c;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .outfit-combo-item-box:hover {
+      transform: scale(1.03);
+    }
+    .outfit-combo-item-box img {
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      display: block;
+    }
+    .outfit-combo-item-tag {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      background: rgba(9, 9, 11, 0.9);
+      color: var(--gold-light);
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 9px;
+      font-weight: 800;
+      padding: 2px 6px;
+      border-radius: 6px;
+      border: 1px solid var(--border-gold);
+      backdrop-filter: blur(4px);
+      z-index: 2;
+    }
+    .outfit-summary-box {
+      background: #181820;
+      border-radius: 14px;
+      padding: 12px 14px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .outfit-selector-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .outfit-tabs-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .outfit-tab-btn {
+      background: #16161d;
+      color: var(--text-secondary);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 8px 16px;
+      border-radius: 10px;
+      font-size: 12px;
+      font-weight: 700;
+      font-family: 'Space Grotesk', sans-serif;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .outfit-tab-btn.active {
+      background: var(--gold-light);
+      color: #09090b;
+      border-color: var(--gold-light);
+      font-weight: 800;
+    }
+    .outfit-items-carousel {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+      gap: 10px;
+      max-height: 290px;
+      overflow-y: auto;
+      padding-right: 6px;
+    }
+    .outfit-thumb-card {
+      background: #121217;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .outfit-thumb-card:hover, .outfit-thumb-card.selected {
+      border-color: var(--gold-light);
+      box-shadow: 0 0 14px rgba(212, 175, 55, 0.3);
+      transform: translateY(-2px);
+    }
+    .outfit-thumb-card img {
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      display: block;
+    }
+    .outfit-thumb-card-info {
+      padding: 6px 8px;
+      font-size: 10px;
+    }
+
   </style>
 </head>
 <body>
@@ -1308,30 +1607,110 @@
           </div>
         </div>
 
-        <!-- Columna Derecha: 3D Floating Album Lookbook (Inspirado en Spotify / The Weeknd imagen) -->
-        <div class="hero-deck-wrap">
-          <div class="hero-deck-card">
-            <div class="deck-img-wrap">
-              <img src="assets/editorial/crew_backprint.jpg" alt="Crewstore Streetwear Lookbook" class="deck-img" onerror="this.src='logo.jpg'">
-              <span class="deck-tag-floating">// CREW ARCHIVE 01</span>
-              <span class="deck-tag-coords">04°38'N 74°05'W</span>
+        <!-- Columna Derecha: 3D Floating Album Lookbook con PRENDAS REALES DEL CATÁLOGO (Inspirado en Spotify / The Weeknd imagen) -->
+        <div class="hero-deck-wrap" id="heroDeckWrap">
+          <div class="hero-deck-card" id="heroDeckCard">
+            <div class="deck-img-wrap" onclick="openHeroDeckModal()">
+              <img id="deckMainImg" src="products/item_1.jpg" alt="Prenda Disponible en Catálogo" class="deck-img" onerror="this.src='logo.jpg'">
+              <span class="deck-tag-floating" id="deckCodeTag">// REF-001 • EN CATÁLOGO</span>
+              <span class="deck-tag-coords" id="deckStockTag">DISPONIBLE EN BODEGA</span>
+              <div class="deck-angle-pills" id="deckAnglePills">
+                <button class="deck-angle-btn active" onclick="setDeckAngle(0, event)">Frente</button>
+                <button class="deck-angle-btn" onclick="setDeckAngle(1, event)">Espalda</button>
+              </div>
             </div>
             <div class="deck-player-bar">
-              <div class="player-track-info">
-                <div class="player-play-icon">▶</div>
+              <div class="player-track-info" style="cursor: pointer;" onclick="openHeroDeckModal()">
+                <div class="player-play-icon" id="deckPlayBtn" onclick="toggleDeckAutoplay(event)">▶</div>
                 <div>
-                  <div class="player-title">CREW SOUNDTRACK // 2026</div>
-                  <div class="player-sub">By Any Means Necessary • Drop 01</div>
+                  <div class="player-title" id="deckProdName">Camiseta River Plate Beisbolera 001</div>
+                  <div class="player-sub" id="deckProdPrice">$85.000 COP • Drop Oficial 2026</div>
                 </div>
               </div>
-              <div class="player-equalizer" title="Crew Radio Audio Vibe">
-                <div class="eq-bar"></div>
-                <div class="eq-bar"></div>
-                <div class="eq-bar"></div>
-                <div class="eq-bar"></div>
-                <div class="eq-bar"></div>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <div class="deck-nav-btns">
+                  <button class="deck-btn-nav" onclick="prevDeckItem(event)" title="Prenda Anterior">◀</button>
+                  <button class="deck-btn-nav" onclick="nextDeckItem(event)" title="Siguiente Prenda">▶</button>
+                </div>
+                <button class="btn-order-deck" onclick="openHeroDeckModal()">Pedir 🛍️</button>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MÓDULO INTERACTIVO: MAKE YOUR OUTFIT (Inspirado en Puma x A$AP Rocky de tus imágenes) -->
+    <section class="outfit-builder-section" id="makeYourOutfitSection">
+      <div class="outfit-builder-header">
+        <div>
+          <div class="promo-tag">// LOOKBOOK INTERACTIVO • PUMA x STREETWEAR VIBES</div>
+          <h2 class="outfit-builder-title">⚡ MAKE YOUR OUTFIT • ARMA TU COMBO DE PRENDAS</h2>
+          <p style="font-size: 12px; color: var(--text-secondary); margin-top: 4px;">
+            Elige una prenda superior y una inferior de nuestro catálogo disponible. ¡Llévate ambas con <strong>$10.000 COP de Descuento Especial en Combo</strong>!
+          </p>
+        </div>
+        <div style="background: rgba(212, 175, 55, 0.12); border: 1px solid var(--border-gold); padding: 6px 14px; border-radius: 9999px; font-family: 'Space Grotesk', sans-serif; font-size: 11px; font-weight: 800; color: var(--gold-light);">
+          🎁 DESCUENTO AUTOMÁTICO EN COMBO
+        </div>
+      </div>
+
+      <div class="outfit-stage-grid">
+        <!-- Columna Izquierda: Vista del Outfit Armado -->
+        <div class="outfit-preview-card">
+          <div class="outfit-combo-items">
+            <!-- Prenda Superior Seleccionada -->
+            <div class="outfit-combo-item-box" id="outfitTopBox" onclick="openAddToCartModal(outfitState.top.id)">
+              <span class="outfit-combo-item-tag">1. SUPERIOR</span>
+              <img id="outfitTopImg" src="products/item_1.jpg" alt="Prenda Superior">
+              <div style="padding: 6px 8px; background: #09090c;">
+                <div style="font-size: 11px; font-weight: 800; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" id="outfitTopName">River Plate Beisbolera</div>
+                <div style="font-size: 11px; font-weight: 900; color: var(--gold-light); font-family: 'JetBrains Mono', monospace;" id="outfitTopPrice">$85.000 COP</div>
+              </div>
+            </div>
+
+            <!-- Prenda Inferior Seleccionada -->
+            <div class="outfit-combo-item-box" id="outfitBottomBox" onclick="openAddToCartModal(outfitState.bottom.id)">
+              <span class="outfit-combo-item-tag">2. INFERIOR</span>
+              <img id="outfitBottomImg" src="products/item_29.jpg" alt="Prenda Inferior">
+              <div style="padding: 6px 8px; background: #09090c;">
+                <div style="font-size: 11px; font-weight: 800; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" id="outfitBottomName">Bermuda Rígida Streetwear</div>
+                <div style="font-size: 11px; font-weight: 900; color: var(--gold-light); font-family: 'JetBrains Mono', monospace;" id="outfitBottomPrice">$90.000 COP</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Resumen de Precios con Descuento -->
+          <div class="outfit-summary-box">
+            <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-secondary); margin-bottom: 4px;">
+              <span>Subtotal 2 Prendas:</span>
+              <span id="outfitSubtotalText">$175.000 COP</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 11px; color: #22c55e; font-weight: 800; margin-bottom: 6px;">
+              <span>Descuento Especial Combo:</span>
+              <span>-$10.000 COP</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 8px;">
+              <span style="font-size: 12px; font-weight: 800; color: #fff; text-transform: uppercase;">Total Outfit:</span>
+              <span style="font-size: 18px; font-weight: 900; color: var(--gold-light); font-family: 'JetBrains Mono', monospace;" id="outfitTotalText">$165.000 COP</span>
+            </div>
+          </div>
+
+          <button class="btn-whatsapp" onclick="orderOutfitWhatsApp()" style="padding: 12px; font-size: 13px;">
+            <span>📲</span>
+            <span>Pedir Este Outfit a WhatsApp</span>
+          </button>
+        </div>
+
+        <!-- Columna Derecha: Catálogo Selector de Prendas para el Outfit -->
+        <div class="outfit-selector-panel">
+          <div class="outfit-tabs-row">
+            <button class="outfit-tab-btn active" id="tabTopBtn" onclick="switchOutfitTab('tops')">👕 Elegir Superior (Camisetas / Buzos / Polos)</button>
+            <button class="outfit-tab-btn" id="tabBottomBtn" onclick="switchOutfitTab('bottoms')">🩳 Elegir Inferior (Bermudas / Shorts)</button>
+          </div>
+
+          <div class="outfit-items-carousel" id="outfitItemsGrid">
+            <!-- Se llena dinámicamente con las prendas reales del catálogo -->
           </div>
         </div>
       </div>
@@ -13478,32 +13857,42 @@
       const gallery = getProductGallery(item);
       const hasMulti = gallery.length > 1;
       const primaryImg = resolveImgPath(gallery[0] || item.image, item.id);
+      const secondaryImg = hasMulti ? resolveImgPath(gallery[1], item.id) : '';
       
       const colorsList = item.colors && item.colors.length ? item.colors : ['Único'];
       const sizesList = item.sizes && item.sizes.length ? item.sizes : ['S', 'M', 'L', 'XL'];
 
-      const colorBadges = colorsList.map(c => `<span class="color-chip">${c}</span>`).join('');
+      const colorBadges = colorsList.slice(0, 2).map(c => `<span class="color-chip">${c}</span>`).join('');
       const sizeBadges = sizesList.map(s => `<span class="size-chip">${s}</span>`).join('');
-      const multiBadge = hasMulti ? `<span class="card-multi-badge">📸 ${gallery.length} fotos</span>` : '';
+      const multiBadge = hasMulti ? `<span class="card-multi-badge">📸 ${gallery.length} ángulos</span>` : '';
 
-      const galleryDots = hasMulti ? `
-        <div class="slider-toggle-bar">
+      // Tiras de ángulos estilo lookbook técnico (Frente, Espalda, Detalle)
+      const lookbookStrip = hasMulti ? `
+        <div class="card-lookbook-strip">
           ${gallery.map((_, gIdx) => `
-            <button class="slider-dot-btn ${gIdx === 0 ? 'active' : ''}" onclick="toggleCardImage(${item.id}, ${gIdx}, event)">${gIdx + 1}</button>
+            <button class="card-angle-chip ${gIdx === 0 ? 'active' : ''}" onclick="setCardSpecificImage(${item.id}, ${gIdx}, event)">
+              ${gIdx === 0 ? 'Frente' : (gIdx === 1 ? 'Espalda' : 'Detalle')}
+            </button>
           `).join('')}
         </div>
       ` : '';
 
+      const secondaryImgEl = hasMulti ? `
+        <img id="cardImgSec_${item.id}" src="${secondaryImg}" class="card-img secondary-img" alt="${item.name} espalda" loading="lazy" decoding="async">
+      ` : '';
+
       return `
-        <div class="card">
+        <div class="card" id="cardEl_${item.id}">
           <div class="card-img-wrap" onclick="openAddToCartModal(${item.id})">
-            <img id="cardImg_${item.id}" src="${primaryImg}" class="card-img" alt="" loading="lazy" decoding="async" onerror="handleImgError(this, ${item.id})">
+            <img id="cardImg_${item.id}" src="${primaryImg}" class="card-img primary-img" alt="${item.name}" loading="lazy" decoding="async" onerror="handleImgError(this, ${item.id})">
+            ${secondaryImgEl}
             <span class="card-badge">${item.code}</span>
             ${multiBadge}
-            ${galleryDots}
+            ${lookbookStrip}
           </div>
           <div class="card-body">
             <div>
+              <div class="card-tech-tag">// DROP ARCHIVE • DISPONIBLE</div>
               <h3 class="card-title" title="${item.name}">${item.name}</h3>
               <div class="card-badges">${colorBadges} ${sizeBadges}</div>
             </div>
@@ -13512,11 +13901,28 @@
                 <span class="card-price-label">Precio</span>
                 <span class="card-price">$${formatCOP(item.salePrice)}</span>
               </div>
-              <button class="btn-order-card" onclick="openAddToCartModal(${item.id})">Pedir</button>
+              <button class="btn-order-card" onclick="openAddToCartModal(${item.id})">Pedir 🛍️</button>
             </div>
           </div>
         </div>
       `;
+    }
+
+    function setCardSpecificImage(prodId, imgIdx, e) {
+      if (e) e.stopPropagation();
+      const img = document.getElementById(`cardImg_${prodId}`);
+      const prod = state.products.find(p => p.id === prodId);
+      if (!img || !prod) return;
+      const gallery = getProductGallery(prod);
+      if (gallery[imgIdx]) {
+        img.src = resolveImgPath(gallery[imgIdx], prodId);
+      }
+      const wrap = img.closest('.card-img-wrap');
+      if (wrap) {
+        wrap.querySelectorAll('.card-angle-chip').forEach((btn, idx) => {
+          btn.classList.toggle('active', idx === imgIdx);
+        });
+      }
     }
 
     function renderSectionsAndProducts() {
@@ -14027,6 +14433,215 @@
       });
     })();
 
+
+    // ==========================================
+    // HERO DECK CON PRENDAS REALES DEL CATÁLOGO
+    // ==========================================
+    let heroDeckItems = [];
+    let currentDeckIndex = 0;
+    let deckAutoplay = true;
+    let deckTimer = null;
+
+    function initHeroDeck() {
+      // Tomamos prendas icónicas del catálogo que tengan fotos ricas
+      const multi = state.products.filter(p => p.active !== false && Array.isArray(p.images) && p.images.length > 1);
+      heroDeckItems = multi.slice(0, 12);
+      if (heroDeckItems.length === 0) heroDeckItems = state.products.slice(0, 10);
+      renderDeckItem();
+      startDeckAutoplay();
+    }
+
+    function renderDeckItem() {
+      if (heroDeckItems.length === 0) return;
+      const item = heroDeckItems[currentDeckIndex];
+      const gallery = getProductGallery(item);
+
+      const imgEl = document.getElementById('deckMainImg');
+      const codeEl = document.getElementById('deckCodeTag');
+      const nameEl = document.getElementById('deckProdName');
+      const priceEl = document.getElementById('deckProdPrice');
+      const anglePills = document.getElementById('deckAnglePills');
+
+      if (imgEl) imgEl.src = resolveImgPath(gallery[0] || item.image, item.id);
+      if (codeEl) codeEl.innerText = `// ${item.code || 'REF-' + item.id} • EN CATÁLOGO`;
+      if (nameEl) nameEl.innerText = item.name;
+      if (priceEl) priceEl.innerText = `$${formatCOP(item.salePrice)} COP • ${item.category || 'Drop Oficial'}`;
+
+      if (anglePills) {
+        if (gallery.length > 1) {
+          anglePills.innerHTML = gallery.map((_, idx) => `
+            <button class="deck-angle-btn ${idx === 0 ? 'active' : ''}" onclick="setDeckAngle(${idx}, event)">
+              ${idx === 0 ? 'Frente' : (idx === 1 ? 'Espalda' : 'Detalle ' + idx)}
+            </button>
+          `).join('');
+        } else {
+          anglePills.innerHTML = '<span class="deck-angle-btn active">Foto Oficial</span>';
+        }
+      }
+    }
+
+    function setDeckAngle(idx, e) {
+      if (e) e.stopPropagation();
+      const item = heroDeckItems[currentDeckIndex];
+      if (!item) return;
+      const gallery = getProductGallery(item);
+      const imgEl = document.getElementById('deckMainImg');
+      if (imgEl && gallery[idx]) {
+        imgEl.src = resolveImgPath(gallery[idx], item.id);
+      }
+      document.querySelectorAll('#deckAnglePills .deck-angle-btn').forEach((btn, i) => {
+        btn.classList.toggle('active', i === idx);
+      });
+    }
+
+    function nextDeckItem(e) {
+      if (e) e.stopPropagation();
+      currentDeckIndex = (currentDeckIndex + 1) % heroDeckItems.length;
+      renderDeckItem();
+    }
+
+    function prevDeckItem(e) {
+      if (e) e.stopPropagation();
+      currentDeckIndex = (currentDeckIndex - 1 + heroDeckItems.length) % heroDeckItems.length;
+      renderDeckItem();
+    }
+
+    function toggleDeckAutoplay(e) {
+      if (e) e.stopPropagation();
+      deckAutoplay = !deckAutoplay;
+      const btn = document.getElementById('deckPlayBtn');
+      if (btn) btn.innerText = deckAutoplay ? '▶' : '⏸';
+      if (deckAutoplay) startDeckAutoplay();
+      else if (deckTimer) clearInterval(deckTimer);
+    }
+
+    function startDeckAutoplay() {
+      if (deckTimer) clearInterval(deckTimer);
+      deckTimer = setInterval(() => {
+        if (deckAutoplay) {
+          currentDeckIndex = (currentDeckIndex + 1) % heroDeckItems.length;
+          renderDeckItem();
+        }
+      }, 5000);
+    }
+
+    function openHeroDeckModal() {
+      const item = heroDeckItems[currentDeckIndex];
+      if (item) openAddToCartModal(item.id);
+    }
+
+    // ==========================================
+    // MÓDULO: MAKE YOUR OUTFIT (PUMA x STREETWEAR)
+    // ==========================================
+    let outfitState = {
+      top: null,
+      bottom: null,
+      currentTab: 'tops'
+    };
+
+    function initOutfitBuilder() {
+      const prods = state.products.filter(p => p.active !== false);
+      const tops = prods.filter(p => ['Fútbol & Retro', 'Atlético Bucaramanga', 'Camisetas Básicas & Deportivas', 'Polos Deportivas', 'Buzos & Chaquetas'].includes(p.category));
+      const bottoms = prods.filter(p => ['Bermudas & Shorts', 'Conjuntos & Streetwear'].includes(p.category));
+
+      outfitState.top = tops[0] || prods[0];
+      outfitState.bottom = bottoms[0] || prods[1];
+
+      renderOutfitStage();
+      renderOutfitCarousel();
+    }
+
+    function renderOutfitStage() {
+      if (!outfitState.top || !outfitState.bottom) return;
+
+      const topImg = document.getElementById('outfitTopImg');
+      const topName = document.getElementById('outfitTopName');
+      const topPrice = document.getElementById('outfitTopPrice');
+
+      const btmImg = document.getElementById('outfitBottomImg');
+      const btmName = document.getElementById('outfitBottomName');
+      const btmPrice = document.getElementById('outfitBottomPrice');
+
+      if (topImg) topImg.src = resolveImgPath(outfitState.top.image, outfitState.top.id);
+      if (topName) topName.innerText = outfitState.top.name;
+      if (topPrice) topPrice.innerText = `$${formatCOP(outfitState.top.salePrice)} COP`;
+
+      if (btmImg) btmImg.src = resolveImgPath(outfitState.bottom.image, outfitState.bottom.id);
+      if (btmName) btmName.innerText = outfitState.bottom.name;
+      if (btmPrice) btmPrice.innerText = `$${formatCOP(outfitState.bottom.salePrice)} COP`;
+
+      const subtotal = outfitState.top.salePrice + outfitState.bottom.salePrice;
+      const discount = 10000;
+      const total = Math.max(0, subtotal - discount);
+
+      const subtotalEl = document.getElementById('outfitSubtotalText');
+      const totalEl = document.getElementById('outfitTotalText');
+      if (subtotalEl) subtotalEl.innerText = `$${formatCOP(subtotal)} COP`;
+      if (totalEl) totalEl.innerText = `$${formatCOP(total)} COP`;
+    }
+
+    function switchOutfitTab(tab) {
+      outfitState.currentTab = tab;
+      document.getElementById('tabTopBtn').classList.toggle('active', tab === 'tops');
+      document.getElementById('tabBottomBtn').classList.toggle('active', tab === 'bottoms');
+      renderOutfitCarousel();
+    }
+
+    function renderOutfitCarousel() {
+      const grid = document.getElementById('outfitItemsGrid');
+      if (!grid) return;
+
+      const prods = state.products.filter(p => p.active !== false);
+      let list = [];
+      if (outfitState.currentTab === 'tops') {
+        list = prods.filter(p => ['Fútbol & Retro', 'Atlético Bucaramanga', 'Camisetas Básicas & Deportivas', 'Polos Deportivas', 'Buzos & Chaquetas'].includes(p.category));
+      } else {
+        list = prods.filter(p => ['Bermudas & Shorts', 'Conjuntos & Streetwear'].includes(p.category));
+      }
+
+      grid.innerHTML = list.slice(0, 24).map(item => {
+        const isSelected = (outfitState.currentTab === 'tops' && outfitState.top && outfitState.top.id === item.id) ||
+                           (outfitState.currentTab === 'bottoms' && outfitState.bottom && outfitState.bottom.id === item.id);
+        return `
+          <div class="outfit-thumb-card ${isSelected ? 'selected' : ''}" onclick="selectOutfitPiece(${item.id})">
+            <img src="${resolveImgPath(item.image, item.id)}" alt="${item.name}" loading="lazy">
+            <div class="outfit-thumb-card-info">
+              <div style="font-weight: 700; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${item.name}</div>
+              <div style="color: var(--gold-light); font-weight: 800; font-family: 'JetBrains Mono', monospace;">$${formatCOP(item.salePrice)}</div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function selectOutfitPiece(prodId) {
+      const prod = state.products.find(p => p.id === prodId);
+      if (!prod) return;
+      if (outfitState.currentTab === 'tops') outfitState.top = prod;
+      else outfitState.bottom = prod;
+      renderOutfitStage();
+      renderOutfitCarousel();
+      showToast(`✅ ${prod.name} agregada al outfit`);
+    }
+
+    function orderOutfitWhatsApp() {
+      if (!outfitState.top || !outfitState.bottom) return;
+      const subtotal = outfitState.top.salePrice + outfitState.bottom.salePrice;
+      const total = Math.max(0, subtotal - 10000);
+
+      const msg = `🔥 *¡HOLA CREWSTORE! QUIERO PEDIR ESTE OUTFIT COMPLETO (PROMO COMBO 2 PRENDAS)*:\n\n` +
+        `👕 *Prenda 1 Superior*: ${outfitState.top.name} (${outfitState.top.code}) - $${formatCOP(outfitState.top.salePrice)} COP\n` +
+        `🩳 *Prenda 2 Inferior*: ${outfitState.bottom.name} (${outfitState.bottom.code}) - $${formatCOP(outfitState.bottom.salePrice)} COP\n\n` +
+        `🎁 *Descuento Especial Combo*: -$10.000 COP\n` +
+        `💰 *TOTAL A PAGAR*: $${formatCOP(total)} COP\n\n` +
+        `📦 *Pago Contraentrega / Envío a Domicilio*. ¿Tienen disponibilidad en mis tallas?`;
+
+      const num = state.settings.whatsappNumber || "573170128692";
+      window.open(`https://wa.me/${num}?text=${encodeURIComponent(msg)}`, '_blank');
+    }
+
+    initHeroDeck();
+    initOutfitBuilder();
     initApp();
 
     async function refreshRealtimeCatalog() {
