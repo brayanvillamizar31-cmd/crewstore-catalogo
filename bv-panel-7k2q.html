@@ -273,31 +273,27 @@
     <!-- ==================== PESTAÑA 2: SEO, ANALÍTICAS, CESTAS & PEDIDOS ==================== -->
     <div id="adminTabSeo" style="display: none;">
 
-      <!-- FILA 1: META MENSUAL BAJO PEDIDO + CREADOR DE CESTAS (COMBOS) -->
+      <!-- FILA 1: META MENSUAL DE GANANCIA + CREADOR DE CESTAS (COMBOS) -->
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 16px; margin-bottom: 18px;">
         
-        <!-- SIMULADOR FINANCIERO: MODELO BODEGA ALIADA + DOMICILIO -->
+        <!-- SIMULADOR FINANCIERO: VENTA DE PRENDAS -->
         <div style="background: #fff; border: 1px solid #e7e5e4; border-radius: 16px; padding: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-            <h3 style="font-size: 14px; font-weight: 800; color: #1c1917;">🎯 Meta de Ganancia Mensual (Modelo Bajo Pedido)</h3>
+            <h3 style="font-size: 14px; font-weight: 800; color: #1c1917;">🎯 Meta de Ganancia Mensual (Venta de Prendas)</h3>
             <span style="background: #ecfdf5; color: #065f46; font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 9999px;">$0 Riesgo de Inventario</span>
           </div>
           <p style="font-size: 11px; color: #57534e; margin-bottom: 12px;">
-            Como pides a la bodega solo cuando el cliente encarga y cobras el domicilio aparte, cada venta es ganancia líquida inmediata:
+            Calculado 100% sobre la ganancia líquida de tus prendas (el cliente le paga el domicilio directo al repartidor externo):
           </p>
 
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 12px;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px;">
             <div>
               <label style="font-size: 10px; font-weight: 700; color: #44403c; display: block; margin-bottom: 3px;">Meta Ganancia Mes ($)</label>
-              <input type="number" id="simMonthlyGoal" value="2500000" oninput="renderSeoAndAnalytics()" style="width: 100%; padding: 7px; border-radius: 8px; border: 1px solid #1c1917; font-family: monospace; font-weight: 800; font-size: 12px;">
+              <input type="number" id="simMonthlyGoal" value="2500000" oninput="renderSeoAndAnalytics()" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #1c1917; font-family: monospace; font-weight: 800; font-size: 12px;">
             </div>
             <div>
-              <label style="font-size: 10px; font-weight: 700; color: #44403c; display: block; margin-bottom: 3px;">Cobro Domicilio ($)</label>
-              <input type="number" id="simDeliveryCharge" value="6000" oninput="renderSeoAndAnalytics()" style="width: 100%; padding: 7px; border-radius: 8px; border: 1px solid #d6d3d1; font-family: monospace; font-weight: 800; font-size: 12px;">
-            </div>
-            <div>
-              <label style="font-size: 10px; font-weight: 700; color: #44403c; display: block; margin-bottom: 3px;">Pago a Domiciliario ($)</label>
-              <input type="number" id="simDeliveryCost" value="5000" oninput="renderSeoAndAnalytics()" style="width: 100%; padding: 7px; border-radius: 8px; border: 1px solid #d6d3d1; font-family: monospace; font-weight: 800; font-size: 12px;">
+              <label style="font-size: 10px; font-weight: 700; color: #44403c; display: block; margin-bottom: 3px;">Ganancia Promedio / Prenda</label>
+              <input type="text" id="simAvgProfitDisplay" value="+$15.000 COP" readonly style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; background: #fafaf9; font-family: monospace; font-weight: 800; font-size: 12px; color: #059669;">
             </div>
           </div>
 
@@ -308,10 +304,10 @@
         <div style="background: #fff; border: 1px solid #e7e5e4; border-radius: 16px; padding: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
             <h3 style="font-size: 14px; font-weight: 800; color: #1c1917;">🎁 Creador de Cestas & Combos (Aumentar Ticket)</h3>
-            <span style="background: #fef3c7; color: #92400e; font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 9999px;">1 Solo Domicilio</span>
+            <span style="background: #fef3c7; color: #92400e; font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 9999px;">Venta Cruzada</span>
           </div>
           <p style="font-size: 11px; color: #57534e; margin-bottom: 10px;">
-            El secreto de revender de bodega es que el cliente lleve <strong>2 o 3 prendas en un solo viaje de domicilio</strong>. Arma una Cesta aquí y genera su anuncio:
+            El cliente lleva <strong>2 o 3 prendas en un solo pedido</strong> para mayor volumen de ventas:
           </p>
 
           <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; margin-bottom: 10px;">
@@ -324,11 +320,11 @@
               <select id="basketProd2" onchange="calculateBasketOffer()" style="width: 100%; padding: 6px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 11px; font-weight: 700;"></select>
             </div>
             <div>
-              <label style="font-size: 10px; font-weight: 700; display: block; margin-bottom: 2px;">Incentivo Cesta</label>
+              <label style="font-size: 10px; font-weight: 700; display: block; margin-bottom: 2px;">Descuento en Combo</label>
               <select id="basketDiscountType" onchange="calculateBasketOffer()" style="width: 100%; padding: 6px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 11px; font-weight: 700;">
-                <option value="0">Paga 1 solo domicilio ($0 desc.)</option>
-                <option value="5000">Bono -$5.000 en la 2da prenda</option>
-                <option value="8000">Domicilio Gratis llevando las 2</option>
+                <option value="0">Precio Normal ($0 desc.)</option>
+                <option value="5000">Descuento -$5.000 COP en Combo</option>
+                <option value="10000">Descuento -$10.000 COP en Combo</option>
               </select>
             </div>
           </div>
@@ -337,7 +333,7 @@
 
           <div style="display: flex; gap: 8px;">
             <button onclick="copyBasketPromoText()" style="flex: 1; background: #1c1917; color: #fde047; border: none; padding: 8px 10px; border-radius: 8px; font-size: 11px; font-weight: 800; cursor: pointer;">
-              📋 Copiar Anuncio de esta Cesta para WhatsApp / Instagram
+              📋 Copiar Anuncio de Combo para WhatsApp / Instagram
             </button>
           </div>
         </div>
@@ -360,55 +356,12 @@
 
       </div>
 
-      <!-- FILA 2.5: CALCULADORA DE DOMICILIO DESDE CAMPO HERMOSO (SECTOR FRULAPP, BUCARAMANGA) -->
-      <div style="background: #fff; border: 2px solid #1c1917; border-radius: 16px; padding: 18px; margin-bottom: 18px; box-shadow: 0 4px 12px rgba(0,0,0,0.04);">
-        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 12px;">
-          <div>
-            <span style="background: #1c1917; color: #fde047; font-size: 10px; font-weight: 800; padding: 3px 8px; border-radius: 9999px;">📍 SALIDA BODEGA: CAMPO HERMOSO (SECTOR FRULAPP) • BUCARAMANGA</span>
-            <h3 style="font-size: 15px; font-weight: 800; color: #1c1917; margin-top: 5px;">🛵 Cotizador Rápido de Domicilio por Kilómetros / Barrio (Mínima $5.000 COP)</h3>
-            <p style="font-size: 11px; color: #57534e;">Selecciona el barrio/municipio del cliente o ingresa los kilómetros desde Campo Hermoso (Frulapp) para cotizar al instante con Pago Contraentrega:</p>
-          </div>
-        </div>
-
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; align-items: end; margin-bottom: 12px;">
-          <div>
-            <label style="font-size: 10px; font-weight: 800; color: #1c1917; display: block; margin-bottom: 4px;">1. Barrio / Destino desde Campo Hermoso (Frulapp):</label>
-            <select id="bgaZoneSelect" onchange="onSelectBgaZone(this.value)" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 11px; font-weight: 700;">
-              <option value="1.5|Campo Hermoso / La Joya / Alfonso López">📍 Campo Hermoso / La Joya / Alfonso López (~1.5 km) — Mínima $5.000</option>
-              <option value="2.2|Real de Minas / Ciudadela / Mutis / Girardot">📍 Real de Minas / Ciudadela / Mutis / Girardot (~2.2 km) — Mínima $5.000</option>
-              <option value="3.0|Centro Bucaramanga / La Rosita / Concordia">📍 Centro / La Rosita / Concordia / Antonia Santos (~3.0 km) — $6.000</option>
-              <option value="4.2|Cabecera / Sotomayor / San Francisco / San Alonso">📍 Cabecera / Sotomayor / San Francisco / San Alonso (~4.2 km) — $7.000</option>
-              <option value="4.8|Provenza / Diamante II / Fontana / La Victoria">📍 Provenza / Diamante II / Fontana / La Victoria (~4.8 km) — $7.500</option>
-              <option value="6.2|Terrazas / Pan de Azúcar / Morrorico / Norte">📍 Terrazas / Pan de Azúcar / Morrorico / Norte (~6.2 km) — $8.500</option>
-              <option value="7.5|Cañaveral / El Bosque / Lagos del Cacique">📍 Cañaveral / El Bosque / Lagos del Cacique (~7.5 km) — $9.500</option>
-              <option value="8.5|Girón (Casco Antiguo / El Poblado / Rincón)">📍 Girón (Casco Antiguo / El Poblado / Rincón) (~8.5 km) — $10.000</option>
-              <option value="9.8|Floridablanca (Casco Urbano / La Cumbre / Villabel)">📍 Floridablanca (Casco Urbano / La Cumbre / Villabel) (~9.8 km) — $11.000</option>
-              <option value="13.5|Ruitoque Bajo / Condominio">📍 Ruitoque (~13.5 km) — $13.500</option>
-              <option value="18.0|Piedecuesta (Centro / Guatiguará / San Carlos)">📍 Piedecuesta (~18.0 km) — $16.000</option>
-              <option value="99|Envío Nacional (Interrapidísimo / Envía)">📦 Envío Nacional Fuera del Área Metropolitana — $16.000</option>
-            </select>
-          </div>
-
-          <div>
-            <label style="font-size: 10px; font-weight: 800; color: #1c1917; display: block; margin-bottom: 4px;">2. Distancia Exacta desde Frulapp (km):</label>
-            <input type="number" step="0.5" min="0.5" id="bgaKmInput" value="1.5" oninput="calculateBgaDelivery()" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #1c1917; font-family: monospace; font-weight: 800; font-size: 12px;">
-          </div>
-
-          <div>
-            <label style="font-size: 10px; font-weight: 800; color: #1c1917; display: block; margin-bottom: 4px;">3. Prenda a Cotizar con Domicilio:</label>
-            <select id="bgaQuoteProd" onchange="calculateBgaDelivery()" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 11px; font-weight: 700;"></select>
-          </div>
-        </div>
-
-        <div id="bgaDeliveryResultBox" style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 12px; padding: 12px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px;"></div>
-      </div>
-
-      <!-- FILA 3: CONTROL DE PEDIDOS EN BODEGA ALIADA & DOMICILIOS -->
+      <!-- FILA 3: CONTROL DE PEDIDOS EN BODEGA ALIADA -->
       <div style="background: #fff; border: 1px solid #e7e5e4; border-radius: 16px; padding: 18px; margin-bottom: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
         <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 12px;">
           <div>
-            <h3 style="font-size: 15px; font-weight: 800; color: #1c1917;">🛵 Control de Pedidos (Bodega Aliada -> Cliente Final + Domicilio)</h3>
-            <p style="font-size: 11px; color: #57534e;">Registra y controla los pedidos que llegan por la web o WhatsApp: verifica en bodega, despacha y mide tu ganancia real.</p>
+            <h3 style="font-size: 15px; font-weight: 800; color: #1c1917;">📦 Control de Pedidos (Ventas de Bodega -> Cliente Final)</h3>
+            <p style="font-size: 11px; color: #57534e;">Registra y controla los pedidos que llegan por la web o WhatsApp: compras en bodega, entregas y tu ganancia real en prendas.</p>
           </div>
           <button onclick="openManualOrderModal()" class="btn-action btn-green">
             ➕ Registrar Pedido de WhatsApp
@@ -426,7 +379,6 @@
                 <th>Prendas Solicitadas</th>
                 <th>Pago a Bodega ($)</th>
                 <th>Cobro Prendas ($)</th>
-                <th>Domicilio ($)</th>
                 <th>Tu Ganancia Libre ($)</th>
                 <th>Estado en Bodega</th>
                 <th>Acción</th>
