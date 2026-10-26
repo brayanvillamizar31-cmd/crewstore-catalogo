@@ -15616,10 +15616,27 @@
       localStorage.setItem('crewstore_v9_products_cache', JSON.stringify(state.products));
 
       document.getElementById('topStoreName').innerText = state.settings.storeName;
+      if (state.settings.investmentAmount === undefined) state.settings.investmentAmount = 2500000;
+      syncFinanceUI();
       updateSecureStatus();
 
       renderAdminTable();
       loadAdminProductsFromSupabase();
+      if (state.cloud.url && state.cloud.anonKey) {
+        fetch(state.cloud.url + '/rest/v1/store_settings?id=eq.crewstore_finance&select=*', {
+          headers: { 'apikey': state.cloud.anonKey, 'Authorization': 'Bearer ' + state.cloud.anonKey }
+        }).then(r => r.ok ? r.json() : []).then(rows => {
+          if (Array.isArray(rows) && rows.length > 0 && rows[0].store_name) {
+            try {
+              const fin = JSON.parse(rows[0].store_name);
+              state.settings = { ...state.settings, ...fin };
+              localStorage.setItem('crewstore_v2_settings_cache', JSON.stringify(state.settings));
+              syncFinanceUI();
+              renderAdminTable();
+            } catch (e) {}
+          }
+        }).catch(() => {});
+      }
     }
 
     sessionStorage.removeItem('admin_authenticated'); // limpiar sesión antigua del PIN
