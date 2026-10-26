@@ -14245,23 +14245,22 @@
     function copyBasketPromoText() {
       const b = state.currentBasketPromo;
       if (!b) return;
-      const bonusLine = b.discount === 8000
-        ? `🚚 ¡ENVÍO / DOMICILIO GRATIS llevando el dúo hoy!`
-        : b.discount > 0
-          ? `🎁 Bono de -$${formatCOP(b.discount)} COP incluido en tu cesta + 1 solo domicilio.`
-          : `🛵 Aprovecha 1 solo domicilio llevando tus 2 prendas favoritas.`;
+      const bonusLine = b.discount > 0
+        ? `🎁 ¡Descuento especial de -$${formatCOP(b.discount)} COP en este combo!`
+        : `🔥 Combina tus dos prendas favoritas en un solo pedido.`;
 
-      const text = `✨ *CESTA DÚO EXCLUSIVA - crewstore.co* ✨\n\n` +
+      const text = `✨ *COMBO ESPECIAL DÚO - crewstore.co* ✨\n\n` +
         `Lleva estas 2 prendas en tendencia:\n` +
         `1️⃣ *${b.p1.name}* (${b.p1.code}) — Colores: ${(b.p1.colors || []).join(', ')}\n` +
         `2️⃣ *${b.p2.name}* (${b.p2.code}) — Colores: ${(b.p2.colors || []).join(', ')}\n\n` +
-        `💎 *Precio Especial Cesta x2:* $${formatCOP(b.comboPrice)} COP\n` +
+        `💎 *Precio Especial Combo x2:* $${formatCOP(b.comboPrice)} COP\n` +
         `${bonusLine}\n` +
+        `🛵 *Envíos en Bucaramanga y a todo el país* (El domicilio lo cancelas contraentrega al recibir)\n` +
         `📌 *Despacho sujeto a disponibilidad del producto, color y talla.*\n\n` +
         `📲 Escríbenos aquí o pídelas en nuestro catálogo oficial: ${window.location.origin}`;
 
       navigator.clipboard.writeText(text).then(() => {
-        alert('✅ Anuncio de Cesta copiado al portapapeles. Ya puedes pegarlo en tus Estados de WhatsApp o Instagram.');
+        alert('✅ Anuncio de Combo copiado al portapapeles. Ya puedes pegarlo en tus Estados de WhatsApp o Instagram.');
       });
     }
 
