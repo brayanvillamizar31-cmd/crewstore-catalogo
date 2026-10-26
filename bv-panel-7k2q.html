@@ -13749,13 +13749,87 @@
       });
     }
 
+    let _financeSyncTimer = null;
+    function syncFinanceUI() {
+      const inv = Number(state.settings.investmentAmount ?? 2500000);
+      const bag = Number(state.settings.bagCost || 0);
+      const ship = Number(state.settings.merchShippingCost || 0);
+      const applyUnit = !!state.settings.applyUnitCosts;
+
+      const elInv = document.getElementById('inputInvestmentAmount');
+      const elBag = document.getElementById('inputBagCost');
+      const elShip = document.getElementById('inputMerchShippingCost');
+      const elChk = document.getElementById('chkApplyUnitCosts');
+
+      if (elInv && document.activeElement !== elInv) elInv.value = inv;
+      if (elBag && document.activeElement !== elBag) elBag.value = bag;
+      if (elShip && document.activeElement !== elShip) elShip.value = ship;
+      if (elChk) elChk.checked = applyUnit;
+
+      const extraCosts = bag + ship;
+      const totalOutlay = inv + (applyUnit ? 0 : extraCosts);
+
+      const lblInv = document.getElementById('lblInvestmentFormatted');
+      if (lblInv) lblInv.innerText = `Inversión base: $${formatCOP(inv)} COP`;
+
+      const lblTotal = document.getElementById('lblTotalInvestmentPlusCosts');
+      if (lblTotal) lblTotal.innerText = `$${formatCOP(inv + extraCosts)} COP`;
+
+      const lblExtra = document.getElementById('lblExtraProductCostsSummary');
+      if (lblExtra) {
+        lblExtra.innerText = `Bolsas ($${formatCOP(bag)}) + Domicilio Mercancía ($${formatCOP(ship)}) = $${formatCOP(extraCosts)}`;
+      }
+    }
+
+    function updateFinanceInputs() {
+      const elInv = document.getElementById('inputInvestmentAmount');
+      const elBag = document.getElementById('inputBagCost');
+      const elShip = document.getElementById('inputMerchShippingCost');
+      const elChk = document.getElementById('chkApplyUnitCosts');
+
+      state.settings.investmentAmount = elInv ? Number(elInv.value || 0) : 2500000;
+      state.settings.bagCost = elBag ? Number(elBag.value || 0) : 0;
+      state.settings.merchShippingCost = elShip ? Number(elShip.value || 0) : 0;
+      state.settings.applyUnitCosts = elChk ? !!elChk.checked : false;
+
+      localStorage.setItem('crewstore_v2_settings_cache', JSON.stringify(state.settings));
+      syncFinanceUI();
+      renderAdminTable();
+
+      clearTimeout(_financeSyncTimer);
+      _financeSyncTimer = setTimeout(async () => {
+        syncLocalDiskServer();
+        if (state.cloud.url && state.cloud.anonKey) {
+          try {
+            await fetch(state.cloud.url + '/rest/v1/store_settings?on_conflict=id', {
+              method: 'POST',
+              headers: await authHeaders({ 'Content-Type': 'application/json', 'Prefer': 'resolution=merge-duplicates' }),
+              body: JSON.stringify({
+                id: 'crewstore_finance',
+                store_name: JSON.stringify({
+                  investmentAmount: state.settings.investmentAmount,
+                  bagCost: state.settings.bagCost,
+                  merchShippingCost: state.settings.merchShippingCost,
+                  applyUnitCosts: state.settings.applyUnitCosts
+                }),
+                whatsapp_number: state.settings.whatsappNumber || '573170128692'
+              })
+            });
+          } catch (e) {}
+        }
+      }, 500);
+    }
+
     function renderMetrics() {
       const total = state.products.length;
       const active = state.products.filter(p => p.active !== false).length;
-      const totalCost = state.products.reduce((acc, p) => acc + (p.supplierPrice || 0), 0);
-      const totalSale = state.products.reduce((acc, p) => acc + (p.salePrice || 0), 0);
-      const avgCost = total > 0 ? Math.round(totalCost / total) : 0;
-      const avgSale = total > 0 ? Math.round(totalSale / total) : 0;
+      const pricedProds = state.products.filter(p => (p.salePrice || 0) > 0);
+      const countForAvg = pricedProds.length > 0 ? pricedProds.length : (total || 1);
+      const unitExtra = state.settings.applyUnitCosts ? (Number(state.settings.bagCost || 0) + Number(state.settings.merchShippingCost || 0)) : 0;
+      const totalCost = pricedProds.reduce((acc, p) => acc + (p.supplierPrice || 0) + unitExtra, 0);
+      const totalSale = pricedProds.reduce((acc, p) => acc + (p.salePrice || 0), 0);
+      const avgCost = Math.round(totalCost / countForAvg);
+      const avgSale = Math.round(totalSale / countForAvg);
       const avgProfit = avgSale - avgCost;
       const marginAvg = totalCost > 0 ? Math.round(((totalSale - totalCost) / totalCost) * 100) : 40;
       const lastCode = total > 0 ? `REF-${String(total).padStart(3, '0')}` : 'REF-000';
@@ -13766,6 +13840,17 @@
       document.getElementById('metricTotalSale').innerText = '$' + formatCOP(avgSale);
       document.getElementById('metricNetProfit').innerText = '+$' + formatCOP(avgProfit);
       document.getElementById('metricMarginAvg').innerText = `Margen promedio: ${marginAvg}% por prenda`;
+
+      const inv = Number(state.settings.investmentAmount ?? 2500000);
+      const extraTotal = Number(state.settings.bagCost || 0) + Number(state.settings.merchShippingCost || 0);
+      const targetToRecover = inv + (state.settings.applyUnitCosts ? 0 : extraTotal);
+      const lblRoi = document.getElementById('lblRoiBreakEven');
+      if (lblRoi) {
+        const unitsNeeded = avgProfit > 0 ? Math.ceil(targetToRecover / avgProfit) : 0;
+        lblRoi.innerText = unitsNeeded > 0
+          ? `Recuperas inversión con ~${unitsNeeded} prendas (+$${formatCOP(avgProfit)}/prenda)`
+          : `Utilidad promedio: +$${formatCOP(avgProfit)}/prenda`;
+      }
     }
 
     function renderAdminTable() {
@@ -13781,8 +13866,10 @@
         );
       }
 
+      const unitExtra = state.settings.applyUnitCosts ? (Number(state.settings.bagCost || 0) + Number(state.settings.merchShippingCost || 0)) : 0;
+
       tbody.innerHTML = list.map(p => {
-        const net = (p.salePrice || 0) - (p.supplierPrice || 0);
+        const net = (p.salePrice || 0) - ((p.supplierPrice || 0) + unitExtra);
         const colorBadges = (p.colors || []).map(c => `<span class="pill-tag">${c}</span>`).join('');
         const sizeBadges = (p.sizes || ['Única']).map(s => `<span class="pill-tag" style="background:#e0f2fe; color:#0369a1;">${s}</span>`).join('');
 
