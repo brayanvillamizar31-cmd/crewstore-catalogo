@@ -1,5 +1,16 @@
 [
   {
+    "id": "COMP-693839",
+    "date": "2026-10-26",
+    "supplier": "FRAMANDI",
+    "description": "GORRAS MULTIMARCAS",
+    "quantity": 5,
+    "totalCost": 121500,
+    "paymentMethod": "Consignación Bancaria",
+    "notes": "",
+    "createdAt": "2026-10-26T18:51:33.839Z"
+  },
+  {
     "id": "COMP-654181",
     "date": "2026-10-26",
     "supplier": "FRAMANDY MEDELLIN",
