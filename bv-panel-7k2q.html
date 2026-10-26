@@ -124,8 +124,11 @@
       <button id="tabBtnSeo" onclick="switchAdminTab('seo')" style="flex: 1; min-width: 210px; padding: 10px 14px; border-radius: 10px; border: none; font-size: 12px; font-weight: 800; cursor: pointer; background: #f5f5f4; color: #44403c; transition: 0.2s;">
         📈 2. SEO, Analíticas, Cestas & Pedidos
       </button>
-      <button id="tabBtnAgents" onclick="switchAdminTab('agents')" style="flex: 1; min-width: 210px; padding: 10px 14px; border-radius: 10px; border: none; font-size: 12px; font-weight: 800; cursor: pointer; background: #f5f5f4; color: #44403c; transition: 0.2s;">
+      <button id="tabBtnAgents" onclick="switchAdminTab('agents')" style="flex: 1; min-width: 200px; padding: 10px 14px; border-radius: 10px; border: none; font-size: 12px; font-weight: 800; cursor: pointer; background: #f5f5f4; color: #44403c; transition: 0.2s;">
         🧠 3. Junta Directiva IA (Gerencia & Marketing)
+      </button>
+      <button id="tabBtnPurchases" onclick="switchAdminTab('purchases')" style="flex: 1; min-width: 200px; padding: 10px 14px; border-radius: 10px; border: none; font-size: 12px; font-weight: 800; cursor: pointer; background: #f5f5f4; color: #44403c; transition: 0.2s;">
+        🛒 4. Compras de Mercancía
       </button>
     </div>
 
@@ -205,6 +208,10 @@
           <div style="font-size: 17px; font-weight: 800; font-family: monospace; margin-top: 3px;" id="lblTotalInvestmentPlusCosts">$2.592.000</div>
           <div style="font-size: 10px; color: #d6d3d1; margin-top: 3px;" id="lblExtraProductCostsSummary">Paquete bolsas: $92.000 (99 und)</div>
           <div style="font-size: 10px; color: #6ee7b7; font-weight: 700; margin-top: 2px;" id="lblRoiBreakEven">Recuperando $930 por venta</div>
+          <button type="button" onclick="switchAdminTab('purchases')" style="margin-top: 8px; width: 100%; background: #292524; color: #fde047; border: 1px solid rgba(253,224,71,0.3); padding: 6px 10px; border-radius: 8px; font-size: 10px; font-weight: 800; cursor: pointer; display: flex; align-items: center; justify-content: space-between;">
+            <span>🛒 Ver Compras de Mercancía</span>
+            <span id="lblPurchasesPillQuick">0 compras • $0</span>
+          </button>
         </div>
       </div>
     </section>
@@ -503,6 +510,75 @@
 
     </div> <!-- Fin Pestaña 3 -->
 
+    <!-- ==================== PESTAÑA 4: REGISTRO DE COMPRAS DE MERCANCÍA ==================== -->
+    <div id="adminTabPurchases" style="display: none;">
+      
+      <div style="background: #fff; border: 1px solid #e7e5e4; border-radius: 16px; padding: 18px; margin-bottom: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 16px;">
+          <div>
+            <span style="background: #059669; color: #fff; font-size: 10px; font-weight: 800; padding: 3px 9px; border-radius: 9999px;">🛒 CONTROL DE MERCANCÍA & LOTES</span>
+            <h3 style="font-size: 16px; font-weight: 800; color: #1c1917; margin-top: 5px;">Registro de Compras de Mercancía (Lotes, Facturas & Proveedores)</h3>
+            <p style="font-size: 11px; color: #57534e;">Registra cada compra de prendas a bodegas y mayoristas. Controla el total invertido, prendas adquiridas y costo promedio por prenda:</p>
+          </div>
+          <button onclick="openPurchaseModal()" class="btn-action btn-green" style="font-size: 12px; padding: 10px 16px;">
+            ➕ Registrar Nueva Compra
+          </button>
+        </div>
+
+        <!-- TARJETAS KPIS DE COMPRAS -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 16px;">
+          <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 12px 14px;">
+            <div style="font-size: 10px; font-weight: 800; color: #166534; text-transform: uppercase;">💳 Total Invertido en Mercancía</div>
+            <div style="font-size: 20px; font-weight: 800; font-family: monospace; color: #15803d; margin-top: 4px;" id="kpiPurchasesTotalCost">$0</div>
+            <div style="font-size: 10px; color: #166534; margin-top: 2px;" id="kpiPurchasesCount">0 compras registradas</div>
+          </div>
+
+          <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 12px; padding: 12px 14px;">
+            <div style="font-size: 10px; font-weight: 800; color: #1e40af; text-transform: uppercase;">👕 Total Prendas Compradas</div>
+            <div style="font-size: 20px; font-weight: 800; font-family: monospace; color: #1d4ed8; margin-top: 4px;" id="kpiPurchasesTotalQty">0 unds</div>
+            <div style="font-size: 10px; color: #1e40af; margin-top: 2px;">Inventario total adquirido</div>
+          </div>
+
+          <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 12px; padding: 12px 14px;">
+            <div style="font-size: 10px; font-weight: 800; color: #44403c; text-transform: uppercase;">🏷️ Costo Promedio / Prenda</div>
+            <div style="font-size: 20px; font-weight: 800; font-family: monospace; color: #1c1917; margin-top: 4px;" id="kpiPurchasesAvgCost">$0</div>
+            <div style="font-size: 10px; color: #78716c; margin-top: 2px;">Costo real unitario de compra</div>
+          </div>
+
+          <div style="background: #fefce8; border: 1px solid #fef08a; border-radius: 12px; padding: 12px 14px;">
+            <div style="font-size: 10px; font-weight: 800; color: #854d0e; text-transform: uppercase;">🏦 Inversión Inicial Registrada</div>
+            <div style="font-size: 20px; font-weight: 800; font-family: monospace; color: #a16207; margin-top: 4px;" id="kpiPurchasesVsInvestment">$2.500.000</div>
+            <div style="font-size: 10px; color: #854d0e; margin-top: 2px;" id="kpiPurchasesDiff">Disponible vs Compras</div>
+          </div>
+        </div>
+
+        <!-- BARRA DE BÚSQUEDA / FILTRO -->
+        <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap;">
+          <input type="text" id="purchasesSearchInput" class="search-box" placeholder="Buscar por proveedor, detalle de lote o factura..." oninput="renderPurchasesTable()" style="max-width: 380px;">
+          <span style="font-size: 11px; color: #57534e;" id="lblPurchasesTableInfo">0 registros</span>
+        </div>
+
+        <!-- TABLA DE COMPRAS -->
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Fecha</th>
+                <th>Proveedor / Bodega</th>
+                <th>Detalle de Prendas o Lote</th>
+                <th>Cantidad (Unds)</th>
+                <th>Total Pagado ($)</th>
+                <th>Costo Prom. / Prenda ($)</th>
+                <th>Método Pago</th>
+                <th>Factura / Nota</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="purchasesTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+
   </div>
 
   <!-- MODAL: GESTOR DE COLORES Y TALLAS DE UNA PRENDA -->
@@ -766,6 +842,70 @@
 
       <button onclick="saveStoreSettings()" style="width: 100%; background: #1c1917; color: #fff; border: none; padding: 12px; border-radius: 12px; font-size: 13px; font-weight: 800; cursor: pointer;">
         Guardar Ajustes
+      </button>
+    </div>
+  </div>
+
+  <!-- MODAL: REGISTRAR / EDITAR COMPRA DE MERCANCÍA -->
+  <div class="modal-overlay" id="modalPurchase" style="display: none;" onclick="if(event.target===this) closePurchaseModal()">
+    <div class="modal-content" style="max-width: 500px;">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalPurchaseTitle">🛒 Registrar Compra de Mercancía</h3>
+        <button class="btn-close" onclick="closePurchaseModal()">✕</button>
+      </div>
+
+      <input type="hidden" id="purchEditId" value="">
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px;">
+        <div>
+          <label style="font-size: 11px; font-weight: 700; display: block; margin-bottom: 3px;">Fecha de Compra *</label>
+          <input type="date" id="purchDate" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px; font-weight: 700;">
+        </div>
+        <div>
+          <label style="font-size: 11px; font-weight: 700; display: block; margin-bottom: 3px;">Proveedor / Bodega *</label>
+          <input type="text" id="purchSupplier" placeholder="Ej. Bodega Bucaramanga / Mayorista" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px; font-weight: 700;">
+        </div>
+      </div>
+
+      <div style="margin-bottom: 10px;">
+        <label style="font-size: 11px; font-weight: 700; display: block; margin-bottom: 3px;">Detalle de Prendas o Lote *</label>
+        <textarea id="purchDescription" rows="2" placeholder="Ej. Lote de 30 buzos retro y 20 camisetas básicas Jordan/Nike" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px; font-family: inherit;"></textarea>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px;">
+        <div>
+          <label style="font-size: 11px; font-weight: 700; display: block; margin-bottom: 3px;">Cantidad de Prendas (Unds) *</label>
+          <input type="number" id="purchQuantity" min="1" step="1" placeholder="Ej. 50" oninput="calculatePurchAvgCost()" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 13px; font-weight: 800; font-family: monospace;">
+        </div>
+        <div>
+          <label style="font-size: 11px; font-weight: 700; display: block; margin-bottom: 3px;">Valor Total Pagado ($ COP) *</label>
+          <input type="number" id="purchTotal" min="0" step="1000" placeholder="Ej. 1750000" oninput="calculatePurchAvgCost()" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #059669; font-size: 13px; font-weight: 800; font-family: monospace; color: #065f46;">
+        </div>
+      </div>
+
+      <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 8px; padding: 8px 12px; margin-bottom: 10px; font-size: 11px; font-weight: 700; color: #44403c;" id="lblPurchPreviewAvg">
+        Costo Promedio: $0 por prenda
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 14px;">
+        <div>
+          <label style="font-size: 11px; font-weight: 700; display: block; margin-bottom: 3px;">Método de Pago</label>
+          <select id="purchPayment" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px; font-weight: 700;">
+            <option value="Transferencia / Nequi">📱 Transferencia / Nequi / Daviplata</option>
+            <option value="Efectivo">💵 Efectivo</option>
+            <option value="Consignación Bancaria">🏦 Consignación Bancaria</option>
+            <option value="Contraentrega / A Crédito">📦 Contraentrega / A Crédito</option>
+            <option value="Otro">Otro</option>
+          </select>
+        </div>
+        <div>
+          <label style="font-size: 11px; font-weight: 700; display: block; margin-bottom: 3px;">Factura / No. Comprobante (Opcional)</label>
+          <input type="text" id="purchNotes" placeholder="Ej. Factura #8491 o Ref" style="width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #d6d3d1; font-size: 12px;">
+        </div>
+      </div>
+
+      <button onclick="savePurchase()" style="width: 100%; background: #059669; color: #fff; border: none; padding: 12px; border-radius: 12px; font-size: 13px; font-weight: 800; cursor: pointer;">
+        💾 Guardar Compra de Mercancía
       </button>
     </div>
   </div>
@@ -12479,6 +12619,7 @@
       pendingUploads: [],
       catalogFingerprints: {},
       selectedEditingProdId: null,
+      purchases: [],
       settings: {
         storeName: "crewstore.co",
         whatsappNumber: "573170128692"
@@ -14007,7 +14148,8 @@
       const tabs = {
         catalog: { div: 'adminTabCatalog', btn: 'tabBtnCatalog' },
         seo: { div: 'adminTabSeo', btn: 'tabBtnSeo' },
-        agents: { div: 'adminTabAgents', btn: 'tabBtnAgents' }
+        agents: { div: 'adminTabAgents', btn: 'tabBtnAgents' },
+        purchases: { div: 'adminTabPurchases', btn: 'tabBtnPurchases' }
       };
       Object.keys(tabs).forEach(k => {
         const d = document.getElementById(tabs[k].div);
@@ -14026,6 +14168,8 @@
       } else if (tab === 'agents') {
         populateProductSelectors();
         selectExecutiveAgent(state.activeAgent || 'ceo');
+      } else if (tab === 'purchases') {
+        renderPurchasesTable();
       }
     }
 
@@ -14739,6 +14883,7 @@
 
       renderAdminTable();
       loadAdminProductsFromSupabase();
+      loadPurchasesData();
       if (state.cloud.url && state.cloud.anonKey) {
         fetch(state.cloud.url + '/rest/v1/store_settings?id=eq.crewstore_finance&select=*', {
           headers: { 'apikey': state.cloud.anonKey, 'Authorization': 'Bearer ' + state.cloud.anonKey }
@@ -14764,6 +14909,283 @@
     } else {
       setTimeout(() => { const u = document.getElementById('loginUser'); if (u) u.focus(); }, 50);
     }
+
+    // ================== GESTOR DE COMPRAS DE MERCANCÍA ==================
+    state.purchases = [];
+
+    function openPurchaseModal(idToEdit = null) {
+      document.getElementById('purchEditId').value = idToEdit || '';
+      document.getElementById('modalPurchaseTitle').innerText = idToEdit ? '✏️ Editar Compra de Mercancía' : '🛒 Registrar Compra de Mercancía';
+      
+      if (idToEdit) {
+        const item = state.purchases.find(p => p.id === idToEdit);
+        if (item) {
+          document.getElementById('purchDate').value = item.date || '';
+          document.getElementById('purchSupplier').value = item.supplier || '';
+          document.getElementById('purchDescription').value = item.description || '';
+          document.getElementById('purchQuantity').value = item.quantity || '';
+          document.getElementById('purchTotal').value = item.totalCost || '';
+          document.getElementById('purchPayment').value = item.paymentMethod || 'Transferencia / Nequi';
+          document.getElementById('purchNotes').value = item.notes || '';
+          calculatePurchAvgCost();
+        }
+      } else {
+        const today = new Date().toISOString().slice(0, 10);
+        document.getElementById('purchDate').value = today;
+        document.getElementById('purchSupplier').value = '';
+        document.getElementById('purchDescription').value = '';
+        document.getElementById('purchQuantity').value = '';
+        document.getElementById('purchTotal').value = '';
+        document.getElementById('purchPayment').value = 'Transferencia / Nequi';
+        document.getElementById('purchNotes').value = '';
+        document.getElementById('lblPurchPreviewAvg').innerText = 'Costo Promedio: $0 por prenda';
+      }
+      document.getElementById('modalPurchase').style.display = 'flex';
+    }
+
+    function closePurchaseModal() {
+      document.getElementById('modalPurchase').style.display = 'none';
+      document.getElementById('purchEditId').value = '';
+    }
+
+    function calculatePurchAvgCost() {
+      const qty = Number(document.getElementById('purchQuantity').value || 0);
+      const total = Number(document.getElementById('purchTotal').value || 0);
+      const avg = qty > 0 ? Math.round(total / qty) : 0;
+      document.getElementById('lblPurchPreviewAvg').innerText = `Costo Promedio: $${formatCOP(avg)} por prenda (${qty} unds)`;
+    }
+
+    async function savePurchase() {
+      const editId = document.getElementById('purchEditId').value;
+      const date = document.getElementById('purchDate').value.trim() || new Date().toISOString().slice(0, 10);
+      const supplier = document.getElementById('purchSupplier').value.trim();
+      const description = document.getElementById('purchDescription').value.trim();
+      const quantity = Math.max(1, Number(document.getElementById('purchQuantity').value || 1));
+      const totalCost = Math.max(0, Number(document.getElementById('purchTotal').value || 0));
+      const paymentMethod = document.getElementById('purchPayment').value;
+      const notes = document.getElementById('purchNotes').value.trim();
+
+      if (!supplier) {
+        alert('Por favor ingresa el nombre del proveedor o bodega.');
+        document.getElementById('purchSupplier').focus();
+        return;
+      }
+      if (!description) {
+        alert('Por favor describe las prendas o lote comprado.');
+        document.getElementById('purchDescription').focus();
+        return;
+      }
+      if (totalCost <= 0) {
+        alert('Por favor ingresa el valor total pagado.');
+        document.getElementById('purchTotal').focus();
+        return;
+      }
+
+      if (editId) {
+        const idx = state.purchases.findIndex(p => p.id === editId);
+        if (idx !== -1) {
+          state.purchases[idx] = {
+            ...state.purchases[idx],
+            date,
+            supplier,
+            description,
+            quantity,
+            totalCost,
+            paymentMethod,
+            notes,
+            updatedAt: new Date().toISOString()
+          };
+        }
+      } else {
+        const newId = 'COMP-' + String(Date.now()).slice(-6);
+        state.purchases.unshift({
+          id: newId,
+          date,
+          supplier,
+          description,
+          quantity,
+          totalCost,
+          paymentMethod,
+          notes,
+          createdAt: new Date().toISOString()
+        });
+      }
+
+      localStorage.setItem('crewstore_merchandise_purchases', JSON.stringify(state.purchases));
+      closePurchaseModal();
+      renderPurchasesTable();
+      syncPurchasesToLocalServer();
+      syncPurchasesToCloud();
+    }
+
+    async function deletePurchase(id) {
+      const item = state.purchases.find(p => p.id === id);
+      if (!item) return;
+      if (confirm(`¿Eliminar el registro de compra "${item.supplier} - $${formatCOP(item.totalCost)}"?`)) {
+        state.purchases = state.purchases.filter(p => p.id !== id);
+        localStorage.setItem('crewstore_merchandise_purchases', JSON.stringify(state.purchases));
+        renderPurchasesTable();
+        syncPurchasesToLocalServer();
+        syncPurchasesToCloud();
+      }
+    }
+
+    function renderPurchasesTable() {
+      const tbody = document.getElementById('purchasesTableBody');
+      if (!tbody) return;
+
+      const q = (document.getElementById('purchasesSearchInput')?.value || '').toLowerCase().trim();
+      let list = state.purchases || [];
+      if (q) {
+        list = list.filter(p => 
+          (p.supplier && p.supplier.toLowerCase().includes(q)) ||
+          (p.description && p.description.toLowerCase().includes(q)) ||
+          (p.notes && p.notes.toLowerCase().includes(q)) ||
+          (p.date && p.date.includes(q))
+        );
+      }
+
+      // KPIs de compras
+      const totalCost = (state.purchases || []).reduce((acc, p) => acc + (Number(p.totalCost) || 0), 0);
+      const totalQty = (state.purchases || []).reduce((acc, p) => acc + (Number(p.quantity) || 0), 0);
+      const avgCost = totalQty > 0 ? Math.round(totalCost / totalQty) : 0;
+      const count = (state.purchases || []).length;
+      const baseInv = Number(state.settings.investmentAmount ?? 2500000);
+      const diffInv = baseInv - totalCost;
+
+      const elKpiCost = document.getElementById('kpiPurchasesTotalCost');
+      const elKpiQty = document.getElementById('kpiPurchasesTotalQty');
+      const elKpiAvg = document.getElementById('kpiPurchasesAvgCost');
+      const elKpiCount = document.getElementById('kpiPurchasesCount');
+      const elKpiDiff = document.getElementById('kpiPurchasesDiff');
+      const elKpiVs = document.getElementById('kpiPurchasesVsInvestment');
+      const elInfo = document.getElementById('lblPurchasesTableInfo');
+      const elPillQuick = document.getElementById('lblPurchasesPillQuick');
+
+      if (elKpiCost) elKpiCost.innerText = '$' + formatCOP(totalCost);
+      if (elKpiQty) elKpiQty.innerText = formatCOP(totalQty) + ' unds';
+      if (elKpiAvg) elKpiAvg.innerText = '$' + formatCOP(avgCost);
+      if (elKpiCount) elKpiCount.innerText = `${count} compras registradas`;
+      if (elKpiVs) elKpiVs.innerText = '$' + formatCOP(baseInv);
+      if (elKpiDiff) {
+        elKpiDiff.innerText = diffInv >= 0 
+          ? `Capital restante: $${formatCOP(diffInv)} COP`
+          : `Excedente sobre base: -$${formatCOP(Math.abs(diffInv))} COP`;
+      }
+      if (elInfo) elInfo.innerText = `${list.length} de ${count} compras`;
+      if (elPillQuick) elPillQuick.innerText = `${count} compras • $${formatCOP(totalCost)}`;
+
+      if (list.length === 0) {
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="9" style="text-align: center; padding: 32px 16px; color: #78716c;">
+              <div style="font-size: 28px; margin-bottom: 6px;">🛒</div>
+              <div style="font-weight: 800; font-size: 13px; color: #1c1917;">Aún no hay compras de mercancía registradas</div>
+              <div style="font-size: 11px; margin-top: 4px; margin-bottom: 12px;">Pulsa el botón de arriba para registrar tu primera factura o lote de prendas.</div>
+              <button onclick="openPurchaseModal()" class="btn-action btn-green" style="font-size: 11px; padding: 6px 12px;">➕ Registrar Primera Compra</button>
+            </td>
+          </tr>
+        `;
+        return;
+      }
+
+      tbody.innerHTML = list.map(p => {
+        const unitAvg = p.quantity > 0 ? Math.round(p.totalCost / p.quantity) : 0;
+        return `
+          <tr>
+            <td style="font-family: monospace; font-weight: 700; white-space: nowrap;">
+              ${p.date || '-'}
+            </td>
+            <td style="font-weight: 800; color: #1c1917;">
+              ${p.supplier || '-'}
+            </td>
+            <td style="max-width: 240px; font-size: 11px; color: #44403c;">
+              ${p.description || '-'}
+            </td>
+            <td style="font-family: monospace; font-weight: 800; text-align: center;">
+              <span class="pill-tag" style="background: #eff6ff; color: #1d4ed8;">${p.quantity} unds</span>
+            </td>
+            <td style="font-family: monospace; font-weight: 800; color: #059669; font-size: 12px; white-space: nowrap;">
+              $${formatCOP(p.totalCost)}
+            </td>
+            <td style="font-family: monospace; font-weight: 700; color: #44403c; white-space: nowrap;">
+              $${formatCOP(unitAvg)}
+            </td>
+            <td style="font-size: 11px; white-space: nowrap;">
+              ${p.paymentMethod || 'Efectivo'}
+            </td>
+            <td style="font-size: 11px; color: #78716c; max-width: 140px;">
+              ${p.notes || '-'}
+            </td>
+            <td style="white-space: nowrap;">
+              <button onclick="openPurchaseModal('${p.id}')" title="Editar compra" style="background: #f5f5f4; border: 1px solid #d6d3d1; padding: 4px 7px; border-radius: 6px; cursor: pointer; font-size: 11px; margin-right: 4px;">
+                ✏️
+              </button>
+              <button onclick="deletePurchase('${p.id}')" title="Eliminar registro" style="background: #fee2e2; border: none; color: #dc2626; padding: 4px 7px; border-radius: 6px; cursor: pointer; font-size: 11px;">
+                🗑️
+              </button>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    async function syncPurchasesToLocalServer() {
+      try {
+        await fetch('http://localhost:8081/api/purchases', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(state.purchases || [])
+        });
+      } catch (e) {}
+    }
+
+    async function syncPurchasesToCloud() {
+      if (!state.cloud.url || !state.cloud.anonKey) return;
+      try {
+        await fetch(state.cloud.url + '/rest/v1/store_settings?on_conflict=id', {
+          method: 'POST',
+          headers: await authHeaders({ 'Content-Type': 'application/json', 'Prefer': 'resolution=merge-duplicates' }),
+          body: JSON.stringify({
+            id: 'crewstore_purchases',
+            store_name: JSON.stringify(state.purchases || []),
+            whatsapp_number: state.settings.whatsappNumber || '573170128692'
+          })
+        });
+      } catch (e) {}
+    }
+
+    async function loadPurchasesData() {
+      try {
+        const local = localStorage.getItem('crewstore_merchandise_purchases');
+        if (local) {
+          const parsed = JSON.parse(local);
+          if (Array.isArray(parsed)) state.purchases = parsed;
+        }
+      } catch (e) {}
+
+      // Cargar de Supabase
+      if (state.cloud.url && state.cloud.anonKey) {
+        try {
+          const res = await fetch(state.cloud.url + '/rest/v1/store_settings?id=eq.crewstore_purchases&select=*', {
+            headers: { 'apikey': state.cloud.anonKey, 'Authorization': 'Bearer ' + state.cloud.anonKey }
+          });
+          if (res.ok) {
+            const rows = await res.json();
+            if (Array.isArray(rows) && rows.length > 0 && rows[0].store_name) {
+              const cloudList = JSON.parse(rows[0].store_name);
+              if (Array.isArray(cloudList) && cloudList.length > 0) {
+                state.purchases = cloudList;
+                localStorage.setItem('crewstore_merchandise_purchases', JSON.stringify(cloudList));
+              }
+            }
+          }
+        } catch (e) {}
+      }
+
+      renderPurchasesTable();
+    }
+
   </script>
 </body>
 </html>
