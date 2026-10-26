@@ -3594,9 +3594,9 @@ window.CATALOG_PRODUCTS = [
     "code": "REF-134",
     "name": "Buzo Lacoste Blanco Franja Verde 134",
     "category": "Buzos & Chaquetas",
-    "supplierPrice": 0,
-    "marginPercent": 45,
-    "salePrice": 0,
+    "supplierPrice": 85000,
+    "marginPercent": 18,
+    "salePrice": 100000,
     "colors": [
       "Blanco",
       "Verde"
@@ -3612,7 +3612,8 @@ window.CATALOG_PRODUCTS = [
       "products/item_142.jpg"
     ],
     "editorialImage": null,
-    "active": true
+    "active": true,
+    "bagCharge": 0
   },
   {
     "id": 135,
