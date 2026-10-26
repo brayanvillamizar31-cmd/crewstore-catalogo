@@ -13479,11 +13479,6 @@
           });
           if (!res.ok) throw new Error(await describeCloudError(res));
         }
-        // Limpiar cualquier fila antigua que supere el total actual
-        await fetch(`${u}/rest/v1/products?id=gt.${10000 + state.products.length}`, {
-          method: 'DELETE',
-          headers: await authHeaders()
-        }).catch(() => {});
 
         if (!silent) {
           alert(`🎉 ¡ÉXITO! Las ${state.products.length} prendas sincronizadas en Supabase Cloud (REF-001 a REF-${String(state.products.length).padStart(3, '0')}).`);
