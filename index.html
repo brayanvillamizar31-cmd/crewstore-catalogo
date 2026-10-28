@@ -1681,6 +1681,254 @@
       }
     }
 
+  
+    /* ========================================================
+       ZONA MAYORISTA // CREWSTORE B2B (NEGRO, BLANCO Y DORADO)
+       ======================================================== */
+    .btn-wholesale-toggle {
+      background: #141419;
+      color: var(--gold-light);
+      border: 1.5px solid var(--border-gold-bright);
+      padding: 7px 14px;
+      border-radius: 9999px;
+      font-size: 11.5px;
+      font-weight: 800;
+      font-family: 'Space Grotesk', sans-serif;
+      letter-spacing: 0.5px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 2px 10px rgba(212, 175, 55, 0.2);
+    }
+    .btn-wholesale-toggle:hover {
+      background: rgba(212, 175, 55, 0.15);
+      transform: translateY(-1px);
+    }
+    .btn-wholesale-toggle.active {
+      background: linear-gradient(135deg, #facc15 0%, #ca8a04 100%);
+      color: #09090b;
+      border-color: #fef08a;
+      box-shadow: 0 0 16px rgba(212, 175, 55, 0.5);
+    }
+
+    .cat-pill-wholesale {
+      border-color: var(--border-gold-bright) !important;
+      background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, #16161c 100%) !important;
+      color: var(--gold-light) !important;
+    }
+    .cat-pill-wholesale.active {
+      background: linear-gradient(135deg, #facc15 0%, #ca8a04 100%) !important;
+      color: #09090b !important;
+    }
+
+    /* Wholesale Dashboard Space */
+    .wholesale-space-banner {
+      background: linear-gradient(135deg, rgba(20, 20, 26, 0.98) 0%, rgba(10, 10, 14, 0.98) 100%);
+      border: 1.5px solid var(--border-gold-bright);
+      border-radius: 22px;
+      padding: 24px 20px;
+      margin: 18px 0 24px 0;
+      box-shadow: 0 16px 40px rgba(0,0,0,0.6), 0 0 30px rgba(212, 175, 55, 0.18);
+      position: relative;
+      overflow: hidden;
+    }
+    .wholesale-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 14px;
+    }
+    .wholesale-tag {
+      font-family: 'Space Grotesk', monospace;
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--gold-light);
+      letter-spacing: 1.5px;
+    }
+    .wholesale-badge-active {
+      background: rgba(34, 197, 94, 0.15);
+      border: 1px solid rgba(34, 197, 94, 0.4);
+      color: #4ade80;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 10px;
+      font-weight: 800;
+      padding: 3px 9px;
+      border-radius: 9999px;
+    }
+    .btn-exit-wholesale {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #d4d4d8;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-exit-wholesale:hover {
+      background: rgba(239, 68, 68, 0.2);
+      border-color: #ef4444;
+      color: #fca5a5;
+    }
+
+    .wholesale-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 1.15;
+      color: #ffffff;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+    .wholesale-desc {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      margin-bottom: 20px;
+      max-width: 780px;
+    }
+
+    /* 3 Tiers Grid */
+    .wholesale-tiers-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+    @media (min-width: 768px) {
+      .wholesale-tiers-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+    }
+    .wholesale-tier-card {
+      background: #14141a;
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: all 0.25s;
+    }
+    .wholesale-tier-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--border-gold);
+    }
+    .wholesale-tier-card.active-tier {
+      border-color: var(--gold-light);
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.35);
+      background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, #161620 100%);
+    }
+    .tier-card-badge {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 10px;
+      font-weight: 800;
+      color: var(--gold-light);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .tier-qty-range {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 17px;
+      font-weight: 900;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+    .tier-discount-val {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 26px;
+      font-weight: 900;
+      color: var(--gold-light);
+      margin-bottom: 8px;
+    }
+    .tier-desc {
+      font-size: 11px;
+      color: var(--text-secondary);
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+    .tier-example {
+      font-size: 11px;
+      color: #d4d4d8;
+      background: rgba(255, 255, 255, 0.04);
+      padding: 6px 10px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      margin-top: auto;
+    }
+    .tier-example strong {
+      color: var(--gold-light);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Live Progress Meter */
+    .wholesale-meter-card {
+      background: #0d0d12;
+      border: 1px solid var(--border-gold);
+      border-radius: 14px;
+      padding: 14px 16px;
+    }
+    .meter-info-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .meter-label {
+      font-size: 10.5px;
+      font-family: 'Space Grotesk', sans-serif;
+      color: var(--text-muted);
+      letter-spacing: 0.5px;
+      display: block;
+    }
+    .meter-status {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 13.5px;
+      font-weight: 800;
+      color: #ffffff;
+    }
+    .meter-current-discount {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 16px;
+      font-weight: 900;
+      color: var(--gold-light);
+      background: rgba(212, 175, 55, 0.12);
+      border: 1px solid var(--border-gold);
+      padding: 3px 10px;
+      border-radius: 8px;
+    }
+    .meter-progress-bar-bg {
+      width: 100%;
+      height: 8px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 9999px;
+      overflow: hidden;
+      margin-bottom: 8px;
+    }
+    .meter-progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #ca8a04 0%, #facc15 100%);
+      border-radius: 9999px;
+      transition: width 0.35s ease;
+    }
+    .meter-next-tier-tip {
+      font-size: 11px;
+      color: var(--gold-primary);
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 600;
+    }
+
   </style>
 </head>
 <body>
@@ -1711,6 +1959,10 @@
       </div>
 
       <div class="nav-actions">
+        <button class="btn-wholesale-toggle" id="btnWholesaleToggle" onclick="toggleWholesaleMode()" title="Ver precios al por mayor">
+          <span>📦</span>
+          <span id="wsToggleLabel">x Mayor (6+)</span>
+        </button>
         <button class="btn-cart-nav" onclick="openCartDrawer()">
           <span>🛒 Mi Pedido</span>
           <span class="badge-count" id="cartCountBadge">0</span>
@@ -1825,6 +2077,10 @@
 
       <!-- PÍLDORAS DE CATEGORÍAS ORGANIZADAS -->
       <div class="category-pills-bar" id="categoryPillsBar">
+        <button class="cat-pill cat-pill-wholesale" id="pillWholesale" onclick="toggleWholesaleMode(true)">
+          <span>📦 Precios x Mayor</span>
+          <span class="pill-count" style="background:#facc15; color:#09090b; font-weight:900;">6+ und</span>
+        </button>
         <button class="cat-pill active" data-cat="all" onclick="filterBySection('all')">
           <span>✨ Todos los Drops</span>
           <span class="pill-count" id="pillCountAll">464</span>
@@ -1870,6 +2126,76 @@
     </div>
 
     <!-- CONTENEDOR DE SECCIONES Y PRODUCTOS -->
+    <!-- ESPACIO EXCLUSIVO: ZONA MAYORISTA // CREWSTORE B2B -->
+    <section id="wholesaleDashboardSection" class="wholesale-space-banner" style="display: none;">
+      <div class="wholesale-header">
+        <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+          <span class="wholesale-tag">// ZONA MAYORISTA & DISTRIBUIDORES • B2B</span>
+          <span class="wholesale-badge-active">MODO MAYORISTA ACTIVO</span>
+        </div>
+        <button class="btn-exit-wholesale" onclick="toggleWholesaleMode(false)">
+          ✕ Salir a Precios Detal
+        </button>
+      </div>
+
+      <div class="wholesale-hero-text">
+        <h2 class="wholesale-title">
+          PRECIOS ESPECIALES AL POR MAYOR<br>
+          <span class="gold-accent">DESDE 6 PRENDAS COMBINABLES</span>
+        </h2>
+        <p class="wholesale-desc">
+          Arma tu pedido al por mayor mezclando <strong>cualquier referencia, color y talla</strong> de todo el catálogo oficial. Tu descuento se aplica automáticamente según la cantidad total de prendas en tu carrito:
+        </p>
+      </div>
+
+      <!-- 3 TARJETAS DE NIVELES (TIERS) -->
+      <div class="wholesale-tiers-grid">
+        <!-- Nivel 1: 6 a 11 Unidades -->
+        <div class="wholesale-tier-card" id="tierCard1">
+          <div class="tier-card-badge">PACK EMPRENDEDOR</div>
+          <div class="tier-qty-range">6 a 11 Unidades</div>
+          <div class="tier-discount-val">25% OFF</div>
+          <div class="tier-desc">Ideal para iniciar tu negocio de reventa. Mezcla cualquier referencia y talla.</div>
+          <div class="tier-example">Ej: Prenda $85.000 te queda en <strong>$63.750 c/u</strong></div>
+        </div>
+
+        <!-- Nivel 2: 12 a 23 Unidades -->
+        <div class="wholesale-tier-card" id="tierCard2">
+          <div class="tier-card-badge">⭐ MÁS POPULAR</div>
+          <div class="tier-qty-range">12 a 23 Unidades</div>
+          <div class="tier-discount-val">35% OFF</div>
+          <div class="tier-desc">Mayor margen de ganancia por docena. Máxima rentabilidad de reventa.</div>
+          <div class="tier-example">Ej: Prenda $85.000 te queda en <strong>$55.250 c/u</strong></div>
+        </div>
+
+        <!-- Nivel 3: 24+ Unidades -->
+        <div class="wholesale-tier-card" id="tierCard3">
+          <div class="tier-card-badge">🏆 DISTRIBUIDOR OFICIAL</div>
+          <div class="tier-qty-range">24+ Unidades</div>
+          <div class="tier-discount-val">45% OFF</div>
+          <div class="tier-desc">Precio exclusivo de bodega / distribuidor mayorista con despacho nacional.</div>
+          <div class="tier-example">Ej: Prenda $85.000 te queda en <strong>$46.750 c/u</strong></div>
+        </div>
+      </div>
+
+      <!-- LIVE PROGRESS METER -->
+      <div class="wholesale-meter-card" id="wholesaleMeterCard">
+        <div class="meter-info-row">
+          <div>
+            <span class="meter-label">TU PEDIDO MAYORISTA ACTUAL:</span>
+            <strong class="meter-status" id="wholesaleMeterStatus">0 prendas agregadas (Mínimo 6 para activar 25% OFF)</strong>
+          </div>
+          <div class="meter-current-discount" id="wholesaleMeterDiscount">0% OFF</div>
+        </div>
+        <div class="meter-progress-bar-bg">
+          <div class="meter-progress-bar-fill" id="wholesaleMeterFill" style="width: 0%;"></div>
+        </div>
+        <div class="meter-next-tier-tip" id="wholesaleMeterTip">
+          📦 Agrega 6 prendas al carrito para desbloquear el Nivel 1 (-25% OFF).
+        </div>
+      </div>
+    </section>
+
     <div id="sectionsContainer"></div>
 
   </main>
@@ -1928,12 +2254,26 @@
         </div>
       </div>
 
-      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; background: #181820; padding: 12px 16px; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.08);">
+      <!-- Guía de Precios x Mayor en Modal -->
+      <div id="modalWholesaleTierGuide" style="background: rgba(212, 175, 55, 0.08); border: 1px solid var(--border-gold); border-radius: 12px; padding: 10px 12px; margin-bottom: 14px;">
+        <div style="font-size: 10.5px; font-weight: 800; font-family: 'Space Grotesk', sans-serif; color: var(--gold-light); margin-bottom: 4px;">
+          📦 PRECIOS AL POR MAYOR (COMBINABLE CON OTRAS PRENDAS):
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 10.5px; font-family: 'JetBrains Mono', monospace; color: #d4d4d8;">
+          <span>6-11 und: <strong id="modalP1" style="color:#facc15;">-25%</strong></span>
+          <span>12-23 und: <strong id="modalP2" style="color:#facc15;">-35%</strong></span>
+          <span>24+ und: <strong id="modalP3" style="color:#4ade80;">-45%</strong></span>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; background: #181820; padding: 12px 16px; border-radius: 14px; border: 1px solid rgba(255, 255, 255, 0.08);">
         <span style="font-size: 13px; font-weight: 700; font-family: 'Space Grotesk', sans-serif; color: #ffffff;">Cantidad:</span>
-        <div style="display: flex; align-items: center; gap: 14px;">
+        <div style="display: flex; align-items: center; gap: 8px;">
           <button onclick="changeModalQty(-1)" style="width: 30px; height: 30px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: #22222a; color: #fff; font-weight: bold; cursor: pointer;">-</button>
-          <span id="modalQtyDisplay" style="font-size: 15px; font-weight: 800; font-family: 'JetBrains Mono', monospace; color: var(--gold-light);">1</span>
+          <span id="modalQtyDisplay" style="font-size: 15px; font-weight: 800; font-family: 'JetBrains Mono', monospace; color: var(--gold-light); min-width: 24px; text-align: center;">1</span>
           <button onclick="changeModalQty(1)" style="width: 30px; height: 30px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: #22222a; color: #fff; font-weight: bold; cursor: pointer;">+</button>
+          <button onclick="changeModalQty(5)" style="background: rgba(212, 175, 55, 0.15); border: 1px solid var(--border-gold); color: var(--gold-light); padding: 5px 8px; border-radius: 8px; font-size: 11px; font-weight: 800; cursor: pointer;">+6</button>
+          <button onclick="changeModalQty(11)" style="background: rgba(212, 175, 55, 0.15); border: 1px solid var(--border-gold); color: var(--gold-light); padding: 5px 8px; border-radius: 8px; font-size: 11px; font-weight: 800; cursor: pointer;">+12</button>
         </div>
       </div>
 
@@ -14948,10 +15288,23 @@
             </div>
             <div class="card-footer">
               <div>
-                <span class="card-price-label">Precio</span>
-                <span class="card-price">$${formatCOP(item.salePrice)}</span>
+                ${state.isWholesaleMode ? `
+                  <span class="card-price-label" style="color: var(--gold-light); font-weight:800;">x Mayor (Desde 6 und)</span>
+                  <div style="display: flex; align-items: baseline; gap: 6px;">
+                    <span class="card-price" style="color: #4ade80;">$${formatCOP(calculateWholesalePrice(item.salePrice, state.wholesaleConfig.tier1Discount))}</span>
+                    <span style="font-size: 10px; text-decoration: line-through; color: var(--text-muted);">$${formatCOP(item.salePrice)}</span>
+                  </div>
+                  <div style="font-size: 8.5px; color: var(--gold-primary); font-family: 'JetBrains Mono', monospace; margin-top: 1px;">
+                    12+: $${formatCOP(calculateWholesalePrice(item.salePrice, state.wholesaleConfig.tier2Discount))} • 24+: $${formatCOP(calculateWholesalePrice(item.salePrice, state.wholesaleConfig.tier3Discount))}
+                  </div>
+                ` : `
+                  <span class="card-price-label">Precio</span>
+                  <span class="card-price">$${formatCOP(item.salePrice)}</span>
+                `}
               </div>
-              <button class="btn-order-card" onclick="openAddToCartModal(${item.id})">Pedir 🛍️</button>
+              <button class="btn-order-card" onclick="openAddToCartModal(${item.id})">
+                ${state.isWholesaleMode ? 'Pedir x Mayor 📦' : 'Pedir 🛍️'}
+              </button>
             </div>
           </div>
         </div>
@@ -15157,6 +15510,14 @@
         customInp.style.borderColor = '#d4d4d4';
       }
 
+      // Actualizar precios por mayor en el modal
+      const modalP1 = document.getElementById('modalP1');
+      const modalP2 = document.getElementById('modalP2');
+      const modalP3 = document.getElementById('modalP3');
+      if (modalP1) modalP1.innerText = '$' + formatCOP(calculateWholesalePrice(prod.salePrice, state.wholesaleConfig.tier1Discount));
+      if (modalP2) modalP2.innerText = '$' + formatCOP(calculateWholesalePrice(prod.salePrice, state.wholesaleConfig.tier2Discount));
+      if (modalP3) modalP3.innerText = '$' + formatCOP(calculateWholesalePrice(prod.salePrice, state.wholesaleConfig.tier3Discount));
+
       document.getElementById('modalAddToCart').style.display = 'flex';
     }
 
@@ -15232,6 +15593,7 @@
 
     function updateCartBadge() {
       const count = state.cart.reduce((sum, i) => sum + i.quantity, 0);
+      updateWholesaleMeter();
       const total = state.cart.reduce((sum, i) => sum + (i.salePrice * i.quantity), 0);
       
       const b = document.getElementById('cartCountBadge');
@@ -15273,8 +15635,60 @@
         `).join('');
       }
 
-      const total = state.cart.reduce((sum, i) => sum + (i.salePrice * i.quantity), 0);
-      document.getElementById('cartTotalDisplay').innerText = '$' + formatCOP(total) + ' COP';
+      const totalUnits = state.cart.reduce((sum, i) => sum + i.quantity, 0);
+      const retailTotal = state.cart.reduce((sum, i) => sum + (i.salePrice * i.quantity), 0);
+      const tierInfo = getWholesaleTier(totalUnits);
+
+      let finalTotal = retailTotal;
+      let wholesaleDiscountAmount = 0;
+      const isWholesaleApplied = state.isWholesaleMode || totalUnits >= state.wholesaleConfig.tier1Min;
+
+      if (isWholesaleApplied && tierInfo.discount > 0) {
+        wholesaleDiscountAmount = Math.round(retailTotal * (tierInfo.discount / 100));
+        finalTotal = Math.max(0, retailTotal - wholesaleDiscountAmount);
+      }
+
+      const totalDisplay = document.getElementById('cartTotalDisplay');
+      if (totalDisplay) {
+        if (isWholesaleApplied && tierInfo.discount > 0) {
+          totalDisplay.innerHTML = `
+            <div style="text-align: right;">
+              <div style="font-size: 11px; color: #a1a1aa; text-decoration: line-through;">Detal: $${formatCOP(retailTotal)} COP</div>
+              <div style="font-size: 12px; color: #4ade80; font-weight: 800;">Ahorro Mayorista (-${tierInfo.discount}%): -$${formatCOP(wholesaleDiscountAmount)} COP</div>
+              <div style="font-size: 20px; font-weight: 900; color: var(--gold-light);">$${formatCOP(finalTotal)} COP</div>
+            </div>
+          `;
+        } else {
+          totalDisplay.innerText = '$' + formatCOP(retailTotal) + ' COP';
+        }
+      }
+
+      // Banner de estado mayorista dentro del carrito
+      let wsCartBanner = document.getElementById('cartWholesaleBanner');
+      if (!wsCartBanner) {
+        wsCartBanner = document.createElement('div');
+        wsCartBanner.id = 'cartWholesaleBanner';
+        totalDisplay.parentElement.insertAdjacentElement('beforebegin', wsCartBanner);
+      }
+
+      if (state.isWholesaleMode || totalUnits >= 6) {
+        if (totalUnits < 6) {
+          wsCartBanner.innerHTML = `
+            <div style="background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.35); padding: 10px 14px; border-radius: 12px; margin-bottom: 12px; font-size: 11.5px; color: #fbbf24;">
+              ⚠️ <strong>Llevas ${totalUnits} de 6 prendas mínimas:</strong> Agrega ${6 - totalUnits} prenda(s) más para activar el <strong>25% de descuento al por mayor</strong> en todo tu pedido.
+            </div>
+          `;
+        } else {
+          wsCartBanner.innerHTML = `
+            <div style="background: rgba(34, 197, 94, 0.12); border: 1px solid rgba(34, 197, 94, 0.35); padding: 10px 14px; border-radius: 12px; margin-bottom: 12px; font-size: 11.5px; color: #4ade80;">
+              ✅ <strong>¡PRECIO MAYORISTA ACTIVADO!</strong> ${tierInfo.label}. ${tierInfo.nextMin ? `(Agrega ${tierInfo.nextMin - totalUnits} más para ${tierInfo.nextDiscount}% OFF)` : '¡Máximo descuento alcanzado!'}
+            </div>
+          `;
+        }
+      } else {
+        wsCartBanner.innerHTML = '';
+      }
+
       document.getElementById('modalCart').style.display = 'flex';
     }
 
@@ -15310,18 +15724,51 @@
       const eBag = '\uD83D\uDECD';
       const eMoney = '\uD83D\uDCB0';
 
-      let text = `${eSparkles} *¡Hola crewstore.co!* ${eFire}\n`;
-      text += `Me gustaría realizar el siguiente pedido (${code}):\n\n`;
-      text += `${eBag} *PRENDAS SELECCIONADAS:*\n`;
+      const totalUnits = state.cart.reduce((sum, i) => sum + i.quantity, 0);
+      const retailTotal = state.cart.reduce((sum, i) => sum + (i.salePrice * i.quantity), 0);
+      const tierInfo = getWholesaleTier(totalUnits);
+      const isWholesale = state.isWholesaleMode || totalUnits >= state.wholesaleConfig.tier1Min;
 
-      state.cart.forEach((i, idx) => {
-        const itemTotal = i.salePrice * i.quantity;
-        text += `\n${idx + 1}. ${eShirt} *${i.name}* (${i.code})\n`;
-        text += `   • Color: ${i.selectedColor} | Talla: ${i.selectedSize}${i.quantity > 1 ? ` | Cant: ${i.quantity}` : ''}\n`;
-        text += `   • Valor: *$${formatCOP(itemTotal)} COP*\n`;
-      });
+      let finalTotal = retailTotal;
+      let discountAmount = 0;
+      if (isWholesale && tierInfo.discount > 0) {
+        discountAmount = Math.round(retailTotal * (tierInfo.discount / 100));
+        finalTotal = Math.max(0, retailTotal - discountAmount);
+      }
 
-      text += `\n${eMoney} *TOTAL PRENDAS:* *$${formatCOP(total)} COP*\n\n`;
+      let text = '';
+      if (isWholesale && totalUnits >= 6) {
+        text += `📦 *¡HOLA CREWSTORE! QUIERO CONFIRMAR ESTE PEDIDO AL POR MAYOR* ⚡\n`;
+        text += `Código: ${code}\n`;
+        text += `🏷️ *Nivel Mayorista:* ${tierInfo.label}\n`;
+        text += `📊 *Total Prendas:* ${totalUnits} unidades combinadas\n\n`;
+        text += `${eBag} *PRENDAS SELECCIONADAS:*\n`;
+
+        state.cart.forEach((i, idx) => {
+          const unitWholesalePrice = calculateWholesalePrice(i.salePrice, tierInfo.discount);
+          const itemTotal = unitWholesalePrice * i.quantity;
+          text += `\n${idx + 1}. ${eShirt} *${i.name}* (${i.code})\n`;
+          text += `   • Color: ${i.selectedColor} | Talla: ${i.selectedSize} | Cant: *${i.quantity}*\n`;
+          text += `   • Unitario Mayorista: $${formatCOP(unitWholesalePrice)} | Subtotal: *$${formatCOP(itemTotal)} COP*\n`;
+        });
+
+        text += `\n💰 *Subtotal Detal:* $${formatCOP(retailTotal)} COP\n`;
+        text += `🎁 *Descuento Mayorista (${tierInfo.discount}% OFF):* -$${formatCOP(discountAmount)} COP\n`;
+        text += `${eMoney} *TOTAL NETO AL POR MAYOR:* *$${formatCOP(finalTotal)} COP*\n\n`;
+      } else {
+        text += `${eSparkles} *¡Hola crewstore.co!* ${eFire}\n`;
+        text += `Me gustaría realizar el siguiente pedido (${code}):\n\n`;
+        text += `${eBag} *PRENDAS SELECCIONADAS:*\n`;
+
+        state.cart.forEach((i, idx) => {
+          const itemTotal = i.salePrice * i.quantity;
+          text += `\n${idx + 1}. ${eShirt} *${i.name}* (${i.code})\n`;
+          text += `   • Color: ${i.selectedColor} | Talla: ${i.selectedSize}${i.quantity > 1 ? ` | Cant: ${i.quantity}` : ''}\n`;
+          text += `   • Valor: *$${formatCOP(itemTotal)} COP*\n`;
+        });
+
+        text += `\n${eMoney} *TOTAL PRENDAS:* *$${formatCOP(retailTotal)} COP*\n\n`;
+      }
       text += `${ePin} *DATOS DE ENTREGA:*\n`;
       text += `   • *Nombre:* ${name}\n`;
       text += `   • *Dirección / Barrio:* ${address}\n\n`;
@@ -15585,7 +16032,118 @@
     }
 
     initHeroDeck();
-    initApp();
+
+    // ==========================================
+    // SISTEMA Y ZONA MAYORISTA (CREWSTORE B2B)
+    // ==========================================
+    state.isWholesaleMode = false;
+    state.wholesaleConfig = {
+      tier1Min: 6,
+      tier1Discount: 25,
+      tier2Min: 12,
+      tier2Discount: 35,
+      tier3Min: 24,
+      tier3Discount: 45
+    };
+
+    function getWholesaleTier(totalQty) {
+      const cfg = state.wholesaleConfig;
+      if (totalQty >= cfg.tier3Min) {
+        return { tier: 3, discount: cfg.tier3Discount, label: `Nivel 3 (24+ und) • ${cfg.tier3Discount}% OFF`, nextMin: null, nextDiscount: null, badge: 'DISTRIBUIDOR ORO' };
+      }
+      if (totalQty >= cfg.tier2Min) {
+        return { tier: 2, discount: cfg.tier2Discount, label: `Nivel 2 (12-23 und) • ${cfg.tier2Discount}% OFF`, nextMin: cfg.tier3Min, nextDiscount: cfg.tier3Discount, badge: 'MAYORISTA PLATA' };
+      }
+      if (totalQty >= cfg.tier1Min) {
+        return { tier: 1, discount: cfg.tier1Discount, label: `Nivel 1 (6-11 und) • ${cfg.tier1Discount}% OFF`, nextMin: cfg.tier2Min, nextDiscount: cfg.tier2Discount, badge: 'MAYORISTA BRONCE' };
+      }
+      return { tier: 0, discount: 0, label: 'Menudeo / Detal', nextMin: cfg.tier1Min, nextDiscount: cfg.tier1Discount, badge: 'DETAL' };
+    }
+
+    function calculateWholesalePrice(retailPrice, discountPercent) {
+      if (!discountPercent) return retailPrice;
+      const raw = retailPrice * (1 - (discountPercent / 100));
+      return Math.round(raw / 1000) * 1000;
+    }
+
+    function toggleWholesaleMode(forceState) {
+      if (forceState !== undefined) {
+        state.isWholesaleMode = forceState;
+      } else {
+        state.isWholesaleMode = !state.isWholesaleMode;
+      }
+
+      const btnToggle = document.getElementById('btnWholesaleToggle');
+      const wsPill = document.getElementById('pillWholesale');
+      const wsDashboard = document.getElementById('wholesaleDashboardSection');
+      const wsLabel = document.getElementById('wsToggleLabel');
+
+      if (btnToggle) btnToggle.classList.toggle('active', state.isWholesaleMode);
+      if (wsPill) wsPill.classList.toggle('active', state.isWholesaleMode);
+      if (wsDashboard) wsDashboard.style.display = state.isWholesaleMode ? 'block' : 'none';
+      if (wsLabel) wsLabel.innerText = state.isWholesaleMode ? '✓ x Mayor ACTIVO' : 'x Mayor (6+)';
+
+      updateWholesaleMeter();
+      renderSectionsAndProducts();
+
+      if (state.isWholesaleMode) {
+        showToast('📦 Modo Mayorista Activado: Precios con descuento desde 6 unidades');
+        if (wsDashboard) wsDashboard.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        showToast('🛍️ Precios al Detal Restaurados');
+      }
+    }
+
+    function updateWholesaleMeter() {
+      const totalUnits = state.cart.reduce((sum, i) => sum + i.quantity, 0);
+      const tierInfo = getWholesaleTier(totalUnits);
+
+      const statusEl = document.getElementById('wholesaleMeterStatus');
+      const discEl = document.getElementById('wholesaleMeterDiscount');
+      const fillEl = document.getElementById('wholesaleMeterFill');
+      const tipEl = document.getElementById('wholesaleMeterTip');
+
+      const card1 = document.getElementById('tierCard1');
+      const card2 = document.getElementById('tierCard2');
+      const card3 = document.getElementById('tierCard3');
+
+      if (card1) card1.classList.toggle('active-tier', tierInfo.tier === 1);
+      if (card2) card2.classList.toggle('active-tier', tierInfo.tier === 2);
+      if (card3) card3.classList.toggle('active-tier', tierInfo.tier === 3);
+
+      if (statusEl) {
+        if (totalUnits === 0) {
+          statusEl.innerText = '0 prendas agregadas (Mínimo 6 para activar 25% OFF)';
+        } else if (tierInfo.tier === 0) {
+          statusEl.innerText = `${totalUnits} prendas (Te faltan ${6 - totalUnits} para activar 25% OFF)`;
+        } else {
+          statusEl.innerText = `${totalUnits} prendas • ¡${tierInfo.label}!`;
+        }
+      }
+
+      if (discEl) {
+        discEl.innerText = tierInfo.discount > 0 ? `${tierInfo.discount}% OFF` : '0% OFF';
+      }
+
+      if (fillEl) {
+        const pct = Math.min(100, Math.round((totalUnits / 24) * 100));
+        fillEl.style.width = pct + '%';
+      }
+
+      if (tipEl) {
+        if (tierInfo.tier === 0) {
+          tipEl.innerText = `📦 Agrega ${6 - totalUnits} prenda(s) más para desbloquear el Nivel 1 (-25% OFF).`;
+        } else if (tierInfo.tier === 1) {
+          tipEl.innerText = `🥈 ¡Llevas 25% OFF! Agrega ${12 - totalUnits} prenda(s) más para subir a 35% OFF.`;
+        } else if (tierInfo.tier === 2) {
+          tipEl.innerText = `🏆 ¡Llevas 35% OFF! Agrega ${24 - totalUnits} prenda(s) más para el máximo 45% OFF de distribuidor.`;
+        } else {
+          tipEl.innerText = `⭐ ¡Felicidades! Tienes el descuento MÁXIMO de Distribuidor Oficial (45% OFF).`;
+        }
+      }
+    }
+
+        initApp();
 
     async function refreshRealtimeCatalog() {
       if (document.hidden || state.selectedProductModal) return;
