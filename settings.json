@@ -9,5 +9,14 @@
   "bagCost": 92000,
   "bagQty": 100,
   "bagsUsed": 0,
-  "fixedProfit": 14070
+  "fixedProfit": 14070,
+  "wholesale": {
+    "enabled": true,
+    "tier1Min": 6,
+    "tier1Discount": 25,
+    "tier2Min": 12,
+    "tier2Discount": 35,
+    "tier3Min": 24,
+    "tier3Discount": 45
+  }
 }
